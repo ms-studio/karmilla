@@ -1,4 +1,7 @@
-**Karmilla** is a slightly modified version of **Karla**. Karla is a beautiful font by Jonathan Pinhorn (@jonpinhorn_type), relased through Google Webfonts.
+**Karmilla** is a slightly modified version of **Karla**. 
+
+Karla is a very beautiful Unicode grotesque sans serif 
+typeface family created by Jonathan Pinhorn (@jonpinhorn_type), relased through Google Webfonts in 2012.
 
 The original Karla font can be found here: http://www.google.com/webfonts/specimen/Karla
 
