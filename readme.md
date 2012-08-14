@@ -12,7 +12,7 @@ We are working in FontForge, so we are using the SFD files (maybe not optimal, a
 ## Changes:
 The changes we one so far:
 
-* added ç (cedil) character for better French support.
-* added œ character for better French support.
+* added ç (cedilla) character for better French support.
+* added œ (ligatured o and e) character for better French support.
 * the q character has been streamlined.
 * the position of the typographic apostrophe has been changed, so it matches the height of ascenders (l', d').
