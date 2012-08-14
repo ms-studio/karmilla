@@ -1,0 +1,43 @@
+FONTLOG for the Karmilla font
+
+This file provides detailed information on Karmilla Font Software.
+This information should be distributed along with the Karmilla 
+font and any derivative works.
+
+Basic Font Information
+
+Karmilla is a modified version of Karla, a Unicode grotesque sans serif 
+typeface family that supports languages that use the Latin script and 
+the Tamil script. This is the Latin script subset of the family.
+
+The aim of Karmilla is to optimize Karla for the support of the French language, which requires adding and modifiying some glyphs.
+
+To contribute to Karmilla contact Greyscale Press
+@greyscalepress
+
+To contribute to Karla contact Jonathan Pinhorn
+@jonpinhorn_type
+
+ChangeLog
+
+14 August 2012 (ms-studio) Karmilla v.004
+- Added ç (cedilla) to regular (U+00E7)
+- Added œ (ligature of o and e) to regular (U+0153)
+- Changed position of apostrophe (U+2019)
+
+11 March 2012 (Jonathan Pinhorn) Karla v1.000
+- Initial release
+
+Acknowledgements
+
+If you make modifications be sure to add your name (N), 
+email (E), web-address (if you have one) (W) and 
+description (D). This list is in alphabetical order.
+
+N: Jonathan Pinhorn
+E: pinhorn.typedesign@gmail.com
+D: Designer
+
+N: Manuel Schmalstieg
+E: @greyscalepress
+D: Modifier
