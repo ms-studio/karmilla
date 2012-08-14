@@ -3,6 +3,8 @@
 Karla is a very beautiful Unicode grotesque sans serif 
 typeface family created by Jonathan Pinhorn (@jonpinhorn_type), relased through Google Webfonts in 2012.
 
+The aim of Karmilla is to optimize Karla for the support of the French language, which requires adding and tweaking some glyphs.
+
 The original Karla font can be found here: http://www.google.com/webfonts/specimen/Karla
 
 The source files have been obtained from http://code.google.com/p/googlefontdirectory/ 

@@ -10,7 +10,8 @@ Karmilla is a modified version of Karla, a Unicode grotesque sans serif
 typeface family that supports languages that use the Latin script and 
 the Tamil script. This is the Latin script subset of the family.
 
-The aim of Karmilla is to optimize Karla for the support of the French language, which requires adding and modifiying some glyphs.
+The aim of Karmilla is to optimize Karla for the support of the French
+language, which requires adding and modifiying some glyphs.
 
 To contribute to Karmilla contact Greyscale Press
 @greyscalepress
