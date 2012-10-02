@@ -21,11 +21,14 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
+11 September 2012 (ms-studio) Karmilla v.005
+- Copy-pasted the cedilla from Inconsolata (Regular and Bold)
+
 14 August 2012 (ms-studio) Karmilla v.004
 - Added ç (cedilla) to regular (U+00E7)
 - Added œ (ligature of o and e) to regular (U+0153)
 - Streamlined the q character.
-- Changed position of apostrophe (U+2019)
+- Changed the position of apostrophe (aligned on l) (U+2019)
 
 11 March 2012 (Jonathan Pinhorn) Karla v1.000
 - Initial release
