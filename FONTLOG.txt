@@ -21,12 +21,17 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
+28 September 2012 (ms-studio) Karmilla v.006
+- Still not convinced by the cedilla. Copy-pasted the cedilla from Arimo (Regular and Bold),
+a clean sans-serif font by Steve Matteson. I think this one works fine with Karla.
+
 11 September 2012 (ms-studio) Karmilla v.005
-- Copy-pasted the cedilla from Inconsolata (Regular and Bold)
+- Not convinced by the hand drawn cedilla. Copy-pasted the cedilla from Inconsolata 
+(Regular and Bold), a beautiful monospaced font by Raph Levien.
 
 14 August 2012 (ms-studio) Karmilla v.004
-- Added ç (cedilla) to regular (U+00E7)
-- Added œ (ligature of o and e) to regular (U+0153)
+- Added a hand drawn ç (cedilla) to Regular (U+00E7)
+- Added œ (ligature of o and e) to Regular (U+0153)
 - Streamlined the q character.
 - Changed the position of apostrophe (aligned on l) (U+2019)
 
@@ -45,4 +50,4 @@ D: Designer
 
 N: Manuel Schmalstieg
 E: @greyscalepress
-D: Modifier
+D: Modifier of some glyphs
