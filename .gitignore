@@ -4,13 +4,9 @@
 *.err
 *.orig
 *.log
-*.rej
-*.swo
-*.swp
-*.vi
 *~
 *.zip
-*.sass-cache
+.gitignore
 
 # OS or Editor folders
 ######################
