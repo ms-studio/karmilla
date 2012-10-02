@@ -6,6 +6,7 @@
 *.log
 *~
 *.zip
+*.gitignore
 .gitignore
 
 # OS or Editor folders
