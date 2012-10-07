@@ -21,6 +21,9 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
+7 October 2012 (ms-studio) Karmilla v.007
+- Inspired by a tweet from Olov Källgarn (@mc68ec040), I started adding å, æ and ø for Scandinavian languages.
+
 28 September 2012 (ms-studio) Karmilla v.006
 - Still not convinced by the cedilla. Copy-pasted the cedilla from Arimo (Regular and Bold),
 a clean sans-serif font by Steve Matteson. I think this one works fine with Karla.
