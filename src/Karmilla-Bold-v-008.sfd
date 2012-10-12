@@ -3,8 +3,8 @@ FontName: Karmilla-Bold
 FullName: Karmilla Bold
 FamilyName: Karlamilla
 Weight: Bold
-Copyright: Copyright (c) 2011, Jonathan Pinhorn (pinhorn.typedesign@gmail.com), with Reserved Font Names "Karla" and "Karla Tamil".
-Version: 1.600
+Copyright: Karmilla is Copyright (c) 2012, Manuel Schmalstieg (greyscalepress.com).\nKarmilla is a variation of Karla, optimized for French.\nCopyright (c) 2011, Jonathan Pinhorn (pinhorn.typedesign@gmail.com), with Reserved Font Names "Karla" and "Karla Tamil".
+Version: 1.800
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1349627829
+ModificationTime: 1350040419
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -73,15 +73,21 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 700 28 10
+WinInfo: 168 28 10
 BeginPrivate: 0
 EndPrivate
 Grid
+-1000 913.033365885 m 0
+ 2000 913.033365885 l 0
+  Named: "top" 
+-1000 693.700032552 m 5
+ 2.21413024093 692.094599098 1000.4531099 693.37148919 2000 693.700032552 c 5
+  Named: "median" 
 -1000 -190 m 0
  2000 -190 l 0
   Named: "bottom" 
 EndSplineSet
-BeginChars: 65549 173
+BeginChars: 65549 182
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -8604,7 +8610,7 @@ StartChar: ring
 Encoding: 730 730 172
 Width: 422
 VWidth: 0
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -8627,6 +8633,103 @@ SplineSet
  188.9453125 616.40625 188.9453125 616.40625 207.01171875 634.47265625 c 128,-1,19
  225.078125 652.5390625 225.078125 652.5390625 225.078125 678.90625 c 0,8,9
 EndSplineSet
+EndChar
+
+StartChar: Aring
+Encoding: 197 197 173
+Width: 626
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 172 730 N 1 0 0 1 153.934 98.849 2
+Refer: 38 65 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: aring
+Encoding: 229 229 174
+Width: 584
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 172 730 N 1 0 0 1 132.934 4.11719 2
+Refer: 12 97 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: cacute
+Encoding: 263 263 175
+Width: 530
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 97 180 S 1 0 0 1 108.5 -135 2
+Refer: 14 99 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Cacute
+Encoding: 262 262 176
+Width: 634
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 97 180 S 1 0 0 1 163.5 28 2
+Refer: 40 67 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: caron
+Encoding: 711 711 177
+Width: 465
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+441 854.033203125 m 5,0,-1
+ 366 913.033203125 l 5,1,-1
+ 233 812.033203125 l 5,2,-1
+ 99 913.033203125 l 5,3,-1
+ 24 854.033203125 l 5,4,-1
+ 233 693.033203125 l 5,5,-1
+ 441 854.033203125 l 5,0,-1
+EndSplineSet
+EndChar
+
+StartChar: scaron
+Encoding: 353 353 178
+Width: 527
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 177 711 S 1 0 0 1 33 -154.033 2
+Refer: 30 115 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Scaron
+Encoding: 352 352 179
+Width: 638
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 177 711 S 1 0 0 1 81.2393 1.9668 2
+Refer: 56 83 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: Zcaron
+Encoding: 381 381 180
+Width: 629
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 177 711 S 1 0 0 1 86 -0.0332031 2
+Refer: 63 90 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: zcaron
+Encoding: 382 382 181
+Width: 495
+VWidth: 0
+LayerCount: 2
+Fore
+Refer: 177 711 S 1 0 0 1 15.5 -164.033 2
+Refer: 37 122 N 1 0 0 1 0 0 3
 EndChar
 EndChars
 EndSplineFont

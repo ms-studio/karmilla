@@ -21,6 +21,9 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
+12 October 2012 (ms-studio) Karmilla v.008
+- Added slavic š, ć and ž in order to accomodate Greyscale Press website. Used existing Karla diacritics (turning the ^ upside down).
+
 7 October 2012 (ms-studio) Karmilla v.007
 - Inspired by a tweet from Olov Källgarn (@mc68ec040), I started adding å, æ and ø for Scandinavian languages.
 
