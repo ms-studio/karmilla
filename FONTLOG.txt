@@ -47,13 +47,15 @@ a clean sans-serif font by Steve Matteson. I think this one works fine with Karl
 Acknowledgements
 
 If you make modifications be sure to add your name (N), 
-email (E), web-address (if you have one) (W) and 
-description (D). This list is in alphabetical order.
+email (if you have one) (E), web-address (if you have one) (W), 
+twitter handle (if you have one) (T) and description (D). 
+This list is in alphabetical order.
 
 N: Jonathan Pinhorn
 E: pinhorn.typedesign@gmail.com
 D: Designer
 
 N: Manuel Schmalstieg
-E: @greyscalepress
-D: Modifier of some glyphs
+T: @greyscalepress
+W: greyscalepress.com
+D: Modification of some glyphs
