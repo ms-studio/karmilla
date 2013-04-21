@@ -4,7 +4,7 @@ FullName: Karmilla Regular
 FamilyName: Karmilla
 Weight: Regular
 Copyright: Karmilla is Copyright (c) 2012, Manuel Schmalstieg (greyscalepress.com).\nKarmilla is a variation of Karla, optimized for French.\nKarla is Copyright (c) 2011, Jonathan Pinhorn (pinhorn.typedesign@gmail.com), with Reserved Font Names "Karla" and "Karla Tamil".
-Version: 1.800
+Version: 1.900
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1350039641
+ModificationTime: 1366580805
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -73,7 +73,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 168 24 10
+WinInfo: 144 24 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -2778,11 +2778,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-290 790 m 1,0,-1
- 46 677 l 1,1,-1
- 23 727 l 1,2,-1
- 258 860 l 1,3,-1
- 290 790 l 1,0,-1
+290 790 m 5,0,-1
+ 46 677 l 5,1,-1
+ 23 727 l 5,2,-1
+ 258 860 l 5,3,-1
+ 290 790 l 5,0,-1
 EndSplineSet
 Validated: 1
 EndChar
@@ -3035,103 +3035,50 @@ EndChar
 
 StartChar: eacute
 Encoding: 233 233 105
-Width: 514
-Flags: W
+Width: 515
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
-SplineSet
-380 140 m 1,0,1
- 366.159 53 366.159 53 267 53 c 0,2,3
- 201.644 53 201.644 53 165.822 100.412 c 128,-1,4
- 130 147.824 130 147.824 130 222 c 1,5,-1
- 457 222 l 1,6,7
- 471.851 334.447 471.851 334.447 422.453 412.223 c 128,-1,8
- 373.054 490 373.054 490 272.642 490 c 128,-1,9
- 172.231 490 172.231 490 111.615 422.069 c 128,-1,10
- 51 354.138 51 354.138 51 239.885 c 128,-1,11
- 51 125.632 51 125.632 110.908 57.3158 c 128,-1,12
- 170.815 -11 170.815 -11 267 -11 c 0,13,14
- 345 -11 345 -11 397.5 28.5 c 128,-1,15
- 450 68 450 68 461 140 c 1,16,-1
- 380 140 l 1,0,1
-358.598 385.389 m 128,-1,18
- 386 343.778 386 343.778 386 282 c 1,19,-1
- 131 282 l 1,20,21
- 137.227 344.267 137.227 344.267 172.388 385.633 c 128,-1,22
- 207.55 427 207.55 427 269.373 427 c 128,-1,17
- 331.195 427 331.195 427 358.598 385.389 c 128,-1,18
-392 666 m 1,23,-1
- 148 553 l 1,24,-1
- 125 603 l 1,25,-1
- 360 736 l 1,26,-1
- 392 666 l 1,23,-1
-EndSplineSet
-Validated: 41
+Refer: 97 180 N 1 0 0 1 115.642 -127 2
+Refer: 16 101 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: oacute
 Encoding: 243 243 106
-Width: 547
-Flags: W
+Width: 546
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
-SplineSet
-274 490 m 256,0,1
- 174.476 490 174.476 490 112.738 425.175 c 0,2,3
- 51 360.35 51 360.35 51 239 c 256,4,5
- 51 118.65 51 118.65 112.738 53.825 c 0,6,7
- 174.476 -11 174.476 -11 274 -11 c 256,8,9
- 373.524 -11 373.524 -11 435.262 53.825 c 0,10,11
- 497 118.65 497 118.65 497 239 c 256,12,13
- 497 360.35 497 360.35 435.262 425.175 c 0,14,15
- 373.524 490 373.524 490 274 490 c 256,0,1
-169 373.5 m 128,-1,17
- 206 422 206 422 275.5 422 c 128,-1,18
- 345 422 345 422 381 373.5 c 128,-1,19
- 417 325 417 325 417 239.5 c 128,-1,20
- 417 154 417 154 379 105.5 c 128,-1,21
- 341 57 341 57 271.5 57 c 128,-1,22
- 202 57 202 57 167 105.5 c 128,-1,23
- 132 154 132 154 132 239.5 c 128,-1,16
- 132 325 132 325 169 373.5 c 128,-1,17
-407 661 m 1,24,-1
- 163 548 l 1,25,-1
- 140 598 l 1,26,-1
- 375 731 l 1,27,-1
- 407 661 l 1,24,-1
-EndSplineSet
-Validated: 9
+Refer: 97 180 S 1 0 0 1 132 -127 2
+Refer: 26 111 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: uacute
 Encoding: 250 250 107
 Width: 606
-Flags: W
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
-SplineSet
-267 -9 m 0,0,1
- 377.059 -9 377.059 -9 426 95 c 1,2,-1
- 426 0 l 1,3,-1
- 505 0 l 1,4,-1
- 505 479 l 1,5,-1
- 426 479 l 1,6,-1
- 426 246 l 2,7,8
- 426 163.385 426 163.385 384.857 111.692 c 0,9,10
- 343.714 60 343.714 60 278 60 c 0,11,12
- 166 60 166 60 166 181 c 2,13,-1
- 166 479 l 1,14,-1
- 87 479 l 1,15,-1
- 87 175 l 2,16,17
- 87 81 87 81 136.5 36 c 128,-1,18
- 186 -9 186 -9 267 -9 c 0,0,1
-433 699 m 1,19,-1
- 189 586 l 1,20,-1
- 166 636 l 1,21,-1
- 401 769 l 1,22,-1
- 433 699 l 1,19,-1
-EndSplineSet
-Validated: 9
+Refer: 97 180 N 1 0 0 1 140 -127 2
+Refer: 32 117 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Aacute
@@ -3165,31 +3112,18 @@ EndChar
 
 StartChar: Eacute
 Encoding: 201 201 109
-Width: 564
-Flags: W
+Width: 562
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
-SplineSet
-100 0 m 1,0,-1
- 487 0 l 1,1,-1
- 487 69 l 1,2,-1
- 179 69 l 1,3,-1
- 179 283 l 1,4,-1
- 469 283 l 1,5,-1
- 469 350 l 1,6,-1
- 179 350 l 1,7,-1
- 179 561 l 1,8,-1
- 487 561 l 1,9,-1
- 487 629 l 1,10,-1
- 100 629 l 1,11,-1
- 100 0 l 1,0,-1
-427 790 m 1,12,-1
- 183 677 l 1,13,-1
- 160 727 l 1,14,-1
- 395 860 l 1,15,-1
- 427 790 l 1,12,-1
-EndSplineSet
-Validated: 9
+Refer: 97 180 N 1 0 0 1 160.5 23 2
+Refer: 42 69 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Igrave
@@ -3216,22 +3150,17 @@ EndChar
 StartChar: Iacute
 Encoding: 205 205 111
 Width: 280
-Flags: W
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
-SplineSet
-101 0 m 1,0,-1
- 180 0 l 1,1,-1
- 180 629 l 1,2,-1
- 101 629 l 1,3,-1
- 101 0 l 1,0,-1
-273 790 m 1,4,-1
- 29 677 l 1,5,-1
- 6 727 l 1,6,-1
- 241 860 l 1,7,-1
- 273 790 l 1,4,-1
-EndSplineSet
-Validated: 9
+Refer: 97 180 S 1 0 0 1 -11.5 23 2
+Refer: 46 73 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Ograve
@@ -3271,35 +3200,17 @@ EndChar
 StartChar: Oacute
 Encoding: 211 211 113
 Width: 646
-Flags: W
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
-SplineSet
-323 640 m 256,0,1
- 199.556 640 199.556 640 125.278 556.438 c 0,2,3
- 51 472.875 51 472.875 51 314 c 256,4,5
- 51 156.125 51 156.125 125.278 72.5625 c 0,6,7
- 199.556 -11 199.556 -11 323 -11 c 256,8,9
- 445.5 -11 445.5 -11 520.75 71.4658 c 0,10,11
- 596 153.932 596 153.932 596 313.219 c 0,12,13
- 596 472.507 596 472.507 520.525 556.253 c 0,14,15
- 445.049 640 445.049 640 323 640 c 256,0,1
-323 569 m 256,16,17
- 411 569 411 569 462.5 503 c 128,-1,18
- 514 437 514 437 514 313 c 128,-1,19
- 514 189 514 189 462.5 125 c 128,-1,20
- 411 61 411 61 323 61 c 256,21,22
- 235 61 235 61 184 125 c 128,-1,23
- 133 189 133 189 133 313 c 128,-1,24
- 133 437 133 437 184 503 c 128,-1,25
- 235 569 235 569 323 569 c 256,16,17
-456 790 m 1,26,-1
- 212 677 l 1,27,-1
- 189 727 l 1,28,-1
- 424 860 l 1,29,-1
- 456 790 l 1,26,-1
-EndSplineSet
-Validated: 9
+Refer: 97 180 S 1 0 0 1 177 23 2
+Refer: 52 79 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Ugrave
@@ -3336,32 +3247,17 @@ EndChar
 StartChar: Uacute
 Encoding: 218 218 115
 Width: 654
-Flags: W
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
-SplineSet
-87 629 m 1,0,-1
- 87 227 l 2,1,2
- 87 109 87 109 151.5 49 c 128,-1,3
- 216 -11 216 -11 325.5 -11 c 0,4,5
- 435 -11 435 -11 500 49 c 128,-1,6
- 565 109 565 109 565 227 c 2,7,-1
- 565 629 l 1,8,-1
- 486 629 l 1,9,-1
- 486 227 l 2,10,11
- 486 139 486 139 442 100 c 128,-1,12
- 398 61 398 61 326 61 c 256,13,14
- 254 61 254 61 210 100 c 128,-1,15
- 166 139 166 139 166 227 c 2,16,-1
- 166 629 l 1,17,-1
- 87 629 l 1,0,-1
-459 790 m 1,18,-1
- 215 677 l 1,19,-1
- 192 727 l 1,20,-1
- 427 860 l 1,21,-1
- 459 790 l 1,18,-1
-EndSplineSet
-Validated: 9
+Refer: 97 180 S 1 0 0 1 180 23 2
+Refer: 58 85 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: circumflex
@@ -4304,23 +4200,18 @@ EndChar
 
 StartChar: iacute
 Encoding: 237 237 141
-Width: 299
-Flags: W
+Width: 280
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
-SplineSet
-106 0 m 1,0,-1
- 185 0 l 1,1,-1
- 185 479 l 1,2,-1
- 106 479 l 1,3,-1
- 106 0 l 1,0,-1
-278 661 m 1,4,-1
- 34 548 l 1,5,-1
- 11 598 l 1,6,-1
- 246 731 l 1,7,-1
- 278 661 l 1,4,-1
-EndSplineSet
-Validated: 9
+Refer: 97 180 S 1 0 0 1 -15.5 -127 2
+Refer: 139 305 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: icircumflex
