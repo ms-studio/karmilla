@@ -6,8 +6,6 @@
 *.log
 *~
 *.zip
-*.gitignore
-.gitignore
 
 # OS or Editor folders
 ######################
@@ -15,7 +13,6 @@
 ehthumbs.db
 Icon?
 Thumbs.db
-*.esproj
 .cache
 .project
 .settings
@@ -49,3 +46,5 @@ publish
 .idea
 img-unpublished
 old-versions
+testing
+#.gitignore
