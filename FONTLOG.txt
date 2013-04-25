@@ -21,6 +21,10 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
+25 Avril 2013 (Raphaël Bastide) Karmilla v.009
+- Added Euro € and Bitcoin proposal Ƀ in both bold and regular.
+- Previously solved by ms-studio: name issue between bold and regular font versions.
+
 12 October 2012 (ms-studio) Karmilla v.008
 - Added slavic š, ć and ž in order to accomodate Greyscale Press website. Used existing Karla diacritics (turning the ^ upside down).
 
