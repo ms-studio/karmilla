@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1366584371
+ModificationTime: 1366894817
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -73,7 +73,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 56 28 10
+WinInfo: 0 28 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -87,7 +87,7 @@ Grid
  2000 -190 l 0
   Named: "bottom" 
 EndSplineSet
-BeginChars: 65549 181
+BeginChars: 65549 183
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -5072,13 +5072,6 @@ StartChar: eacute
 Encoding: 233 233 105
 Width: 530
 LayerCount: 2
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 Refer: 97 180 S 1 0 0 1 93 -135 2
 Refer: 16 101 N 1 0 0 1 0 0 3
@@ -5088,13 +5081,6 @@ StartChar: uacute
 Encoding: 250 250 106
 Width: 627
 LayerCount: 2
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 Refer: 97 180 S 1 0 0 1 135.5 -135 2
 Refer: 32 117 N 1 0 0 1 0 0 3
@@ -5184,13 +5170,6 @@ StartChar: Eacute
 Encoding: 201 201 108
 Width: 586
 LayerCount: 2
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 Refer: 97 180 S 1 0 0 1 148 28 2
 Refer: 42 69 N 1 0 0 1 0 0 3
@@ -5259,13 +5238,6 @@ StartChar: Iacute
 Encoding: 205 205 110
 Width: 304
 LayerCount: 2
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 Refer: 97 180 S 1 0 0 1 -16 28 2
 Refer: 46 73 N 1 0 0 1 0 0 3
@@ -5309,13 +5281,6 @@ StartChar: Oacute
 Encoding: 211 211 112
 Width: 683
 LayerCount: 2
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 Refer: 97 180 S 1 0 0 1 168.5 28 2
 Refer: 52 79 N 1 0 0 1 0 0 3
@@ -5470,13 +5435,6 @@ StartChar: Uacute
 Encoding: 218 218 114
 Width: 690
 LayerCount: 2
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 Refer: 97 180 S 1 0 0 1 181 28 2
 Refer: 58 85 N 1 0 0 1 0 0 3
@@ -6787,13 +6745,6 @@ StartChar: iacute
 Encoding: 237 237 140
 Width: 304
 LayerCount: 2
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 Refer: 97 180 S 1 0 0 1 -16 -135 2
 Refer: 138 305 N 1 0 0 1 0 0 3
@@ -8347,6 +8298,89 @@ LayerCount: 2
 Fore
 Refer: 176 711 S 1 0 0 1 15.5 -164.033 2
 Refer: 37 122 N 1 0 0 1 0 0 3
+EndChar
+
+StartChar: uni0243
+Encoding: 579 579 181
+Width: 648
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+309 219 m 29,0,-1
+ 309 150 l 29,1,-1
+ 16 150 l 29,2,-1
+ 16 219 l 29,3,-1
+ 309 219 l 29,0,-1
+93 649 m 1,4,-1
+ 355 649 l 2,5,6
+ 463.404255319 649 463.404255319 649 522.5 598.5 c 0,7,8
+ 578 551.072727273 578 551.072727273 578 477 c 0,9,10
+ 578 422 578 422 547.5 383 c 128,-1,11
+ 517 344 517 344 462 328 c 1,12,13
+ 517 317 517 317 553 278.5 c 128,-1,14
+ 589 240 589 240 589 180 c 0,15,16
+ 589 60.1333333333 589 60.1333333333 470 16.5 c 0,17,18
+ 425 0 425 0 356 0 c 2,19,-1
+ 93 0 l 1,20,-1
+ 93 649 l 1,4,-1
+353 103 m 2,21,22
+ 410 103 410 103 435.5 126 c 128,-1,23
+ 461 149 461 149 461 187 c 256,24,25
+ 461 225 461 225 434.5 248.5 c 128,-1,26
+ 408 272 408 272 353 272 c 2,27,-1
+ 211 272 l 1,28,-1
+ 211 103 l 1,29,-1
+ 353 103 l 2,21,22
+211 375 m 1,30,-1
+ 350 375 l 2,31,32
+ 403 375 403 375 430 398 c 128,-1,33
+ 457 421 457 421 457 460.5 c 128,-1,34
+ 457 500 457 500 430.5 523.5 c 128,-1,35
+ 404 547 404 547 351 547 c 2,36,-1
+ 211 547 l 1,37,-1
+ 211 375 l 1,30,-1
+EndSplineSet
+EndChar
+
+StartChar: Euro
+Encoding: 8364 8364 182
+Width: 686
+Flags: WO
+LayerCount: 2
+Fore
+SplineSet
+377.5 662 m 0,0,1
+ 437 662 437 662 481 647.5 c 128,-1,2
+ 525 633 525 633 557 607 c 0,3,4
+ 620.263671875 555.59765625 620.263671875 555.59765625 639 464 c 1,5,-1
+ 513 441 l 1,6,7
+ 497 492 497 492 463.5 523.5 c 128,-1,8
+ 430 555 430 555 380 555 c 0,9,10
+ 312.368164062 555 312.368164062 555 270 497.5 c 0,11,12
+ 225 436.428710938 225 436.428710938 225 326.713867188 c 128,-1,13
+ 225 217 225 217 265 155.5 c 128,-1,14
+ 305 94 305 94 374 94 c 128,-1,15
+ 443 94 443 94 478 127.5 c 128,-1,16
+ 513 161 513 161 513 214 c 1,17,-1
+ 640 214 l 1,18,19
+ 640 105 640 105 570.5 45.5 c 128,-1,20
+ 501 -14 501 -14 380 -14 c 0,21,22
+ 250.681640625 -14 250.681640625 -14 175 76 c 0,23,24
+ 98 167.567382812 98 167.567382812 98 326 c 0,25,26
+ 98 486.400390625 98 486.400390625 177.5 576.5 c 0,27,28
+ 252.94140625 662 252.94140625 662 377.5 662 c 0,0,1
+495 414 m 25,29,-1
+ 466 329 l 25,30,-1
+ 25 329 l 25,31,-1
+ 54 414 l 25,32,-1
+ 495 414 l 25,29,-1
+454 291 m 25,33,-1
+ 425 206 l 25,34,-1
+ 25 206 l 25,35,-1
+ 54 291 l 25,36,-1
+ 454 291 l 25,33,-1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
