@@ -21,6 +21,9 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
+22 April 2013 (ms-studio) Karmilla v.009
+- Fixed a naming bug, improved rendering of accented characters on high-resolution (retina) devices.
+
 12 October 2012 (ms-studio) Karmilla v.008
 - Added slavic š, ć and ž in order to accomodate Greyscale Press website. Used existing Karla diacritics (turning the ^ upside down).
 

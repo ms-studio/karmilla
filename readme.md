@@ -15,6 +15,7 @@ We are working in FontForge, so we are using the provided SFD files (maybe not o
 
 The changes we made so far:
 
+* improved éóíú on retina screens.
 * added å for Scandinavian languages.
 * added ç (cedilla) character for better French support.
 * added œ (ligatured o and e) character for better French support.
