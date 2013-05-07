@@ -3,7 +3,7 @@ FontName: Karmilla-Regular
 FullName: Karmilla Regular
 FamilyName: Karmilla
 Weight: Regular
-Copyright: Karmilla is Copyright (c) 2012, Manuel Schmalstieg (greyscalepress.com).\nKarmilla is a variation of Karla, optimized for French.\nKarla is Copyright (c) 2011, Jonathan Pinhorn (pinhorn.typedesign@gmail.com), with Reserved Font Names "Karla" and "Karla Tamil".
+Copyright: Karmilla is Copyright (c) 2012, Manuel Schmalstieg (greyscalepress.com) and Raphael Bastide (raphaelbastide.com) \nKarmilla is a variation of Karla, optimized for French.\nKarla is Copyright (c) 2011, Jonathan Pinhorn (pinhorn.typedesign@gmail.com), with Reserved Font Names "Karla" and "Karla Tamil".
 Version: 1.900
 ItalicAngle: 0
 UnderlinePosition: -50
@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1366909688
+ModificationTime: 1367967554
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -73,7 +73,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 432 24 10
+WinInfo: 72 24 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -99,7 +99,7 @@ Grid
  -117 681 l 1
 EndSplineSet
 TeXData: 1 0 0 249561 124779 83187 501219 1048576 83187 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65549 184
+BeginChars: 65549 187
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -1860,7 +1860,7 @@ SplineSet
  35.998 607.2 35.998 607.2 35.998 629.2 c 256,13,0
  35.998 651.2 35.998 651.2 51.998 666.2 c 128,-1,1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: parenleft
@@ -5041,7 +5041,7 @@ SplineSet
  750.758 285.5 l 1,56,57
  750.758 385.7 750.758 385.7 689.258 418.5 c 0,50,51
 EndSplineSet
-Validated: 524321
+Validated: 33
 EndChar
 
 StartChar: OE
@@ -5113,7 +5113,7 @@ SplineSet
  327.614257812 -42.140625 327.614257812 -42.140625 346.84375 -58.7119140625 c 132,-1,18
  366.075195312 -75.2822265625 366.075195312 -75.2822265625 366.075195312 -103.512695312 c 4,0,1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: Ccedilla
@@ -5154,7 +5154,7 @@ SplineSet
  197.471679688 621.77734375 197.471679688 621.77734375 216.026367188 641.552734375 c 128,-1,10
  234.581054688 661.328125 234.581054688 661.328125 234.581054688 688.671875 c 128,-1,11
 EndSplineSet
-Validated: 524289
+Validated: 1
 Kerns2: 36 -686 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -5195,7 +5195,7 @@ SplineSet
  203.963867188 681 l 5,5,-1
  382.963867188 837 l 5,0,-1
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 
 StartChar: Cacute
@@ -5256,7 +5256,7 @@ EndChar
 StartChar: uni0243
 Encoding: 579 579 182
 Width: 622
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -5297,7 +5297,7 @@ SplineSet
  101 203 l 1,39,-1
  101 629 l 1,20,-1
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: Euro
@@ -5343,7 +5343,72 @@ SplineSet
  102.486841375 491.619622833 102.486841375 491.619622833 156.166015625 553.4375 c 4,47,48
  231.333007813 640 231.333007813 640 337 640 c 4,0,1
 EndSplineSet
-Validated: 524289
+Validated: 1
+EndChar
+
+StartChar: guillemotleft
+Encoding: 171 171 184
+Width: 454
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+369 429.099609375 m 1,0,-1
+ 454 429.099609375 l 1,1,-1
+ 316.5 233.099609375 l 1,2,-1
+ 454 37.099609375 l 1,3,-1
+ 369 37.099609375 l 1,4,-1
+ 223 233.099609375 l 1,5,-1
+ 369 429.099609375 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: guillemotleft
+Encoding: 171 171 185
+Width: 470
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+181.5 429 m 0,0,-1
+ 266.5 429 l 24,1,-1
+ 128.5 233 l 1,2,-1
+ 266.5 37 l 1,3,-1
+ 181.5 37 l 1,4,-1
+ 35.5 233 l 1,5,6
+ 181.5 429 l 0,0,-1
+354.5 429 m 0,7,-1
+ 439.5 429 l 24,8,-1
+ 301.5 233 l 1,9,-1
+ 439.5 37 l 1,10,-1
+ 354.5 37 l 1,11,-1
+ 208.5 233 l 1,12,-1
+ 354.5 429 l 0,7,-1
+EndSplineSet
+EndChar
+
+StartChar: guillemotright
+Encoding: 187 187 186
+Width: 470
+Flags: WO
+LayerCount: 2
+Fore
+SplineSet
+293.5 429 m 0,0,-1
+ 208.5 429 l 24,1,-1
+ 346.5 233 l 1,2,-1
+ 208.5 37 l 1,3,-1
+ 293.5 37 l 1,4,-1
+ 439.5 233 l 1,5,6
+ 293.5 429 l 0,0,-1
+120.5 429 m 0,7,-1
+ 35.5 429 l 24,8,-1
+ 173.5 233 l 1,9,-1
+ 35.5 37 l 1,10,-1
+ 120.5 37 l 1,11,-1
+ 266.5 233 l 1,12,-1
+ 120.5 429 l 0,7,-1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
