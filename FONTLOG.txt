@@ -26,6 +26,9 @@ ChangeLog
 - Added Euro € and Bitcoin proposal Ƀ in both bold and regular.
 - Previously solved by ms-studio: name issue between bold and regular font versions.
 
+22 April 2013 (ms-studio) Karmilla v.009
+- Fixed a naming bug, improved rendering of accented characters on high-resolution (retina) devices.
+
 12 October 2012 (ms-studio) Karmilla v.008
 - Added slavic š, ć and ž in order to accomodate Greyscale Press website. Used existing Karla diacritics (turning the ^ upside down).
 
@@ -63,4 +66,9 @@ D: Designer
 N: Manuel Schmalstieg
 T: @greyscalepress
 W: greyscalepress.com
+D: Modification of some glyphs
+
+N: Raphaël Bastide
+T: @raphaelbastide
+W: raphaelbastide.com
 D: Modification of some glyphs
