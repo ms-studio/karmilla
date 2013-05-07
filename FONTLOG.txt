@@ -21,7 +21,8 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
-25 Avril 2013 (Raphaël Bastide) Karmilla v.009
+8 may 2013 (Raphaël Bastide) Karmilla v.009
+- Added french quotes «» and Bitcoin proposal Ƀ in both bold and regular.
 - Added Euro € and Bitcoin proposal Ƀ in both bold and regular.
 - Previously solved by ms-studio: name issue between bold and regular font versions.
 
