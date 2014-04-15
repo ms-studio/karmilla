@@ -21,6 +21,10 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
+16 April 2014 (nclm) Karmilla v.011
+- Added quotation marks variants (U+2018 to U+201F).
+- Removed overlap between letter and cedilla in Ç and ç.
+
 15 April 2014 (nclm) Karmilla v.010
 - Standardised the heights of apostrophe (U+02BC), left single quote (U+2018) and right single quote (U+2019), across both Regular and Bold.
 

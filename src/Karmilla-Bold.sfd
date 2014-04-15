@@ -20,7 +20,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1397565210
+ModificationTime: 1397599279
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -73,7 +73,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8008 28 10
+WinInfo: 8064 28 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -90,7 +90,7 @@ Grid
 -1000 -190 m 0
  2000 -190 l 0
 EndSplineSet
-BeginChars: 65549 185
+BeginChars: 65549 191
 
 StartChar: .notdef
 Encoding: 65536 -1 0
@@ -141,7 +141,6 @@ SplineSet
  108 -33 108 -33 116 -5 c 1,14,0
  88 0 88 0 68.5 17.5 c 128,-1,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: period
@@ -154,14 +153,13 @@ SplineSet
 47 13 m 128,-1,1
  24 35 24 35 24 69 c 128,-1,2
  24 103 24 103 47 126 c 128,-1,3
- 70 149 70 149 106 149 c 256,4,5
- 142 149 142 149 166 126 c 128,-1,6
- 190 103 190 103 190 69 c 128,-1,7
- 190 35 190 35 166 13 c 128,-1,8
- 142 -9 142 -9 106 -9 c 256,9,0
+ 70 149 70 149 106 149 c 128,-1,4
+ 142 149 142 149 166 126 c 128,-1,5
+ 190 103 190 103 190 69 c 128,-1,6
+ 190 35 190 35 166 13 c 128,-1,7
+ 142 -9 142 -9 106 -9 c 128,-1,0
  70 -9 70 -9 47 13 c 128,-1,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: semicolon
@@ -186,14 +184,13 @@ SplineSet
 108 327 m 128,-1,16
  85 349 85 349 85 383 c 128,-1,17
  85 417 85 417 108 440 c 128,-1,18
- 131 463 131 463 167 463 c 256,19,20
- 203 463 203 463 227 440 c 128,-1,21
- 251 417 251 417 251 383 c 128,-1,22
- 251 349 251 349 227 327 c 128,-1,23
- 203 305 203 305 167 305 c 256,24,15
+ 131 463 131 463 167 463 c 128,-1,19
+ 203 463 203 463 227 440 c 128,-1,20
+ 251 417 251 417 251 383 c 128,-1,21
+ 251 349 251 349 227 327 c 128,-1,22
+ 203 305 203 305 167 305 c 128,-1,15
  131 305 131 305 108 327 c 128,-1,16
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: colon
@@ -206,39 +203,28 @@ SplineSet
 74 30 m 128,-1,1
  51 52 51 52 51 86 c 128,-1,2
  51 120 51 120 74 143 c 128,-1,3
- 97 166 97 166 133 166 c 256,4,5
- 169 166 169 166 193 143 c 128,-1,6
- 217 120 217 120 217 86 c 128,-1,7
- 217 52 217 52 193 30 c 128,-1,8
- 169 8 169 8 133 8 c 256,9,0
+ 97 166 97 166 133 166 c 128,-1,4
+ 169 166 169 166 193 143 c 128,-1,5
+ 217 120 217 120 217 86 c 128,-1,6
+ 217 52 217 52 193 30 c 128,-1,7
+ 169 8 169 8 133 8 c 128,-1,0
  97 8 97 8 74 30 c 128,-1,1
-74 327 m 128,-1,11
- 51 349 51 349 51 383 c 128,-1,12
- 51 417 51 417 74 440 c 128,-1,13
- 97 463 97 463 133 463 c 256,14,15
- 169 463 169 463 193 440 c 128,-1,16
- 217 417 217 417 217 383 c 128,-1,17
- 217 349 217 349 193 327 c 128,-1,18
- 169 305 169 305 133 305 c 256,19,10
- 97 305 97 305 74 327 c 128,-1,11
+74 327 m 128,-1,9
+ 51 349 51 349 51 383 c 128,-1,10
+ 51 417 51 417 74 440 c 128,-1,11
+ 97 463 97 463 133 463 c 128,-1,12
+ 169 463 169 463 193 440 c 128,-1,13
+ 217 417 217 417 217 383 c 128,-1,14
+ 217 349 217 349 193 327 c 128,-1,15
+ 169 305 169 305 133 305 c 128,-1,8
+ 97 305 97 305 74 327 c 128,-1,9
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: hyphen
 Encoding: 45 45 8
 Width: 373
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_3
- 1
- 2
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -248,23 +234,12 @@ SplineSet
  46 250 l 1,3,-1
  46 353 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: endash
 Encoding: 8211 8211 9
 Width: 525
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_3
- 1
- 2
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -274,23 +249,12 @@ SplineSet
  55 250 l 1,3,-1
  55 353 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: emdash
 Encoding: 8212 8212 10
 Width: 768
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_3
- 1
- 2
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -300,7 +264,6 @@ SplineSet
  55 250 l 1,3,-1
  55 353 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: exclam
@@ -318,14 +281,13 @@ SplineSet
 91 13 m 128,-1,5
  68 35 68 35 68 69 c 128,-1,6
  68 103 68 103 91 126 c 128,-1,7
- 114 149 114 149 150 149 c 256,8,9
- 186 149 186 149 210 126 c 128,-1,10
- 234 103 234 103 234 69 c 128,-1,11
- 234 35 234 35 210 13 c 128,-1,12
- 186 -9 186 -9 150 -9 c 256,13,4
+ 114 149 114 149 150 149 c 128,-1,8
+ 186 149 186 149 210 126 c 128,-1,9
+ 234 103 234 103 234 69 c 128,-1,10
+ 234 35 234 35 210 13 c 128,-1,11
+ 186 -9 186 -9 150 -9 c 128,-1,4
  114 -9 114 -9 91 13 c 128,-1,5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: a
@@ -363,7 +325,6 @@ SplineSet
  322 76 322 76 353.5 108.5 c 128,-1,35
  385 141 385 141 387 190 c 1,27,28
 EndSplineSet
-Validated: 1
 Kerns2: 62 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -48 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -398,7 +359,6 @@ SplineSet
  277 393 277 393 244 360 c 128,-1,25
  211 327 211 327 211 273 c 2,15,-1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -431,7 +391,6 @@ SplineSet
  47 360.794 47 360.794 116.5 432.5 c 0,28,29
  180.954 499 180.954 499 277.5 499 c 0,0,1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -55 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -465,7 +424,6 @@ SplineSet
  337 393 337 393 287 393 c 128,-1,15
  237 393 237 393 203.5 352.5 c 128,-1,16
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: e
@@ -475,30 +433,29 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-469.5 354 m 132,-1,1
- 482 312 482 312 482 277 c 132,-1,2
- 482 242 482 242 478 214 c 5,3,-1
- 164 214 l 5,4,5
- 166 155 166 155 193 118 c 132,-1,6
- 220 81 220 81 275 81 c 4,7,8
- 348 81 348 81 362 145 c 5,9,-1
- 481 145 l 5,10,11
- 468.56 72.4359 468.56 72.4359 414 30 c 4,12,13
- 357.429 -14 357.429 -14 275 -14 c 4,14,15
- 179.239 -14 179.239 -14 114 56.5 c 4,16,17
- 47 128.903 47 128.903 47 243 c 4,18,19
- 47 359.677 47 359.677 114 431 c 4,20,21
- 177.879 499 177.879 499 275 499 c 4,22,23
- 376.185 499 376.185 499 431.5 428.5 c 4,24,0
- 457 396 457 396 469.5 354 c 132,-1,1
-276 405 m 4,25,26
- 226 405 226 405 198 372.5 c 132,-1,27
- 170 340 170 340 165 289 c 5,28,-1
- 372 289 l 5,29,30
- 372 367.703 372 367.703 321.5 395 c 4,31,32
- 303 405 303 405 276 405 c 4,25,26
+469.5 354 m 128,-1,1
+ 482 312 482 312 482 277 c 128,-1,2
+ 482 242 482 242 478 214 c 1,3,-1
+ 164 214 l 1,4,5
+ 166 155 166 155 193 118 c 128,-1,6
+ 220 81 220 81 275 81 c 0,7,8
+ 348 81 348 81 362 145 c 1,9,-1
+ 481 145 l 1,10,11
+ 468.56 72.4359 468.56 72.4359 414 30 c 0,12,13
+ 357.429 -14 357.429 -14 275 -14 c 0,14,15
+ 179.239 -14 179.239 -14 114 56.5 c 0,16,17
+ 47 128.903 47 128.903 47 243 c 0,18,19
+ 47 359.677 47 359.677 114 431 c 0,20,21
+ 177.879 499 177.879 499 275 499 c 0,22,23
+ 376.185 499 376.185 499 431.5 428.5 c 0,24,0
+ 457 396 457 396 469.5 354 c 128,-1,1
+276 405 m 0,25,26
+ 226 405 226 405 198 372.5 c 128,-1,27
+ 170 340 170 340 165 289 c 1,28,-1
+ 372 289 l 1,29,30
+ 372 367.703 372 367.703 321.5 395 c 0,31,32
+ 303 405 303 405 276 405 c 0,25,26
 EndSplineSet
-Validated: 1
 Kerns2: 62 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -55 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -529,7 +486,6 @@ SplineSet
  40 407 l 1,21,-1
  40 486 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 47 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -554,7 +510,7 @@ SplineSet
  461 220 461 220 432.5 197.5 c 0,18,19
  372.333 150 372.333 150 286 150 c 0,20,21
  237 150 237 150 197 165 c 1,22,23
- 157 153.235 157 153.235 157 117 c 256,24,25
+ 157 153.235 157 153.235 157 117 c 0,24,25
  157 72 157 72 233 72 c 2,26,-1
  396 72 l 2,27,28
  562 72 562 72 562 -44 c 0,29,30
@@ -583,12 +539,11 @@ SplineSet
  241 417 241 417 217 391.5 c 128,-1,62
  193 366 193 366 193 325.5 c 128,-1,63
  193 285 193 285 217 259 c 128,-1,64
- 241 233 241 233 287 233 c 256,65,66
- 333 233 333 233 355.5 259 c 128,-1,67
+ 241 233 241 233 287 233 c 128,-1,65
+ 333 233 333 233 355.5 259 c 128,-1,66
  378 285 378 285 378 325.5 c 128,-1,59
  378 366 378 366 355.5 391.5 c 128,-1,60
 EndSplineSet
-Validated: 1
 Kerns2: 36 15 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 73 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -616,7 +571,6 @@ SplineSet
  211 686 l 1,16,-1
  211 407 l 1,0,1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -624,98 +578,6 @@ StartChar: i
 Encoding: 105 105 20
 Width: 328
 Flags: W
-TtInstrs:
-PUSHW_3
- 10
- 4
- 3
-CALL
-NPUSHW
- 27
- 6
- 10
- 22
- 10
- 38
- 10
- 54
- 10
- 70
- 10
- 86
- 10
- 102
- 10
- 118
- 10
- 134
- 10
- 150
- 10
- 166
- 10
- 182
- 10
- 198
- 10
- 13
-DELTAP1
-NPUSHW
- 5
- 213
- 10
- 229
- 10
- 2
-DELTAP1
-PUSHW_3
- 0
- 4
- 10
-SRP1
-SRP2
-IP
-PUSHW_1
- 0
-MDAP[rnd]
-PUSHW_1
- 1
-MDRP[rp0,min,rnd,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 7
- 13
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -724,17 +586,16 @@ SplineSet
  221 0 l 1,2,-1
  103 0 l 1,3,-1
  103 487 l 1,0,-1
-89 643 m 256,4,5
+89 643 m 128,-1,5
  89 675 89 675 108 693.5 c 128,-1,6
- 127 712 127 712 161.5 712 c 256,7,8
- 196 712 196 712 215.5 693.5 c 128,-1,9
- 235 675 235 675 235 643 c 256,10,11
- 235 611 235 611 215.5 592.5 c 128,-1,12
- 196 574 196 574 161.5 574 c 256,13,14
- 127 574 127 574 108 592.5 c 128,-1,15
- 89 611 89 611 89 643 c 256,4,5
+ 127 712 127 712 161.5 712 c 128,-1,7
+ 196 712 196 712 215.5 693.5 c 128,-1,8
+ 235 675 235 675 235 643 c 128,-1,9
+ 235 611 235 611 215.5 592.5 c 128,-1,10
+ 196 574 196 574 161.5 574 c 128,-1,11
+ 127 574 127 574 108 592.5 c 128,-1,4
+ 89 611 89 611 89 643 c 128,-1,5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: j
@@ -744,28 +605,27 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-95 643 m 256,0,1
+95 643 m 128,-1,1
  95 675 95 675 114.5 693.5 c 128,-1,2
  134 712 134 712 168.5 712 c 128,-1,3
  203 712 203 712 222 693.5 c 128,-1,4
- 241 675 241 675 241 643 c 256,5,6
- 241 611 241 611 222 592.5 c 128,-1,7
- 203 574 203 574 168.5 574 c 128,-1,8
- 134 574 134 574 114.5 592.5 c 128,-1,9
- 95 611 95 611 95 643 c 256,0,1
--74 -118 m 1,10,11
- -14 -148 -14 -148 29 -148 c 128,-1,12
- 72 -148 72 -148 91 -127.5 c 128,-1,13
- 110 -107 110 -107 110 -56 c 2,14,-1
- 110 488 l 1,15,-1
- 228 488 l 1,16,-1
- 228 -58 l 2,17,18
- 228 -162 228 -162 184.5 -206.5 c 128,-1,19
- 141 -251 141 -251 71.25 -251 c 128,-1,20
- 1.5 -251 1.5 -251 -76 -220 c 1,21,-1
- -74 -118 l 1,10,11
+ 241 675 241 675 241 643 c 128,-1,5
+ 241 611 241 611 222 592.5 c 128,-1,6
+ 203 574 203 574 168.5 574 c 128,-1,7
+ 134 574 134 574 114.5 592.5 c 128,-1,0
+ 95 611 95 611 95 643 c 128,-1,1
+-74 -118 m 1,8,9
+ -14 -148 -14 -148 29 -148 c 128,-1,10
+ 72 -148 72 -148 91 -127.5 c 128,-1,11
+ 110 -107 110 -107 110 -56 c 2,12,-1
+ 110 488 l 1,13,-1
+ 228 488 l 1,14,-1
+ 228 -58 l 2,15,16
+ 228 -162 228 -162 184.5 -206.5 c 128,-1,17
+ 141 -251 141 -251 71.25 -251 c 128,-1,18
+ 1.5 -251 1.5 -251 -76 -220 c 1,19,-1
+ -74 -118 l 1,8,9
 EndSplineSet
-Validated: 1
 Kerns2: 17 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -773,88 +633,6 @@ StartChar: k
 Encoding: 107 107 22
 Width: 575
 Flags: W
-TtInstrs:
-PUSHW_3
- 2
- 3
- 3
-CALL
-PUSHW_1
- 2
-SRP0
-PUSHW_1
- 5
-MDRP[rp0,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 4
-MDAP[rnd]
-ELSE
-PUSHW_2
- 4
- 10
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 10
-MDAP[rnd]
-ELSE
-PUSHW_2
- 10
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 7
-MDAP[rnd]
-ELSE
-PUSHW_2
- 7
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 6
- 2
- 4
-SRP1
-SRP2
-IP
-PUSHW_3
- 8
- 2
- 4
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -872,7 +650,6 @@ SplineSet
  431 0 l 1,11,-1
  265 237 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 36 -5 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 -4 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -880,52 +657,15 @@ StartChar: l
 Encoding: 108 108 23
 Width: 304
 Flags: W
-TtInstrs:
-PUSHW_3
- 1
- 0
- 3
-CALL
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 10
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
-93 686 m 5,0,-1
- 211 686 l 5,1,-1
- 211 0 l 5,2,-1
- 93 0 l 5,3,-1
- 93 686 l 5,0,-1
+93 686 m 1,0,-1
+ 211 686 l 1,1,-1
+ 211 0 l 1,2,-1
+ 93 0 l 1,3,-1
+ 93 686 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: m
@@ -962,7 +702,6 @@ SplineSet
  424 499 424 499 464.5 471 c 128,-1,31
  505 443 505 443 525 394 c 1,0,1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -19 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -990,7 +729,6 @@ SplineSet
  196 486 l 1,17,-1
  209 402 l 1,0,1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -35 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1016,12 +754,11 @@ SplineSet
  234 397 234 397 200 358.5 c 128,-1,20
  166 320 166 320 166 243 c 128,-1,21
  166 166 166 166 196.5 127.5 c 128,-1,22
- 227 89 227 89 280 89 c 256,23,24
- 333 89 333 89 367 127.5 c 128,-1,25
+ 227 89 227 89 280 89 c 128,-1,23
+ 333 89 333 89 367 127.5 c 128,-1,24
  401 166 401 166 401 243 c 128,-1,17
  401 320 401 320 371 358.5 c 128,-1,18
 EndSplineSet
-Validated: 1
 Kerns2: 62 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1033,13 +770,13 @@ LayerCount: 2
 Fore
 SplineSet
 201 420 m 1,0,1
- 247.244 499 247.244 499 341 499 c 256,2,3
+ 247.244 499 247.244 499 341 499 c 0,2,3
  431.121 499 431.121 499 495 431 c 0,4,5
  563 358.613 563 358.613 563 243 c 0,6,7
  563 125.762 563 125.762 494.5 54 c 0,8,9
  429.591 -14 429.591 -14 340.795 -14 c 128,-1,10
  252 -14 252 -14 211 39 c 1,11,-1
- 211 -237 l 5,12,-1
+ 211 -237 l 1,12,-1
  93 -237 l 1,13,-1
  93 486 l 1,14,-1
  190 486 l 1,15,-1
@@ -1056,7 +793,6 @@ SplineSet
  211 148.6 211 148.6 244 120 c 0,28,29
  275.154 93 275.154 93 319.5 93 c 0,16,17
 EndSplineSet
-Validated: 1
 Kerns2: 62 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -63 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1078,7 +814,7 @@ SplineSet
  440 486 l 1,14,-1
  517 486 l 1,15,-1
  517 -237 l 1,16,-1
- 398 -237 l 5,17,-1
+ 398 -237 l 1,17,-1
  398 63 l 1,0,1
 366 363 m 128,-1,19
  334 393 334 393 284.5 393 c 128,-1,20
@@ -1091,7 +827,6 @@ SplineSet
  398 278 l 2,31,18
  398 333 398 333 366 363 c 128,-1,19
 EndSplineSet
-Validated: 1
 Kerns2: 62 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -67 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 77 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1114,7 +849,6 @@ SplineSet
  211 487 l 1,13,-1
  211 390 l 1,0,1
 EndSplineSet
-Validated: 1
 Kerns2: 57 -25 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1152,7 +886,6 @@ SplineSet
  50 71 50 71 49 148 c 1,33,-1
  159 148 l 1,0,1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -15 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1183,7 +916,6 @@ SplineSet
  304 79 304 79 350 95 c 1,21,-1
  367 12 l 1,0,1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -48 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1212,7 +944,6 @@ SplineSet
  416 0 l 1,20,-1
  416 88 l 1,0,1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1220,57 +951,6 @@ StartChar: v
 Encoding: 118 118 33
 Width: 519
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 4
-MDAP[rnd]
-ELSE
-PUSHW_2
- 4
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 1
- 4
- 0
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1283,7 +963,6 @@ SplineSet
  12 486 l 1,6,-1
  148 486 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -4 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1291,84 +970,6 @@ StartChar: w
 Encoding: 119 119 34
 Width: 758
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 7
-MDAP[rnd]
-ELSE
-PUSHW_2
- 7
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 10
-MDAP[rnd]
-ELSE
-PUSHW_2
- 10
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 5
-MDAP[rnd]
-ELSE
-PUSHW_2
- 5
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 1
- 7
- 0
-SRP1
-SRP2
-IP
-PUSHW_3
- 4
- 7
- 0
-SRP1
-SRP2
-IP
-PUSHW_3
- 9
- 7
- 0
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1387,7 +988,6 @@ SplineSet
  12 486 l 1,12,-1
  136 486 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1395,77 +995,6 @@ StartChar: x
 Encoding: 120 120 35
 Width: 554
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 6
-MDAP[rnd]
-ELSE
-PUSHW_2
- 6
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 9
-MDAP[rnd]
-ELSE
-PUSHW_2
- 9
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 3
-MDAP[rnd]
-ELSE
-PUSHW_2
- 3
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 2
- 0
- 6
-SRP1
-SRP2
-IP
-PUSHW_3
- 8
- 0
- 6
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1483,7 +1012,6 @@ SplineSet
  349 242 l 1,11,-1
  537 0 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1491,105 +1019,6 @@ StartChar: y
 Encoding: 121 121 36
 Width: 504
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 7
-MDAP[rnd]
-ELSE
-PUSHW_2
- 7
- 4
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 1
- 7
- 0
-SRP1
-SRP2
-IP
-PUSHW_3
- 10
- 7
- 0
-SRP1
-SRP2
-IP
-PUSHW_1
- 12
-MDRP[rp0,min,rnd,grey]
-NPUSHW
- 27
- 7
- 12
- 23
- 12
- 39
- 12
- 55
- 12
- 71
- 12
- 87
- 12
- 103
- 12
- 119
- 12
- 135
- 12
- 151
- 12
- 167
- 12
- 183
- 12
- 199
- 12
- 13
-DELTAP1
-NPUSHW
- 5
- 214
- 12
- 230
- 12
- 2
-DELTAP1
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1599,17 +1028,16 @@ SplineSet
  492 486 l 1,3,-1
  306 -88 l 2,4,5
  277 -175 277 -175 235.5 -213 c 128,-1,6
- 194 -251 194 -251 129.5 -251 c 256,7,8
- 65 -251 65 -251 0 -219 c 1,9,-1
- 0 -115 l 1,10,11
- 52 -148 52 -148 105 -148 c 0,12,13
- 140 -148 140 -148 162.5 -120 c 128,-1,14
- 185 -92 185 -92 199 -47 c 2,15,-1
- 214 0 l 1,16,-1
- 19 486 l 1,17,-1
+ 194 -251 194 -251 129.5 -251 c 128,-1,7
+ 65 -251 65 -251 0 -219 c 1,8,-1
+ 0 -115 l 1,9,10
+ 52 -148 52 -148 105 -148 c 0,11,12
+ 140 -148 140 -148 162.5 -120 c 128,-1,13
+ 185 -92 185 -92 199 -47 c 2,14,-1
+ 214 0 l 1,15,-1
+ 19 486 l 1,16,-1
  153 486 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -4 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1617,41 +1045,6 @@ StartChar: z
 Encoding: 122 122 37
 Width: 495
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 8
-MDAP[rnd]
-ELSE
-PUSHW_2
- 8
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 4
- 5
- 3
-CALL
-PUSHW_1
- 5
-SRP0
-PUSHW_1
- 1
-MDRP[rp0,grey]
-PUSHW_1
- 8
-SRP0
-PUSHW_1
- 6
-MDRP[rp0,min,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1667,7 +1060,6 @@ SplineSet
  57 0 l 1,9,-1
  57 96 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1675,55 +1067,6 @@ StartChar: A
 Encoding: 65 65 38
 Width: 626
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 6
-MDAP[rnd]
-ELSE
-PUSHW_2
- 6
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 9
- 4
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1741,7 +1084,6 @@ SplineSet
  315 508 l 1,10,-1
  223 229 l 1,8,-1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -15 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1766,22 +1108,21 @@ SplineSet
  93 649 l 1,0,-1
 353 103 m 2,17,18
  410 103 410 103 435.5 126 c 128,-1,19
- 461 149 461 149 461 187 c 256,20,21
- 461 225 461 225 434.5 248.5 c 128,-1,22
- 408 272 408 272 353 272 c 2,23,-1
- 211 272 l 1,24,-1
- 211 103 l 1,25,-1
+ 461 149 461 149 461 187 c 128,-1,20
+ 461 225 461 225 434.5 248.5 c 128,-1,21
+ 408 272 408 272 353 272 c 2,22,-1
+ 211 272 l 1,23,-1
+ 211 103 l 1,24,-1
  353 103 l 2,17,18
-211 375 m 1,26,-1
- 350 375 l 2,27,28
- 403 375 403 375 430 398 c 128,-1,29
- 457 421 457 421 457 460.5 c 128,-1,30
- 457 500 457 500 430.5 523.5 c 128,-1,31
- 404 547 404 547 351 547 c 2,32,-1
- 211 547 l 1,33,-1
- 211 375 l 1,26,-1
+211 375 m 1,25,-1
+ 350 375 l 2,26,27
+ 403 375 403 375 430 398 c 128,-1,28
+ 457 421 457 421 457 460.5 c 128,-1,29
+ 457 500 457 500 430.5 523.5 c 128,-1,30
+ 404 547 404 547 351 547 c 2,31,-1
+ 211 547 l 1,32,-1
+ 211 375 l 1,25,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: C
@@ -1812,7 +1153,6 @@ SplineSet
  47 486.4 47 486.4 126.5 576.5 c 0,27,28
  201.941 662 201.941 662 326.5 662 c 0,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: D
@@ -1839,7 +1179,6 @@ SplineSet
  211 542 l 1,21,-1
  211 107 l 1,11,-1
 EndSplineSet
-Validated: 33
 Kerns2: 62 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -1847,65 +1186,6 @@ StartChar: E
 Encoding: 69 69 42
 Width: 586
 Flags: W
-TtInstrs:
-PUSHW_3
- 3
- 0
- 3
-CALL
-PUSHW_1
- 3
-SRP0
-PUSHW_1
- 7
-MDRP[rp0,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 10
-MDAP[rnd]
-ELSE
-PUSHW_2
- 10
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 5
- 6
- 3
-CALL
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 2
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 10
-SRP0
-PUSHW_1
- 8
-MDRP[rp0,min,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1923,66 +1203,12 @@ SplineSet
  92 0 l 1,11,-1
  92 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: F
 Encoding: 70 70 43
 Width: 547
 Flags: W
-TtInstrs:
-PUSHW_3
- 3
- 0
- 3
-CALL
-PUSHW_1
- 3
-SRP0
-PUSHW_1
- 7
-MDRP[rp0,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 8
-MDAP[rnd]
-ELSE
-PUSHW_2
- 8
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 5
- 6
- 3
-CALL
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 2
-MDRP[rp0,min,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -1998,7 +1224,6 @@ SplineSet
  93 0 l 1,9,-1
  93 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -4 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  61 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -4 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  37 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  35 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -2033,114 +1258,12 @@ SplineSet
  504 0 l 1,34,-1
  491 103 l 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: H
 Encoding: 72 72 45
 Width: 706
 Flags: W
-TtInstrs:
-PUSHW_1
- 12
-MDAP[rnd]
-PUSHW_1
- 3
-MDAP[rnd]
-PUSHW_1
- 12
-SRP0
-PUSHW_1
- 10
-MDRP[rp0,grey]
-PUSHW_1
- 10
-MDAP[rnd]
-PUSHW_1
- 9
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 0
-MDRP[rp0,grey]
-PUSHW_1
- 3
-SRP0
-PUSHW_1
- 4
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 3
-SRP0
-PUSHW_1
- 6
-MDRP[rp0,grey]
-PUSHW_1
- 4
-SRP0
-PUSHW_1
- 13
-MDRP[rp0,min,rnd,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 3
-MDAP[rnd]
-ELSE
-PUSHW_2
- 3
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 5
-MDAP[rnd]
-ELSE
-PUSHW_2
- 5
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 9
-MDAP[rnd]
-ELSE
-PUSHW_2
- 9
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 2
- 7
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2158,49 +1281,12 @@ SplineSet
  93 649 l 1,11,-1
  211 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: I
 Encoding: 73 73 46
 Width: 304
 Flags: W
-TtInstrs:
-PUSHW_3
- 1
- 0
- 3
-CALL
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2210,7 +1296,6 @@ SplineSet
  93 0 l 1,3,-1
  93 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: J
@@ -2232,88 +1317,12 @@ SplineSet
  264.442 -14 264.442 -14 180.082 -14 c 128,-1,13
  95.7222 -14 95.7222 -14 16 27 c 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: K
 Encoding: 75 75 48
 Width: 654
 Flags: W
-TtInstrs:
-PUSHW_3
- 9
- 10
- 3
-CALL
-PUSHW_1
- 9
-SRP0
-PUSHW_1
- 0
-MDRP[rp0,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 5
-MDAP[rnd]
-ELSE
-PUSHW_2
- 5
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 9
-MDAP[rnd]
-ELSE
-PUSHW_2
- 9
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 1
- 5
- 0
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2331,52 +1340,12 @@ SplineSet
  93 649 l 1,11,-1
  212 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: L
 Encoding: 76 76 49
 Width: 494
 Flags: W
-TtInstrs:
-PUSHW_3
- 0
- 3
- 3
-CALL
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 4
-MDAP[rnd]
-ELSE
-PUSHW_2
- 4
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-MDRP[rp0,min,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2388,7 +1357,6 @@ SplineSet
  211 649 l 1,5,-1
  211 103 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -77 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -15 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -2396,124 +1364,6 @@ StartChar: M
 Encoding: 77 77 50
 Width: 874
 Flags: W
-TtInstrs:
-PUSHW_1
- 13
-MDAP[rnd]
-PUSHW_1
- 5
-MDAP[rnd]
-PUSHW_1
- 13
-SRP0
-PUSHW_1
- 11
-MDRP[rp0,grey]
-PUSHW_1
- 11
-MDAP[rnd]
-PUSHW_1
- 5
-SRP0
-PUSHW_1
- 4
-MDRP[rp0,min,rnd,grey]
-PUSHW_3
- 1
- 11
- 4
-SRP1
-SRP2
-IP
-PUSHW_1
- 11
-SRP0
-PUSHW_1
- 10
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 4
-SRP0
-PUSHW_1
- 14
-MDRP[rp0,min,rnd,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 4
-MDAP[rnd]
-ELSE
-PUSHW_2
- 4
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 10
-MDAP[rnd]
-ELSE
-PUSHW_2
- 10
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 1
- 4
- 0
-SRP1
-SRP2
-IP
-PUSHW_3
- 6
- 4
- 0
-SRP1
-SRP2
-IP
-PUSHW_3
- 9
- 4
- 0
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2532,111 +1382,12 @@ SplineSet
  93 649 l 1,12,-1
  262 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: N
 Encoding: 78 78 51
 Width: 717
 Flags: W
-TtInstrs:
-PUSHW_1
- 10
-MDAP[rnd]
-PUSHW_1
- 1
-MDAP[rnd]
-PUSHW_1
- 4
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 10
-SRP0
-PUSHW_1
- 8
-MDRP[rp0,grey]
-PUSHW_1
- 8
-MDAP[rnd]
-PUSHW_1
- 7
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 4
-SRP0
-PUSHW_1
- 11
-MDRP[rp0,min,rnd,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 4
-MDAP[rnd]
-ELSE
-PUSHW_2
- 4
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 7
-MDAP[rnd]
-ELSE
-PUSHW_2
- 7
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 1
- 4
- 0
-SRP1
-SRP2
-IP
-PUSHW_3
- 6
- 4
- 0
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2652,7 +1403,6 @@ SplineSet
  91 649 l 1,9,-1
  220 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: O
@@ -2682,7 +1432,6 @@ SplineSet
  514 212 514 212 514 323.5 c 128,-1,17
  514 435 514 435 467.5 495.5 c 128,-1,18
 EndSplineSet
-Validated: 1
 Kerns2: 61 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -2712,7 +1461,6 @@ SplineSet
  209 339 l 1,17,-1
  319 339 l 2,10,11
 EndSplineSet
-Validated: 1
 Kerns2: 38 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -2749,7 +1497,6 @@ SplineSet
  514 212 514 212 514 323.5 c 128,-1,26
  514 435 514 435 467.5 495.5 c 128,-1,27
 EndSplineSet
-Validated: 1
 Kerns2: 62 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -2782,7 +1529,6 @@ SplineSet
  211 332 l 1,22,-1
  322 332 l 2,15,16
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: S
@@ -2821,7 +1567,6 @@ SplineSet
  542 561 542 561 551 470 c 1,37,-1
  434 470 l 1,0,1
 EndSplineSet
-Validated: 1
 Kerns2: 62 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -2829,54 +1574,6 @@ StartChar: T
 Encoding: 84 84 57
 Width: 532
 Flags: W
-TtInstrs:
-PUSHW_3
- 4
- 5
- 3
-CALL
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 4
-MDAP[rnd]
-ELSE
-PUSHW_2
- 4
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 2
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 6
-MDRP[rp0,grey]
-PUSHW_1
- 7
-MDRP[rp0,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -2890,7 +1587,6 @@ SplineSet
  6 547 l 1,7,-1
  6 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 47 -77 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  37 -68 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -70 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  35 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -83 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -97 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -85 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -83 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  27 -83 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  25 -83 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  24 -83 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -83 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -83 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -91 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -83 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -95 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -2898,195 +1594,31 @@ StartChar: U
 Encoding: 85 85 58
 Width: 690
 Flags: W
-TtInstrs:
-PUSHW_1
- 18
-MDAP[rnd]
-PUSHW_1
- 7
-MDAP[rnd]
-PUSHW_1
- 18
-SRP0
-PUSHW_1
- 16
-MDRP[rp0,grey]
-PUSHW_1
- 16
-MDAP[rnd]
-PUSHW_1
- 1
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 7
-SRP0
-PUSHW_1
- 10
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 19
-MDRP[rp0,min,rnd,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 8
-MDAP[rnd]
-ELSE
-PUSHW_2
- 8
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 13
-MDAP[rnd]
-ELSE
-PUSHW_2
- 13
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 4
-MDRP[rp0,min,rnd,grey]
-NPUSHW
- 27
- 7
- 4
- 23
- 4
- 39
- 4
- 55
- 4
- 71
- 4
- 87
- 4
- 103
- 4
- 119
- 4
- 135
- 4
- 151
- 4
- 167
- 4
- 183
- 4
- 199
- 4
- 13
-DELTAP1
-NPUSHW
- 5
- 214
- 4
- 230
- 4
- 2
-DELTAP1
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
 201 649 m 1,0,-1
  201 245 l 2,1,2
  201 165 201 165 241.5 130 c 128,-1,3
- 282 95 282 95 346 95 c 256,4,5
- 410 95 410 95 450.5 130 c 128,-1,6
- 491 165 491 165 491 245 c 2,7,-1
- 491 649 l 1,8,-1
- 609 649 l 1,9,-1
- 609 245 l 2,10,11
- 609 121 609 121 540 53.5 c 128,-1,12
- 471 -14 471 -14 346 -14 c 256,13,14
- 221 -14 221 -14 152 53.5 c 128,-1,15
- 83 121 83 121 83 245 c 2,16,-1
- 83 649 l 1,17,-1
+ 282 95 282 95 346 95 c 128,-1,4
+ 410 95 410 95 450.5 130 c 128,-1,5
+ 491 165 491 165 491 245 c 2,6,-1
+ 491 649 l 1,7,-1
+ 609 649 l 1,8,-1
+ 609 245 l 2,9,10
+ 609 121 609 121 540 53.5 c 128,-1,11
+ 471 -14 471 -14 346 -14 c 128,-1,12
+ 221 -14 221 -14 152 53.5 c 128,-1,13
+ 83 121 83 121 83 245 c 2,14,-1
+ 83 649 l 1,15,-1
  201 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: V
 Encoding: 86 86 59
 Width: 607
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 4
-MDAP[rnd]
-ELSE
-PUSHW_2
- 4
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 1
- 4
- 0
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3099,7 +1631,6 @@ SplineSet
  20 649 l 1,6,-1
  145 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 47 -77 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  40 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -3107,84 +1638,6 @@ StartChar: W
 Encoding: 87 87 60
 Width: 966
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 5
-MDAP[rnd]
-ELSE
-PUSHW_2
- 5
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 7
-MDAP[rnd]
-ELSE
-PUSHW_2
- 7
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 10
-MDAP[rnd]
-ELSE
-PUSHW_2
- 10
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 1
- 7
- 0
-SRP1
-SRP2
-IP
-PUSHW_3
- 4
- 7
- 0
-SRP1
-SRP2
-IP
-PUSHW_3
- 9
- 7
- 0
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3203,7 +1656,6 @@ SplineSet
  20 649 l 1,12,-1
  152 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 47 -77 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -3211,77 +1663,6 @@ StartChar: X
 Encoding: 88 88 61
 Width: 684
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 6
-MDAP[rnd]
-ELSE
-PUSHW_2
- 6
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 9
-MDAP[rnd]
-ELSE
-PUSHW_2
- 9
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 3
-MDAP[rnd]
-ELSE
-PUSHW_2
- 3
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 2
- 0
- 6
-SRP1
-SRP2
-IP
-PUSHW_3
- 8
- 0
- 6
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3299,7 +1680,6 @@ SplineSet
  408 325 l 1,11,-1
  649 0 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 52 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -3307,69 +1687,6 @@ StartChar: Y
 Encoding: 89 89 62
 Width: 604
 Flags: W
-TtInstrs:
-PUSHW_3
- 5
- 6
- 3
-CALL
-PUSHW_3
- 1
- 6
- 5
-SRP1
-SRP2
-IP
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 5
-MDAP[rnd]
-ELSE
-PUSHW_2
- 5
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 1
- 5
- 0
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3384,7 +1701,6 @@ SplineSet
  16 649 l 1,8,-1
  156 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 Kerns2: 56 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  54 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -101 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  45 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  40 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -77 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  37 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  35 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -85 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  31 -48 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  27 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  25 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  24 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
 EndChar
 
@@ -3392,49 +1708,6 @@ StartChar: Z
 Encoding: 90 90 63
 Width: 629
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 3
-MDAP[rnd]
-ELSE
-PUSHW_2
- 3
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 8
-MDAP[rnd]
-ELSE
-PUSHW_2
- 8
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 3
-SRP0
-PUSHW_1
- 1
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 8
-SRP0
-PUSHW_1
- 6
-MDRP[rp0,min,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3450,23 +1723,12 @@ SplineSet
  73 0 l 1,9,-1
  73 102 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotesingle
 Encoding: 39 39 64
 Width: 180
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_3
- 0
- 1
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3476,7 +1738,6 @@ SplineSet
  31 677 l 1,3,-1
  149 677 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: apostrophe
@@ -3486,20 +1747,19 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-80.5 567.5 m 132,-1,1
- 61 585 61 585 61 614.5 c 132,-1,2
- 61 644 61 644 84 665 c 132,-1,3
- 107 686 107 686 147 686 c 132,-1,4
- 187 686 187 686 212 655 c 132,-1,5
- 237 624 237 624 237 579 c 4,6,7
- 237 505.714 237 505.714 171 446 c 4,8,9
- 150 427 150 427 124 414 c 5,10,-1
- 36 458 l 5,11,12
- 69 475 69 475 94.5 496 c 132,-1,13
- 120 517 120 517 128 545 c 5,14,0
- 100 550 100 550 80.5 567.5 c 132,-1,1
+80.5 567.5 m 128,-1,1
+ 61 585 61 585 61 614.5 c 128,-1,2
+ 61 644 61 644 84 665 c 128,-1,3
+ 107 686 107 686 147 686 c 128,-1,4
+ 187 686 187 686 212 655 c 128,-1,5
+ 237 624 237 624 237 579 c 0,6,7
+ 237 505.714 237 505.714 171 446 c 0,8,9
+ 150 427 150 427 124 414 c 1,10,-1
+ 36 458 l 1,11,12
+ 69 475 69 475 94.5 496 c 128,-1,13
+ 120 517 120 517 128 545 c 1,14,0
+ 100 550 100 550 80.5 567.5 c 128,-1,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quoteleft
@@ -3556,12 +1816,11 @@ SplineSet
  73 570.157 73 570.157 282 754 c 1,4,-1
  367 692 l 1,5,6
  281 602 281 602 238 511.5 c 128,-1,7
- 195 421 195 421 195 318 c 256,8,9
- 195 215 195 215 238 125.5 c 128,-1,10
- 281 36 281 36 367 -54 c 1,11,-1
+ 195 421 195 421 195 318 c 128,-1,8
+ 195 215 195 215 238 125.5 c 128,-1,9
+ 281 36 281 36 367 -54 c 1,10,-1
  282 -118 l 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: parenright
@@ -3576,83 +1835,17 @@ SplineSet
  327 69.514 327 69.514 118 -118 c 1,4,-1
  32 -54 l 1,5,6
  119 36 119 36 162 125.5 c 128,-1,7
- 205 215 205 215 205 318 c 256,8,9
- 205 421 205 421 161.5 511.5 c 128,-1,10
- 118 602 118 602 32 692 c 1,11,-1
+ 205 215 205 215 205 318 c 128,-1,8
+ 205 421 205 421 161.5 511.5 c 128,-1,9
+ 118 602 118 602 32 692 c 1,10,-1
  118 754 l 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: plus
 Encoding: 43 43 70
 Width: 544
 Flags: W
-TtInstrs:
-PUSHW_3
- 5
- 6
- 3
-CALL
-PUSHW_1
- 5
-SRP0
-PUSHW_1
- 0
-MDRP[rp0,grey]
-PUSHW_1
- 6
-SRP0
-PUSHW_1
- 10
-MDRP[rp0,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 5
-MDAP[rnd]
-ELSE
-PUSHW_2
- 5
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 2
- 3
- 3
-CALL
-PUSHW_1
- 3
-SRP0
-PUSHW_1
- 7
-MDRP[rp0,grey]
-PUSHW_1
- 2
-SRP0
-PUSHW_1
- 9
-MDRP[rp0,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3670,23 +1863,12 @@ SplineSet
  213 491 l 1,11,-1
  331 491 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: minus
 Encoding: 8722 8722 71
 Width: 506
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_3
- 0
- 1
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3696,28 +1878,12 @@ SplineSet
  79 353 l 1,3,-1
  427 353 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: equal
 Encoding: 61 61 72
 Width: 506
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_3
- 0
- 1
- 3
-CALL
-PUSHW_3
- 4
- 5
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3732,7 +1898,6 @@ SplineSet
  79 408 l 1,7,-1
  427 408 l 1,4,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: zero
@@ -3745,24 +1910,23 @@ SplineSet
 316.5 662 m 0,0,1
  376 662 376 662 425.5 641.5 c 128,-1,2
  475 621 475 621 510.5 579 c 0,3,4
- 586 489.676 586 489.676 586 324 c 256,5,6
- 586 158.324 586 158.324 510.5 69 c 0,7,8
- 440.345 -14 440.345 -14 317 -14 c 0,9,10
- 193.143 -14 193.143 -14 122 69 c 0,11,12
- 47 156.5 47 156.5 47 324 c 256,13,14
- 47 491.5 47 491.5 122 579 c 0,15,16
+ 586 489.676 586 489.676 586 324 c 128,-1,5
+ 586 158.324 586 158.324 510.5 69 c 0,6,7
+ 440.345 -14 440.345 -14 317 -14 c 0,8,9
+ 193.143 -14 193.143 -14 122 69 c 0,10,11
+ 47 156.5 47 156.5 47 324 c 128,-1,12
+ 47 491.5 47 491.5 122 579 c 0,13,14
  193.143 662 193.143 662 316.5 662 c 0,0,1
-425.5 495.5 m 128,-1,18
- 387 555 387 555 316.5 555 c 128,-1,19
- 246 555 246 555 207.5 495.5 c 128,-1,20
- 169 436 169 436 169 324 c 256,21,22
- 169 212 169 212 207.5 153.5 c 128,-1,23
- 246 95 246 95 316.5 95 c 128,-1,24
- 387 95 387 95 425.5 153.5 c 128,-1,25
- 464 212 464 212 464 324 c 256,26,17
- 464 436 464 436 425.5 495.5 c 128,-1,18
+425.5 495.5 m 128,-1,16
+ 387 555 387 555 316.5 555 c 128,-1,17
+ 246 555 246 555 207.5 495.5 c 128,-1,18
+ 169 436 169 436 169 324 c 128,-1,19
+ 169 212 169 212 207.5 153.5 c 128,-1,20
+ 246 95 246 95 316.5 95 c 128,-1,21
+ 387 95 387 95 425.5 153.5 c 128,-1,22
+ 464 212 464 212 464 324 c 128,-1,15
+ 464 436 464 436 425.5 495.5 c 128,-1,16
 EndSplineSet
-Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" zero.propold
 EndChar
 
@@ -3782,7 +1946,6 @@ SplineSet
  94 487 94 487 42 487 c 1,8,-1
  42 600 l 1,0,1
 EndSplineSet
-Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" one.propold
 EndChar
 
@@ -3802,24 +1965,23 @@ SplineSet
  171 299 171 299 208 313 c 2,8,-1
  341 364 l 2,9,10
  385 381 385 381 405.5 406.5 c 128,-1,11
- 426 432 426 432 426 470 c 256,12,13
- 426 508 426 508 399 533.5 c 128,-1,14
- 372 559 372 559 322 559 c 128,-1,15
- 272 559 272 559 239.5 535 c 128,-1,16
- 207 511 207 511 202 464 c 1,17,-1
- 71 464 l 1,18,19
- 72.9028 559.138 72.9028 559.138 144 613 c 0,20,21
- 208.68 662 208.68 662 319 662 c 0,22,23
- 420.077 662 420.077 662 485.5 608 c 0,24,25
- 553 552.286 553 552.286 553 471.143 c 128,-1,26
- 553 390 553 390 512.5 341.5 c 128,-1,27
- 472 293 472 293 387 260 c 2,28,-1
- 252 208 l 2,29,30
- 213 193 213 193 195.5 174.5 c 128,-1,31
- 178 156 178 156 178 127 c 2,32,-1
+ 426 432 426 432 426 470 c 128,-1,12
+ 426 508 426 508 399 533.5 c 128,-1,13
+ 372 559 372 559 322 559 c 128,-1,14
+ 272 559 272 559 239.5 535 c 128,-1,15
+ 207 511 207 511 202 464 c 1,16,-1
+ 71 464 l 1,17,18
+ 72.9028 559.138 72.9028 559.138 144 613 c 0,19,20
+ 208.68 662 208.68 662 319 662 c 0,21,22
+ 420.077 662 420.077 662 485.5 608 c 0,23,24
+ 553 552.286 553 552.286 553 471.143 c 128,-1,25
+ 553 390 553 390 512.5 341.5 c 128,-1,26
+ 472 293 472 293 387 260 c 2,27,-1
+ 252 208 l 2,28,29
+ 213 193 213 193 195.5 174.5 c 128,-1,30
+ 178 156 178 156 178 127 c 2,31,-1
  178 108 l 1,0,-1
 EndSplineSet
-Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" two.propold
 EndChar
 
@@ -3861,7 +2023,6 @@ SplineSet
  421 505 421 505 393.5 530 c 128,-1,40
  366 555 366 555 309 555 c 0,0,1
 EndSplineSet
-Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" three.propold
 EndChar
 
@@ -3869,92 +2030,6 @@ StartChar: four
 Encoding: 52 52 77
 Width: 595
 Flags: W
-TtInstrs:
-PUSHW_3
- 1
- 12
- 3
-CALL
-PUSHW_1
- 12
-SRP0
-PUSHW_1
- 2
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 1
-SRP0
-PUSHW_1
- 4
-MDRP[rp0,grey]
-PUSHW_1
- 12
-SRP0
-PUSHW_1
- 6
-MDRP[rp0,grey]
-PUSHW_1
- 6
-MDAP[rnd]
-PUSHW_1
- 1
-SRP0
-PUSHW_1
- 15
-MDRP[rp0,min,rnd,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 5
-MDAP[rnd]
-ELSE
-PUSHW_2
- 5
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 2
- 3
- 3
-CALL
-PUSHW_1
- 3
-SRP0
-PUSHW_1
- 7
-MDRP[rp0,grey]
-PUSHW_1
- 5
-SRP0
-PUSHW_1
- 11
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 7
-SRP0
-PUSHW_1
- 12
-MDRP[rp0,min,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -3975,7 +2050,6 @@ SplineSet
  357 481 l 1,13,-1
  162 233 l 1,11,-1
 EndSplineSet
-Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" four.propold
 EndChar
 
@@ -4007,7 +2081,6 @@ SplineSet
  233 541 l 1,26,-1
  219 395 l 1,0,1
 EndSplineSet
-Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" five.propold
 EndChar
 
@@ -4039,16 +2112,15 @@ SplineSet
  546.98 557.431 546.98 557.431 551 471 c 1,33,-1
  425 471 l 1,0,1
 242.5 272.5 m 128,-1,35
- 210 244 210 244 210 197 c 256,36,37
- 210 150 210 150 242.5 122.5 c 128,-1,38
- 275 95 275 95 322.5 95 c 128,-1,39
- 370 95 370 95 403 122.5 c 128,-1,40
- 436 150 436 150 436 197 c 0,41,42
- 436 244.323 436 244.323 402.5 273.5 c 0,43,44
+ 210 244 210 244 210 197 c 128,-1,36
+ 210 150 210 150 242.5 122.5 c 128,-1,37
+ 275 95 275 95 322.5 95 c 128,-1,38
+ 370 95 370 95 403 122.5 c 128,-1,39
+ 436 150 436 150 436 197 c 0,40,41
+ 436 244.323 436 244.323 402.5 273.5 c 0,42,43
  370.926 301 370.926 301 322.963 301 c 128,-1,34
  275 301 275 301 242.5 272.5 c 128,-1,35
 EndSplineSet
-Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" six.propold
 EndChar
 
@@ -4056,43 +2128,6 @@ StartChar: seven
 Encoding: 55 55 80
 Width: 498
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 4
-MDRP[rp0,min,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4105,7 +2140,6 @@ SplineSet
  24 649 l 1,6,-1
  480 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" seven.propold
 EndChar
 
@@ -4154,7 +2188,6 @@ SplineSet
  193 512.571 193 512.571 193 475.192 c 128,-1,51
  193 437.812 193 437.812 259 411 c 1,40,-1
 EndSplineSet
-Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" eight.propold
 EndChar
 
@@ -4194,7 +2227,6 @@ SplineSet
  335.926 554 335.926 554 287.963 554 c 128,-1,31
  240 554 240 554 207.5 526.5 c 128,-1,32
 EndSplineSet
-Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" nine.propold
 EndChar
 
@@ -4205,22 +2237,21 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-285 583 m 256,0,1
+285 583 m 128,-1,1
  391.24 583 391.24 583 455.5 506.5 c 0,2,3
- 522 427.333 522 427.333 522 285 c 256,4,5
+ 522 427.333 522 427.333 522 285 c 0,4,5
  522 143.222 522 143.222 455.5 63 c 0,6,7
- 391.671 -14 391.671 -14 285 -14 c 256,8,9
- 178.329 -14 178.329 -14 114.5 63 c 0,10,11
- 47 144.429 47 144.429 47 285 c 256,12,13
- 47 426.143 47 426.143 114.5 506.5 c 0,14,15
- 178.76 583 178.76 583 285 583 c 256,0,1
-405 285 m 128,-1,17
- 405 477 405 477 285 477 c 256,18,19
- 166 477 166 477 166 285 c 128,-1,20
- 166 93 166 93 285.5 93 c 128,-1,16
- 405 93 405 93 405 285 c 128,-1,17
+ 391.671 -14 391.671 -14 285 -14 c 128,-1,8
+ 178.329 -14 178.329 -14 114.5 63 c 0,9,10
+ 47 144.429 47 144.429 47 285 c 0,11,12
+ 47 426.143 47 426.143 114.5 506.5 c 0,13,0
+ 178.76 583 178.76 583 285 583 c 128,-1,1
+405 285 m 128,-1,15
+ 405 477 405 477 285 477 c 0,16,17
+ 166 477 166 477 166 285 c 128,-1,18
+ 166 93 166 93 285.5 93 c 128,-1,14
+ 405 93 405 93 405 285 c 128,-1,15
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: one.propold
@@ -4239,7 +2270,6 @@ SplineSet
  97.25 406.125 97.25 406.125 42 404 c 1,8,-1
  42 518 l 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: two.propold
@@ -4274,7 +2304,6 @@ SplineSet
  411 436 411 436 385 458 c 128,-1,31
  359 480 359 480 313 480 c 0,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: three.propold
@@ -4316,69 +2345,12 @@ SplineSet
  410 556 410 556 439.5 532.5 c 0,38,39
  501 483.508 501 483.508 501 407 c 0,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: four.propold
 Encoding: 65543 -1 87
 Width: 596
 Flags: W
-TtInstrs:
-PUSHW_3
- 1
- 12
- 3
-CALL
-PUSHW_1
- 12
-SRP0
-PUSHW_1
- 2
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 1
-SRP0
-PUSHW_1
- 4
-MDRP[rp0,grey]
-PUSHW_1
- 12
-SRP0
-PUSHW_1
- 6
-MDRP[rp0,grey]
-PUSHW_1
- 6
-MDAP[rnd]
-PUSHW_1
- 1
-SRP0
-PUSHW_1
- 15
-MDRP[rp0,min,rnd,grey]
-SVTCA[y-axis]
-PUSHW_1
- 0
-MDAP[rnd]
-PUSHW_3
- 12
- 6
- 3
-CALL
-PUSHW_3
- 2
- 3
- 3
-CALL
-PUSHW_1
- 3
-SRP0
-PUSHW_1
- 7
-MDRP[rp0,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4399,7 +2371,6 @@ SplineSet
  353 401 l 1,13,-1
  148 138 l 1,11,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: five.propold
@@ -4432,7 +2403,6 @@ SplineSet
  122 581 l 1,29,-1
  503 581 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: six.propold
@@ -4463,35 +2433,21 @@ SplineSet
  546.98 557.431 546.98 557.431 551 471 c 1,33,-1
  425 471 l 1,0,1
 242.5 272.5 m 128,-1,35
- 210 244 210 244 210 197 c 256,36,37
- 210 150 210 150 242.5 122.5 c 128,-1,38
- 275 95 275 95 322.5 95 c 128,-1,39
- 370 95 370 95 403 122.5 c 128,-1,40
- 436 150 436 150 436 197 c 0,41,42
- 436 244.323 436 244.323 402.5 273.5 c 0,43,44
+ 210 244 210 244 210 197 c 128,-1,36
+ 210 150 210 150 242.5 122.5 c 128,-1,37
+ 275 95 275 95 322.5 95 c 128,-1,38
+ 370 95 370 95 403 122.5 c 128,-1,39
+ 436 150 436 150 436 197 c 0,40,41
+ 436 244.323 436 244.323 402.5 273.5 c 0,42,43
  370.926 301 370.926 301 322.963 301 c 128,-1,34
  275 301 275 301 242.5 272.5 c 128,-1,35
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: seven.propold
 Encoding: 65546 -1 90
 Width: 498
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 2
-MDAP[rnd]
-PUSHW_3
- 0
- 4
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4504,7 +2460,6 @@ SplineSet
  24 583 l 1,6,-1
  480 583 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eight.propold
@@ -4552,7 +2507,6 @@ SplineSet
  193 512.571 193 512.571 193 475.192 c 128,-1,51
  193 437.812 193 437.812 259 411 c 1,40,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: nine.propold
@@ -4582,17 +2536,16 @@ SplineSet
  53 281.241 53 281.241 53 371 c 0,29,30
  53 464.29 53 464.29 118 523 c 0,31,32
  184.429 583 184.429 583 295.5 583 c 0,0,1
-287 480 m 256,33,34
+287 480 m 128,-1,34
  234 480 234 480 204.5 449 c 128,-1,35
  175 418 175 418 175 370 c 128,-1,36
  175 322 175 322 205 291 c 128,-1,37
- 235 260 235 260 288 260 c 256,38,39
- 341 260 341 260 371 292 c 128,-1,40
- 401 324 401 324 401 371 c 256,41,42
- 401 418 401 418 370.5 449 c 128,-1,43
- 340 480 340 480 287 480 c 256,33,34
+ 235 260 235 260 288 260 c 128,-1,38
+ 341 260 341 260 371 292 c 128,-1,39
+ 401 324 401 324 401 371 c 128,-1,40
+ 401 418 401 418 370.5 449 c 128,-1,33
+ 340 480 340 480 287 480 c 128,-1,34
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dollar
@@ -4645,7 +2598,6 @@ SplineSet
  303 559 l 1,50,44
  255 553 255 553 230.5 532 c 128,-1,45
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: question
@@ -4680,14 +2632,13 @@ SplineSet
 177.5 121 m 128,-1,27
  200 143 200 143 236.5 143 c 128,-1,28
  273 143 273 143 297 121 c 128,-1,29
- 321 99 321 99 321 65 c 256,30,31
- 321 31 321 31 297 8.5 c 128,-1,32
- 273 -14 273 -14 236.5 -14 c 128,-1,33
- 200 -14 200 -14 177.5 8.5 c 128,-1,34
- 155 31 155 31 155 65 c 256,35,26
+ 321 99 321 99 321 65 c 128,-1,30
+ 321 31 321 31 297 8.5 c 128,-1,31
+ 273 -14 273 -14 236.5 -14 c 128,-1,32
+ 200 -14 200 -14 177.5 8.5 c 128,-1,33
+ 155 31 155 31 155 65 c 128,-1,26
  155 99 155 99 177.5 121 c 128,-1,27
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: sterling
@@ -4729,34 +2680,12 @@ SplineSet
  22 0 l 1,37,-1
  22 107 l 1,0,-1
 EndSplineSet
-Validated: 33
 EndChar
 
 StartChar: grave
 Encoding: 96 96 96
 Width: 356
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 10
-MIAP[no-rnd]
-EIF
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4766,34 +2695,12 @@ SplineSet
  24 798 l 1,3,-1
  66 900 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: acute
 Encoding: 180 180 97
 Width: 356
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 3
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 1
-MDAP[rnd]
-ELSE
-PUSHW_2
- 1
- 10
-MIAP[no-rnd]
-EIF
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -4803,7 +2710,6 @@ SplineSet
  290 900 l 1,3,-1
  332 798 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: agrave
@@ -4846,7 +2752,6 @@ SplineSet
  322 76 322 76 353.5 108.5 c 128,-1,39
  385 141 385 141 387 190 c 1,31,32
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: egrave
@@ -4884,7 +2789,6 @@ SplineSet
  372 367.703 372 367.703 321.5 395 c 0,35,36
  303 405 303 405 276 405 c 0,29,30
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ograve
@@ -4909,75 +2813,22 @@ SplineSet
  234 397 234 397 200 358.5 c 128,-1,20
  166 320 166 320 166 243 c 128,-1,21
  166 166 166 166 196.5 127.5 c 128,-1,22
- 227 89 227 89 280 89 c 256,23,24
- 333 89 333 89 367 127.5 c 128,-1,25
+ 227 89 227 89 280 89 c 128,-1,23
+ 333 89 333 89 367 127.5 c 128,-1,24
  401 166 401 166 401 243 c 128,-1,17
  401 320 401 320 371 358.5 c 128,-1,18
-172 764 m 1,26,-1
- 439 632 l 1,27,-1
- 409 558 l 1,28,-1
- 130 662 l 1,29,-1
- 172 764 l 1,26,-1
+172 764 m 1,25,-1
+ 439 632 l 1,26,-1
+ 409 558 l 1,27,-1
+ 130 662 l 1,28,-1
+ 172 764 l 1,25,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Agrave
 Encoding: 192 192 101
 Width: 626
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 8
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 6
-MDAP[rnd]
-ELSE
-PUSHW_2
- 6
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 13
- 4
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5000,75 +2851,12 @@ SplineSet
  315 508 l 1,14,-1
  223 229 l 1,12,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Egrave
 Encoding: 200 200 102
 Width: 588
 Flags: W
-TtInstrs:
-PUSHW_3
- 3
- 0
- 3
-CALL
-PUSHW_1
- 3
-SRP0
-PUSHW_1
- 7
-MDRP[rp0,grey]
-SVTCA[y-axis]
-PUSHW_1
- 12
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 10
-MDAP[rnd]
-ELSE
-PUSHW_2
- 10
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 5
- 6
- 3
-CALL
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 2
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 10
-SRP0
-PUSHW_1
- 8
-MDRP[rp0,min,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5091,7 +2879,6 @@ SplineSet
  148 798 l 1,15,-1
  190 900 l 1,12,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ugrave
@@ -5124,7 +2911,6 @@ SplineSet
  159 682 l 1,24,-1
  201 784 l 1,21,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: aacute
@@ -5167,7 +2953,6 @@ SplineSet
  322 76 322 76 353.5 108.5 c 128,-1,39
  385 141 385 141 387 190 c 1,31,32
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: eacute
@@ -5177,7 +2962,6 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 93 -135 2
 Refer: 16 101 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uacute
@@ -5187,65 +2971,12 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 135.5 -135 2
 Refer: 32 117 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Aacute
 Encoding: 193 193 107
 Width: 626
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 11
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 6
-MDAP[rnd]
-ELSE
-PUSHW_2
- 6
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 13
- 4
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5268,7 +2999,6 @@ SplineSet
  315 508 l 1,14,-1
  223 229 l 1,12,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Eacute
@@ -5278,52 +3008,12 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 148 28 2
 Refer: 42 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Igrave
 Encoding: 204 204 109
 Width: 304
 Flags: W
-TtInstrs:
-PUSHW_3
- 1
- 0
- 3
-CALL
-SVTCA[y-axis]
-PUSHW_1
- 4
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5338,7 +3028,6 @@ SplineSet
  -1 798 l 1,7,-1
  41 900 l 1,4,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Iacute
@@ -5348,7 +3037,6 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 -16 28 2
 Refer: 46 73 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ograve
@@ -5383,7 +3071,6 @@ SplineSet
  186 798 l 1,28,-1
  228 900 l 1,25,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Oacute
@@ -5393,153 +3080,36 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 168.5 28 2
 Refer: 52 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ugrave
 Encoding: 217 217 113
 Width: 690
 Flags: W
-TtInstrs:
-PUSHW_1
- 22
-MDAP[rnd]
-PUSHW_1
- 7
-MDAP[rnd]
-PUSHW_1
- 22
-SRP0
-PUSHW_1
- 16
-MDRP[rp0,grey]
-PUSHW_1
- 16
-MDAP[rnd]
-PUSHW_1
- 1
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 7
-SRP0
-PUSHW_1
- 10
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 23
-MDRP[rp0,min,rnd,grey]
-SVTCA[y-axis]
-PUSHW_1
- 18
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 8
-MDAP[rnd]
-ELSE
-PUSHW_2
- 8
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 13
-MDAP[rnd]
-ELSE
-PUSHW_2
- 13
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 4
-MDRP[rp0,min,rnd,grey]
-NPUSHW
- 27
- 7
- 4
- 23
- 4
- 39
- 4
- 55
- 4
- 71
- 4
- 87
- 4
- 103
- 4
- 119
- 4
- 135
- 4
- 151
- 4
- 167
- 4
- 183
- 4
- 199
- 4
- 13
-DELTAP1
-NPUSHW
- 5
- 214
- 4
- 230
- 4
- 2
-DELTAP1
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
 201 649 m 1,0,-1
  201 245 l 2,1,2
  201 165 201 165 241.5 130 c 128,-1,3
- 282 95 282 95 346 95 c 256,4,5
- 410 95 410 95 450.5 130 c 128,-1,6
- 491 165 491 165 491 245 c 2,7,-1
- 491 649 l 1,8,-1
- 609 649 l 1,9,-1
- 609 245 l 2,10,11
- 609 121 609 121 540 53.5 c 128,-1,12
- 471 -14 471 -14 346 -14 c 256,13,14
- 221 -14 221 -14 152 53.5 c 128,-1,15
- 83 121 83 121 83 245 c 2,16,-1
- 83 649 l 1,17,-1
+ 282 95 282 95 346 95 c 128,-1,4
+ 410 95 410 95 450.5 130 c 128,-1,5
+ 491 165 491 165 491 245 c 2,6,-1
+ 491 649 l 1,7,-1
+ 609 649 l 1,8,-1
+ 609 245 l 2,9,10
+ 609 121 609 121 540 53.5 c 128,-1,11
+ 471 -14 471 -14 346 -14 c 128,-1,12
+ 221 -14 221 -14 152 53.5 c 128,-1,13
+ 83 121 83 121 83 245 c 2,14,-1
+ 83 649 l 1,15,-1
  201 649 l 1,0,-1
-233 900 m 1,18,-1
- 500 768 l 1,19,-1
- 470 694 l 1,20,-1
- 191 798 l 1,21,-1
- 233 900 l 1,18,-1
+233 900 m 1,16,-1
+ 500 768 l 1,17,-1
+ 470 694 l 1,18,-1
+ 191 798 l 1,19,-1
+ 233 900 l 1,16,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Uacute
@@ -5549,47 +3119,12 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 181 28 2
 Refer: 58 85 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: circumflex
 Encoding: 710 710 115
 Width: 465
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 5
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 1
-MDAP[rnd]
-ELSE
-PUSHW_2
- 1
- 10
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 3
-MDAP[rnd]
-ELSE
-PUSHW_2
- 3
- 10
-MIAP[no-rnd]
-EIF
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5601,7 +3136,6 @@ SplineSet
  233 913 l 1,5,-1
  441 752 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: acircumflex
@@ -5646,7 +3180,6 @@ SplineSet
  322 76 322 76 353.5 108.5 c 128,-1,41
  385 141 385 141 387 190 c 1,33,34
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ecircumflex
@@ -5686,7 +3219,6 @@ SplineSet
  379 367.703 379 367.703 328.5 395 c 0,37,38
  310 405 310 405 283 405 c 0,31,32
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ocircumflex
@@ -5711,19 +3243,18 @@ SplineSet
  234 397 234 397 200 358.5 c 128,-1,20
  166 320 166 320 166 243 c 128,-1,21
  166 166 166 166 196.5 127.5 c 128,-1,22
- 227 89 227 89 280 89 c 256,23,24
- 333 89 333 89 367 127.5 c 128,-1,25
+ 227 89 227 89 280 89 c 128,-1,23
+ 333 89 333 89 367 127.5 c 128,-1,24
  401 166 401 166 401 243 c 128,-1,17
  401 320 401 320 371 358.5 c 128,-1,18
-492 616 m 1,26,-1
- 417 557 l 1,27,-1
- 284 658 l 1,28,-1
- 150 557 l 1,29,-1
- 75 616 l 1,30,-1
- 284 777 l 1,31,-1
- 492 616 l 1,26,-1
+492 616 m 1,25,-1
+ 417 557 l 1,26,-1
+ 284 658 l 1,27,-1
+ 150 557 l 1,28,-1
+ 75 616 l 1,29,-1
+ 284 777 l 1,30,-1
+ 492 616 l 1,25,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ucircumflex
@@ -5758,65 +3289,12 @@ SplineSet
  313 797 l 1,26,-1
  521 636 l 1,21,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Acircumflex
 Encoding: 194 194 120
 Width: 626
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 13
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 6
-MDAP[rnd]
-ELSE
-PUSHW_2
- 6
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 15
- 4
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5841,75 +3319,12 @@ SplineSet
  315 508 l 1,16,-1
  223 229 l 1,14,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Ecircumflex
 Encoding: 202 202 121
 Width: 588
 Flags: W
-TtInstrs:
-PUSHW_3
- 3
- 0
- 3
-CALL
-PUSHW_1
- 3
-SRP0
-PUSHW_1
- 7
-MDRP[rp0,grey]
-SVTCA[y-axis]
-PUSHW_1
- 17
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 10
-MDAP[rnd]
-ELSE
-PUSHW_2
- 10
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 5
- 6
- 3
-CALL
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 2
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 10
-SRP0
-PUSHW_1
- 8
-MDRP[rp0,min,rnd,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5934,52 +3349,12 @@ SplineSet
  312 913 l 1,17,-1
  520 752 l 1,12,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Icircumflex
 Encoding: 206 206 122
 Width: 304
 Flags: W
-TtInstrs:
-PUSHW_3
- 1
- 0
- 3
-CALL
-SVTCA[y-axis]
-PUSHW_1
- 9
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -5996,7 +3371,6 @@ SplineSet
  153 913 l 1,9,-1
  361 752 l 1,4,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Ocircumflex
@@ -6033,155 +3407,38 @@ SplineSet
  341 913 l 1,30,-1
  549 752 l 1,25,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Ucircumflex
 Encoding: 219 219 124
 Width: 690
 Flags: W
-TtInstrs:
-PUSHW_1
- 24
-MDAP[rnd]
-PUSHW_1
- 7
-MDAP[rnd]
-PUSHW_1
- 24
-SRP0
-PUSHW_1
- 16
-MDRP[rp0,grey]
-PUSHW_1
- 16
-MDAP[rnd]
-PUSHW_1
- 1
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 7
-SRP0
-PUSHW_1
- 10
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 25
-MDRP[rp0,min,rnd,grey]
-SVTCA[y-axis]
-PUSHW_1
- 23
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 8
-MDAP[rnd]
-ELSE
-PUSHW_2
- 8
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 13
-MDAP[rnd]
-ELSE
-PUSHW_2
- 13
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 4
-MDRP[rp0,min,rnd,grey]
-NPUSHW
- 27
- 7
- 4
- 23
- 4
- 39
- 4
- 55
- 4
- 71
- 4
- 87
- 4
- 103
- 4
- 119
- 4
- 135
- 4
- 151
- 4
- 167
- 4
- 183
- 4
- 199
- 4
- 13
-DELTAP1
-NPUSHW
- 5
- 214
- 4
- 230
- 4
- 2
-DELTAP1
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
 201 649 m 1,0,-1
  201 245 l 2,1,2
  201 165 201 165 241.5 130 c 128,-1,3
- 282 95 282 95 346 95 c 256,4,5
- 410 95 410 95 450.5 130 c 128,-1,6
- 491 165 491 165 491 245 c 2,7,-1
- 491 649 l 1,8,-1
- 609 649 l 1,9,-1
- 609 245 l 2,10,11
- 609 121 609 121 540 53.5 c 128,-1,12
- 471 -14 471 -14 346 -14 c 256,13,14
- 221 -14 221 -14 152 53.5 c 128,-1,15
- 83 121 83 121 83 245 c 2,16,-1
- 83 649 l 1,17,-1
+ 282 95 282 95 346 95 c 128,-1,4
+ 410 95 410 95 450.5 130 c 128,-1,5
+ 491 165 491 165 491 245 c 2,6,-1
+ 491 649 l 1,7,-1
+ 609 649 l 1,8,-1
+ 609 245 l 2,9,10
+ 609 121 609 121 540 53.5 c 128,-1,11
+ 471 -14 471 -14 346 -14 c 128,-1,12
+ 221 -14 221 -14 152 53.5 c 128,-1,13
+ 83 121 83 121 83 245 c 2,14,-1
+ 83 649 l 1,15,-1
  201 649 l 1,0,-1
-554 752 m 1,18,-1
- 479 693 l 1,19,-1
- 346 794 l 1,20,-1
- 212 693 l 1,21,-1
- 137 752 l 1,22,-1
- 346 913 l 1,23,-1
- 554 752 l 1,18,-1
+554 752 m 1,16,-1
+ 479 693 l 1,17,-1
+ 346 794 l 1,18,-1
+ 212 693 l 1,19,-1
+ 137 752 l 1,20,-1
+ 346 913 l 1,21,-1
+ 554 752 l 1,16,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: tilde
@@ -6207,7 +3464,6 @@ SplineSet
  229 850 229 850 241.5 844 c 128,-1,20
  254 838 254 838 266 838 c 0,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ampersand
@@ -6260,7 +3516,6 @@ SplineSet
  387 379 l 1,57,48
  441 402 441 402 465.5 428 c 128,-1,49
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: at
@@ -6277,53 +3532,52 @@ SplineSet
  488 328 488 328 469 307.5 c 0,5,6
  425 260.026 425 260.026 425 194 c 0,7,8
  425 149 425 149 448.5 125.5 c 128,-1,9
- 472 102 472 102 507 102 c 256,10,11
- 542 102 542 102 565.5 121.5 c 128,-1,12
- 589 141 589 141 609 180 c 1,13,-1
+ 472 102 472 102 507 102 c 128,-1,10
+ 542 102 542 102 565.5 121.5 c 128,-1,11
+ 589 141 589 141 609 180 c 1,12,-1
  609 280 l 2,0,1
-704 150 m 2,14,15
- 704 99 704 99 739 99 c 0,16,17
- 755 99 755 99 775.5 109.5 c 128,-1,18
- 796 120 796 120 814 143.5 c 0,19,20
- 857 199.639 857 199.639 857 293 c 0,21,22
- 857 409.079 857 409.079 780 480 c 0,23,24
- 697.486 556 697.486 556 560 556 c 0,25,26
- 394.688 556 394.688 556 289.5 454 c 0,27,28
- 186 353.636 186 353.636 186 202 c 0,29,30
- 186 55.3673 186 55.3673 285 -30.5 c 0,31,32
- 389.341 -121 389.341 -121 569 -121 c 1,33,-1
- 569 -218 l 1,34,35
- 455 -218 455 -218 362.5 -184.5 c 128,-1,36
- 270 -151 270 -151 204 -93.5 c 128,-1,37
- 138 -36 138 -36 102.5 42 c 128,-1,38
- 67 120 67 120 67 215.5 c 128,-1,39
- 67 311 67 311 104 394.5 c 128,-1,40
- 141 478 141 478 207 537.5 c 128,-1,41
- 273 597 273 597 363.5 629.5 c 128,-1,42
- 454 662 454 662 553.5 662 c 128,-1,43
- 653 662 653 662 730 633.5 c 128,-1,44
- 807 605 807 605 861.5 555 c 128,-1,45
- 916 505 916 505 946 437.5 c 128,-1,46
- 976 370 976 370 976 297 c 128,-1,47
- 976 224 976 224 955 170.5 c 128,-1,48
- 934 117 934 117 900.5 80.5 c 128,-1,49
- 867 44 867 44 823.5 25 c 128,-1,50
- 780 6 780 6 733.5 6 c 128,-1,51
- 687 6 687 6 657 23.5 c 128,-1,52
- 627 41 627 41 618 73 c 1,53,-1
- 612 89 l 1,54,55
- 592 51 592 51 563.5 28.5 c 128,-1,56
- 535 6 535 6 493 6 c 128,-1,57
- 451 6 451 6 421.5 20 c 128,-1,58
- 392 34 392 34 369 58.5 c 0,59,60
- 318 112.826 318 112.826 318 192 c 0,61,62
- 318 295.409 318 295.409 390 368.5 c 0,63,64
- 460.433 440 460.433 440 559 440 c 0,65,66
- 625 440 625 440 664.5 400.5 c 128,-1,67
- 704 361 704 361 704 281 c 2,68,-1
- 704 150 l 2,14,15
+704 150 m 2,13,14
+ 704 99 704 99 739 99 c 0,15,16
+ 755 99 755 99 775.5 109.5 c 128,-1,17
+ 796 120 796 120 814 143.5 c 0,18,19
+ 857 199.639 857 199.639 857 293 c 0,20,21
+ 857 409.079 857 409.079 780 480 c 0,22,23
+ 697.486 556 697.486 556 560 556 c 0,24,25
+ 394.688 556 394.688 556 289.5 454 c 0,26,27
+ 186 353.636 186 353.636 186 202 c 0,28,29
+ 186 55.3673 186 55.3673 285 -30.5 c 0,30,31
+ 389.341 -121 389.341 -121 569 -121 c 1,32,-1
+ 569 -218 l 1,33,34
+ 455 -218 455 -218 362.5 -184.5 c 128,-1,35
+ 270 -151 270 -151 204 -93.5 c 128,-1,36
+ 138 -36 138 -36 102.5 42 c 128,-1,37
+ 67 120 67 120 67 215.5 c 128,-1,38
+ 67 311 67 311 104 394.5 c 128,-1,39
+ 141 478 141 478 207 537.5 c 128,-1,40
+ 273 597 273 597 363.5 629.5 c 128,-1,41
+ 454 662 454 662 553.5 662 c 128,-1,42
+ 653 662 653 662 730 633.5 c 128,-1,43
+ 807 605 807 605 861.5 555 c 128,-1,44
+ 916 505 916 505 946 437.5 c 128,-1,45
+ 976 370 976 370 976 297 c 128,-1,46
+ 976 224 976 224 955 170.5 c 128,-1,47
+ 934 117 934 117 900.5 80.5 c 128,-1,48
+ 867 44 867 44 823.5 25 c 128,-1,49
+ 780 6 780 6 733.5 6 c 128,-1,50
+ 687 6 687 6 657 23.5 c 128,-1,51
+ 627 41 627 41 618 73 c 1,52,-1
+ 612 89 l 1,53,54
+ 592 51 592 51 563.5 28.5 c 128,-1,55
+ 535 6 535 6 493 6 c 128,-1,56
+ 451 6 451 6 421.5 20 c 128,-1,57
+ 392 34 392 34 369 58.5 c 0,58,59
+ 318 112.826 318 112.826 318 192 c 0,60,61
+ 318 295.409 318 295.409 390 368.5 c 0,62,63
+ 460.433 440 460.433 440 559 440 c 0,64,65
+ 625 440 625 440 664.5 400.5 c 128,-1,66
+ 704 361 704 361 704 281 c 2,67,-1
+ 704 150 l 2,13,14
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dieresis
@@ -6336,23 +3590,22 @@ SplineSet
 43.5 788.5 m 128,-1,1
  24 807 24 807 24 835.5 c 128,-1,2
  24 864 24 864 43.5 883 c 128,-1,3
- 63 902 63 902 94 902 c 256,4,5
- 125 902 125 902 145 883 c 128,-1,6
- 165 864 165 864 165 835.5 c 128,-1,7
- 165 807 165 807 145 788.5 c 128,-1,8
- 125 770 125 770 94 770 c 256,9,0
+ 63 902 63 902 94 902 c 128,-1,4
+ 125 902 125 902 145 883 c 128,-1,5
+ 165 864 165 864 165 835.5 c 128,-1,6
+ 165 807 165 807 145 788.5 c 128,-1,7
+ 125 770 125 770 94 770 c 128,-1,0
  63 770 63 770 43.5 788.5 c 128,-1,1
-217 836 m 256,10,11
- 217 865 217 865 237 884 c 128,-1,12
- 257 903 257 903 287.5 903 c 128,-1,13
- 318 903 318 903 338 884 c 128,-1,14
- 358 865 358 865 358 836 c 256,15,16
- 358 807 358 807 338 789 c 128,-1,17
- 318 771 318 771 287.5 771 c 128,-1,18
- 257 771 257 771 237 789 c 128,-1,19
- 217 807 217 807 217 836 c 256,10,11
+217 836 m 128,-1,9
+ 217 865 217 865 237 884 c 128,-1,10
+ 257 903 257 903 287.5 903 c 128,-1,11
+ 318 903 318 903 338 884 c 128,-1,12
+ 358 865 358 865 358 836 c 128,-1,13
+ 358 807 358 807 338 789 c 128,-1,14
+ 318 771 318 771 287.5 771 c 128,-1,15
+ 257 771 257 771 237 789 c 128,-1,8
+ 217 807 217 807 217 836 c 128,-1,9
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: adieresis
@@ -6392,23 +3645,22 @@ SplineSet
 150.5 631.5 m 128,-1,37
  131 650 131 650 131 678.5 c 128,-1,38
  131 707 131 707 150.5 726 c 128,-1,39
- 170 745 170 745 201 745 c 256,40,41
- 232 745 232 745 252 726 c 128,-1,42
- 272 707 272 707 272 678.5 c 128,-1,43
- 272 650 272 650 252 631.5 c 128,-1,44
- 232 613 232 613 201 613 c 256,45,36
+ 170 745 170 745 201 745 c 128,-1,40
+ 232 745 232 745 252 726 c 128,-1,41
+ 272 707 272 707 272 678.5 c 128,-1,42
+ 272 650 272 650 252 631.5 c 128,-1,43
+ 232 613 232 613 201 613 c 128,-1,36
  170 613 170 613 150.5 631.5 c 128,-1,37
-324 679 m 256,46,47
- 324 708 324 708 344 727 c 128,-1,48
- 364 746 364 746 394.5 746 c 128,-1,49
- 425 746 425 746 445 727 c 128,-1,50
- 465 708 465 708 465 679 c 256,51,52
- 465 650 465 650 445 632 c 128,-1,53
- 425 614 425 614 394.5 614 c 128,-1,54
- 364 614 364 614 344 632 c 128,-1,55
- 324 650 324 650 324 679 c 256,46,47
+324 679 m 128,-1,45
+ 324 708 324 708 344 727 c 128,-1,46
+ 364 746 364 746 394.5 746 c 128,-1,47
+ 425 746 425 746 445 727 c 128,-1,48
+ 465 708 465 708 465 679 c 128,-1,49
+ 465 650 465 650 445 632 c 128,-1,50
+ 425 614 425 614 394.5 614 c 128,-1,51
+ 364 614 364 614 344 632 c 128,-1,44
+ 324 650 324 650 324 679 c 128,-1,45
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: edieresis
@@ -6443,23 +3695,22 @@ SplineSet
 118.5 631.5 m 128,-1,34
  99 650 99 650 99 678.5 c 128,-1,35
  99 707 99 707 118.5 726 c 128,-1,36
- 138 745 138 745 169 745 c 256,37,38
- 200 745 200 745 220 726 c 128,-1,39
- 240 707 240 707 240 678.5 c 128,-1,40
- 240 650 240 650 220 631.5 c 128,-1,41
- 200 613 200 613 169 613 c 256,42,33
+ 138 745 138 745 169 745 c 128,-1,37
+ 200 745 200 745 220 726 c 128,-1,38
+ 240 707 240 707 240 678.5 c 128,-1,39
+ 240 650 240 650 220 631.5 c 128,-1,40
+ 200 613 200 613 169 613 c 128,-1,33
  138 613 138 613 118.5 631.5 c 128,-1,34
-292 679 m 256,43,44
- 292 708 292 708 312 727 c 128,-1,45
- 332 746 332 746 362.5 746 c 128,-1,46
- 393 746 393 746 413 727 c 128,-1,47
- 433 708 433 708 433 679 c 256,48,49
- 433 650 433 650 413 632 c 128,-1,50
- 393 614 393 614 362.5 614 c 128,-1,51
- 332 614 332 614 312 632 c 128,-1,52
- 292 650 292 650 292 679 c 256,43,44
+292 679 m 128,-1,42
+ 292 708 292 708 312 727 c 128,-1,43
+ 332 746 332 746 362.5 746 c 128,-1,44
+ 393 746 393 746 413 727 c 128,-1,45
+ 433 708 433 708 433 679 c 128,-1,46
+ 433 650 433 650 413 632 c 128,-1,47
+ 393 614 393 614 362.5 614 c 128,-1,48
+ 332 614 332 614 312 632 c 128,-1,41
+ 292 650 292 650 292 679 c 128,-1,42
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: odieresis
@@ -6484,30 +3735,29 @@ SplineSet
  234 397 234 397 200 358.5 c 128,-1,20
  166 320 166 320 166 243 c 128,-1,21
  166 166 166 166 196.5 127.5 c 128,-1,22
- 227 89 227 89 280 89 c 256,23,24
- 333 89 333 89 367 127.5 c 128,-1,25
+ 227 89 227 89 280 89 c 128,-1,23
+ 333 89 333 89 367 127.5 c 128,-1,24
  401 166 401 166 401 243 c 128,-1,17
  401 320 401 320 371 358.5 c 128,-1,18
-136.5 631.5 m 128,-1,27
- 117 650 117 650 117 678.5 c 128,-1,28
- 117 707 117 707 136.5 726 c 128,-1,29
- 156 745 156 745 187 745 c 256,30,31
- 218 745 218 745 238 726 c 128,-1,32
- 258 707 258 707 258 678.5 c 128,-1,33
- 258 650 258 650 238 631.5 c 128,-1,34
- 218 613 218 613 187 613 c 256,35,26
- 156 613 156 613 136.5 631.5 c 128,-1,27
-310 679 m 256,36,37
- 310 708 310 708 330 727 c 128,-1,38
- 350 746 350 746 380.5 746 c 128,-1,39
- 411 746 411 746 431 727 c 128,-1,40
- 451 708 451 708 451 679 c 256,41,42
- 451 650 451 650 431 632 c 128,-1,43
- 411 614 411 614 380.5 614 c 128,-1,44
- 350 614 350 614 330 632 c 128,-1,45
- 310 650 310 650 310 679 c 256,36,37
+136.5 631.5 m 128,-1,26
+ 117 650 117 650 117 678.5 c 128,-1,27
+ 117 707 117 707 136.5 726 c 128,-1,28
+ 156 745 156 745 187 745 c 128,-1,29
+ 218 745 218 745 238 726 c 128,-1,30
+ 258 707 258 707 258 678.5 c 128,-1,31
+ 258 650 258 650 238 631.5 c 128,-1,32
+ 218 613 218 613 187 613 c 128,-1,25
+ 156 613 156 613 136.5 631.5 c 128,-1,26
+310 679 m 128,-1,34
+ 310 708 310 708 330 727 c 128,-1,35
+ 350 746 350 746 380.5 746 c 128,-1,36
+ 411 746 411 746 431 727 c 128,-1,37
+ 451 708 451 708 451 679 c 128,-1,38
+ 451 650 451 650 431 632 c 128,-1,39
+ 411 614 411 614 380.5 614 c 128,-1,40
+ 350 614 350 614 330 632 c 128,-1,33
+ 310 650 310 650 310 679 c 128,-1,34
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: udieresis
@@ -6537,23 +3787,22 @@ SplineSet
 165.5 631.5 m 128,-1,22
  146 650 146 650 146 678.5 c 128,-1,23
  146 707 146 707 165.5 726 c 128,-1,24
- 185 745 185 745 216 745 c 256,25,26
- 247 745 247 745 267 726 c 128,-1,27
- 287 707 287 707 287 678.5 c 128,-1,28
- 287 650 287 650 267 631.5 c 128,-1,29
- 247 613 247 613 216 613 c 256,30,21
+ 185 745 185 745 216 745 c 128,-1,25
+ 247 745 247 745 267 726 c 128,-1,26
+ 287 707 287 707 287 678.5 c 128,-1,27
+ 287 650 287 650 267 631.5 c 128,-1,28
+ 247 613 247 613 216 613 c 128,-1,21
  185 613 185 613 165.5 631.5 c 128,-1,22
-339 679 m 256,31,32
- 339 708 339 708 359 727 c 128,-1,33
- 379 746 379 746 409.5 746 c 128,-1,34
- 440 746 440 746 460 727 c 128,-1,35
- 480 708 480 708 480 679 c 256,36,37
- 480 650 480 650 460 632 c 128,-1,38
- 440 614 440 614 409.5 614 c 128,-1,39
- 379 614 379 614 359 632 c 128,-1,40
- 339 650 339 650 339 679 c 256,31,32
+339 679 m 128,-1,30
+ 339 708 339 708 359 727 c 128,-1,31
+ 379 746 379 746 409.5 746 c 128,-1,32
+ 440 746 440 746 460 727 c 128,-1,33
+ 480 708 480 708 480 679 c 128,-1,34
+ 480 650 480 650 460 632 c 128,-1,35
+ 440 614 440 614 409.5 614 c 128,-1,36
+ 379 614 379 614 359 632 c 128,-1,29
+ 339 650 339 650 339 679 c 128,-1,30
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Adieresis
@@ -6579,23 +3828,22 @@ SplineSet
 168.5 767.5 m 128,-1,12
  149 786 149 786 149 814.5 c 128,-1,13
  149 843 149 843 168.5 862 c 128,-1,14
- 188 881 188 881 219 881 c 256,15,16
- 250 881 250 881 270 862 c 128,-1,17
- 290 843 290 843 290 814.5 c 128,-1,18
- 290 786 290 786 270 767.5 c 128,-1,19
- 250 749 250 749 219 749 c 256,20,11
+ 188 881 188 881 219 881 c 128,-1,15
+ 250 881 250 881 270 862 c 128,-1,16
+ 290 843 290 843 290 814.5 c 128,-1,17
+ 290 786 290 786 270 767.5 c 128,-1,18
+ 250 749 250 749 219 749 c 128,-1,11
  188 749 188 749 168.5 767.5 c 128,-1,12
-342 815 m 256,21,22
- 342 844 342 844 362 863 c 128,-1,23
- 382 882 382 882 412.5 882 c 128,-1,24
- 443 882 443 882 463 863 c 128,-1,25
- 483 844 483 844 483 815 c 256,26,27
- 483 786 483 786 463 768 c 128,-1,28
- 443 750 443 750 412.5 750 c 128,-1,29
- 382 750 382 750 362 768 c 128,-1,30
- 342 786 342 786 342 815 c 256,21,22
+342 815 m 128,-1,20
+ 342 844 342 844 362 863 c 128,-1,21
+ 382 882 382 882 412.5 882 c 128,-1,22
+ 443 882 443 882 463 863 c 128,-1,23
+ 483 844 483 844 483 815 c 128,-1,24
+ 483 786 483 786 463 768 c 128,-1,25
+ 443 750 443 750 412.5 750 c 128,-1,26
+ 382 750 382 750 362 768 c 128,-1,19
+ 342 786 342 786 342 815 c 128,-1,20
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Edieresis
@@ -6621,23 +3869,22 @@ SplineSet
 154.5 767.5 m 128,-1,13
  135 786 135 786 135 814.5 c 128,-1,14
  135 843 135 843 154.5 862 c 128,-1,15
- 174 881 174 881 205 881 c 256,16,17
- 236 881 236 881 256 862 c 128,-1,18
- 276 843 276 843 276 814.5 c 128,-1,19
- 276 786 276 786 256 767.5 c 128,-1,20
- 236 749 236 749 205 749 c 256,21,12
+ 174 881 174 881 205 881 c 128,-1,16
+ 236 881 236 881 256 862 c 128,-1,17
+ 276 843 276 843 276 814.5 c 128,-1,18
+ 276 786 276 786 256 767.5 c 128,-1,19
+ 236 749 236 749 205 749 c 128,-1,12
  174 749 174 749 154.5 767.5 c 128,-1,13
-328 815 m 256,22,23
- 328 844 328 844 348 863 c 128,-1,24
- 368 882 368 882 398.5 882 c 128,-1,25
- 429 882 429 882 449 863 c 128,-1,26
- 469 844 469 844 469 815 c 256,27,28
- 469 786 469 786 449 768 c 128,-1,29
- 429 750 429 750 398.5 750 c 128,-1,30
- 368 750 368 750 348 768 c 128,-1,31
- 328 786 328 786 328 815 c 256,22,23
+328 815 m 128,-1,21
+ 328 844 328 844 348 863 c 128,-1,22
+ 368 882 368 882 398.5 882 c 128,-1,23
+ 429 882 429 882 449 863 c 128,-1,24
+ 469 844 469 844 469 815 c 128,-1,25
+ 469 786 469 786 449 768 c 128,-1,26
+ 429 750 429 750 398.5 750 c 128,-1,27
+ 368 750 368 750 348 768 c 128,-1,20
+ 328 786 328 786 328 815 c 128,-1,21
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Idieresis
@@ -6655,23 +3902,22 @@ SplineSet
 5.5 767.5 m 128,-1,5
  -14 786 -14 786 -14 814.5 c 128,-1,6
  -14 843 -14 843 5.5 862 c 128,-1,7
- 25 881 25 881 56 881 c 256,8,9
- 87 881 87 881 107 862 c 128,-1,10
- 127 843 127 843 127 814.5 c 128,-1,11
- 127 786 127 786 107 767.5 c 128,-1,12
- 87 749 87 749 56 749 c 256,13,4
+ 25 881 25 881 56 881 c 128,-1,8
+ 87 881 87 881 107 862 c 128,-1,9
+ 127 843 127 843 127 814.5 c 128,-1,10
+ 127 786 127 786 107 767.5 c 128,-1,11
+ 87 749 87 749 56 749 c 128,-1,4
  25 749 25 749 5.5 767.5 c 128,-1,5
-179 815 m 256,14,15
- 179 844 179 844 199 863 c 128,-1,16
- 219 882 219 882 249.5 882 c 128,-1,17
- 280 882 280 882 300 863 c 128,-1,18
- 320 844 320 844 320 815 c 256,19,20
- 320 786 320 786 300 768 c 128,-1,21
- 280 750 280 750 249.5 750 c 128,-1,22
- 219 750 219 750 199 768 c 128,-1,23
- 179 786 179 786 179 815 c 256,14,15
+179 815 m 128,-1,13
+ 179 844 179 844 199 863 c 128,-1,14
+ 219 882 219 882 249.5 882 c 128,-1,15
+ 280 882 280 882 300 863 c 128,-1,16
+ 320 844 320 844 320 815 c 128,-1,17
+ 320 786 320 786 300 768 c 128,-1,18
+ 280 750 280 750 249.5 750 c 128,-1,19
+ 219 750 219 750 199 768 c 128,-1,12
+ 179 786 179 786 179 815 c 128,-1,13
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Odieresis
@@ -6703,23 +3949,22 @@ SplineSet
 193.5 767.5 m 128,-1,26
  174 786 174 786 174 814.5 c 128,-1,27
  174 843 174 843 193.5 862 c 128,-1,28
- 213 881 213 881 244 881 c 256,29,30
- 275 881 275 881 295 862 c 128,-1,31
- 315 843 315 843 315 814.5 c 128,-1,32
- 315 786 315 786 295 767.5 c 128,-1,33
- 275 749 275 749 244 749 c 256,34,25
+ 213 881 213 881 244 881 c 128,-1,29
+ 275 881 275 881 295 862 c 128,-1,30
+ 315 843 315 843 315 814.5 c 128,-1,31
+ 315 786 315 786 295 767.5 c 128,-1,32
+ 275 749 275 749 244 749 c 128,-1,25
  213 749 213 749 193.5 767.5 c 128,-1,26
-367 815 m 256,35,36
- 367 844 367 844 387 863 c 128,-1,37
- 407 882 407 882 437.5 882 c 128,-1,38
- 468 882 468 882 488 863 c 128,-1,39
- 508 844 508 844 508 815 c 256,40,41
- 508 786 508 786 488 768 c 128,-1,42
- 468 750 468 750 437.5 750 c 128,-1,43
- 407 750 407 750 387 768 c 128,-1,44
- 367 786 367 786 367 815 c 256,35,36
+367 815 m 128,-1,34
+ 367 844 367 844 387 863 c 128,-1,35
+ 407 882 407 882 437.5 882 c 128,-1,36
+ 468 882 468 882 488 863 c 128,-1,37
+ 508 844 508 844 508 815 c 128,-1,38
+ 508 786 508 786 488 768 c 128,-1,39
+ 468 750 468 750 437.5 750 c 128,-1,40
+ 407 750 407 750 387 768 c 128,-1,33
+ 367 786 367 786 367 815 c 128,-1,34
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Udieresis
@@ -6732,80 +3977,43 @@ SplineSet
 201 649 m 1,0,-1
  201 245 l 2,1,2
  201 165 201 165 241.5 130 c 128,-1,3
- 282 95 282 95 346 95 c 256,4,5
- 410 95 410 95 450.5 130 c 128,-1,6
- 491 165 491 165 491 245 c 2,7,-1
- 491 649 l 1,8,-1
- 609 649 l 1,9,-1
- 609 245 l 2,10,11
- 609 121 609 121 540 53.5 c 128,-1,12
- 471 -14 471 -14 346 -14 c 256,13,14
- 221 -14 221 -14 152 53.5 c 128,-1,15
- 83 121 83 121 83 245 c 2,16,-1
- 83 649 l 1,17,-1
+ 282 95 282 95 346 95 c 128,-1,4
+ 410 95 410 95 450.5 130 c 128,-1,5
+ 491 165 491 165 491 245 c 2,6,-1
+ 491 649 l 1,7,-1
+ 609 649 l 1,8,-1
+ 609 245 l 2,9,10
+ 609 121 609 121 540 53.5 c 128,-1,11
+ 471 -14 471 -14 346 -14 c 128,-1,12
+ 221 -14 221 -14 152 53.5 c 128,-1,13
+ 83 121 83 121 83 245 c 2,14,-1
+ 83 649 l 1,15,-1
  201 649 l 1,0,-1
-199.5 767.5 m 128,-1,19
- 180 786 180 786 180 814.5 c 128,-1,20
- 180 843 180 843 199.5 862 c 128,-1,21
- 219 881 219 881 250 881 c 256,22,23
- 281 881 281 881 301 862 c 128,-1,24
- 321 843 321 843 321 814.5 c 128,-1,25
- 321 786 321 786 301 767.5 c 128,-1,26
- 281 749 281 749 250 749 c 256,27,18
- 219 749 219 749 199.5 767.5 c 128,-1,19
-373 815 m 256,28,29
- 373 844 373 844 393 863 c 128,-1,30
- 413 882 413 882 443.5 882 c 128,-1,31
- 474 882 474 882 494 863 c 128,-1,32
- 514 844 514 844 514 815 c 256,33,34
- 514 786 514 786 494 768 c 128,-1,35
- 474 750 474 750 443.5 750 c 128,-1,36
- 413 750 413 750 393 768 c 128,-1,37
- 373 786 373 786 373 815 c 256,28,29
+199.5 767.5 m 128,-1,17
+ 180 786 180 786 180 814.5 c 128,-1,18
+ 180 843 180 843 199.5 862 c 128,-1,19
+ 219 881 219 881 250 881 c 128,-1,20
+ 281 881 281 881 301 862 c 128,-1,21
+ 321 843 321 843 321 814.5 c 128,-1,22
+ 321 786 321 786 301 767.5 c 128,-1,23
+ 281 749 281 749 250 749 c 128,-1,16
+ 219 749 219 749 199.5 767.5 c 128,-1,17
+373 815 m 128,-1,25
+ 373 844 373 844 393 863 c 128,-1,26
+ 413 882 413 882 443.5 882 c 128,-1,27
+ 474 882 474 882 494 863 c 128,-1,28
+ 514 844 514 844 514 815 c 128,-1,29
+ 514 786 514 786 494 768 c 128,-1,30
+ 474 750 474 750 443.5 750 c 128,-1,31
+ 413 750 413 750 393 768 c 128,-1,24
+ 373 786 373 786 373 815 c 128,-1,25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: dotlessi
 Encoding: 305 305 138
 Width: 304
 Flags: W
-TtInstrs:
-PUSHW_3
- 1
- 0
- 3
-CALL
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 2
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6815,52 +4023,12 @@ SplineSet
  93 0 l 1,3,-1
  93 487 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: igrave
 Encoding: 236 236 139
 Width: 328
 Flags: W
-TtInstrs:
-PUSHW_3
- 1
- 0
- 3
-CALL
-SVTCA[y-axis]
-PUSHW_1
- 4
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 2
-MIAP[no-rnd]
-EIF
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6875,7 +4043,6 @@ SplineSet
  8 662 l 1,7,-1
  50 764 l 1,4,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: iacute
@@ -6885,52 +4052,12 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 -16 -135 2
 Refer: 138 305 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: icircumflex
 Encoding: 238 238 141
 Width: 328
 Flags: W
-TtInstrs:
-PUSHW_3
- 1
- 0
- 3
-CALL
-SVTCA[y-axis]
-PUSHW_1
- 9
-MDAP[rnd]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 2
-MDAP[rnd]
-ELSE
-PUSHW_2
- 2
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 2
-MIAP[no-rnd]
-EIF
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -6947,7 +4074,6 @@ SplineSet
  162 777 l 1,9,-1
  370 616 l 1,4,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: idieresis
@@ -6965,106 +4091,28 @@ SplineSet
 14.5 631.5 m 128,-1,5
  -5 650 -5 650 -5 678.5 c 128,-1,6
  -5 707 -5 707 14.5 726 c 128,-1,7
- 34 745 34 745 65 745 c 256,8,9
- 96 745 96 745 116 726 c 128,-1,10
- 136 707 136 707 136 678.5 c 128,-1,11
- 136 650 136 650 116 631.5 c 128,-1,12
- 96 613 96 613 65 613 c 256,13,4
+ 34 745 34 745 65 745 c 128,-1,8
+ 96 745 96 745 116 726 c 128,-1,9
+ 136 707 136 707 136 678.5 c 128,-1,10
+ 136 650 136 650 116 631.5 c 128,-1,11
+ 96 613 96 613 65 613 c 128,-1,4
  34 613 34 613 14.5 631.5 c 128,-1,5
-188 679 m 256,14,15
- 188 708 188 708 208 727 c 128,-1,16
- 228 746 228 746 258.5 746 c 128,-1,17
- 289 746 289 746 309 727 c 128,-1,18
- 329 708 329 708 329 679 c 256,19,20
- 329 650 329 650 309 632 c 128,-1,21
- 289 614 289 614 258.5 614 c 128,-1,22
- 228 614 228 614 208 632 c 128,-1,23
- 188 650 188 650 188 679 c 256,14,15
+188 679 m 128,-1,13
+ 188 708 188 708 208 727 c 128,-1,14
+ 228 746 228 746 258.5 746 c 128,-1,15
+ 289 746 289 746 309 727 c 128,-1,16
+ 329 708 329 708 329 679 c 128,-1,17
+ 329 650 329 650 309 632 c 128,-1,18
+ 289 614 289 614 258.5 614 c 128,-1,19
+ 228 614 228 614 208 632 c 128,-1,12
+ 188 650 188 650 188 679 c 128,-1,13
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: rupeesymbol
 Encoding: 8360 8360 143
 Width: 604
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 8
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 12
-MDAP[rnd]
-ELSE
-PUSHW_2
- 12
- 6
-MIAP[no-rnd]
-EIF
-PUSHW_3
- 6
- 7
- 3
-CALL
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 2
-MDRP[rp0,min,rnd,grey]
-PUSHW_3
- 11
- 12
- 0
-SRP1
-SRP2
-IP
-PUSHW_1
- 7
-SRP0
-PUSHW_1
- 19
-MDRP[rp0,grey]
-PUSHW_1
- 6
-SRP0
-PUSHW_1
- 21
-MDRP[rp0,grey]
-PUSHW_3
- 22
- 12
- 0
-SRP1
-SRP2
-IP
-PUSHW_1
- 2
-SRP0
-PUSHW_1
- 25
-MDRP[rp0,grey]
-PUSHW_1
- 26
-MDRP[rp0,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7093,31 +4141,12 @@ SplineSet
  83 583 l 1,26,-1
  83 649 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: less
 Encoding: 60 60 144
 Width: 502
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 6
-MDAP[rnd]
-PUSHW_1
- 3
-MDAP[rnd]
-PUSHW_3
- 1
- 3
- 6
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7130,31 +4159,12 @@ SplineSet
  379 617 l 1,6,-1
  457 527 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: greater
 Encoding: 62 62 145
 Width: 502
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-MDAP[rnd]
-PUSHW_1
- 3
-MDAP[rnd]
-PUSHW_3
- 5
- 3
- 0
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7167,56 +4177,12 @@ SplineSet
  45 527 l 1,6,-1
  123 617 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 146
 Width: 383
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 0
-MDAP[rnd]
-ELSE
-PUSHW_2
- 0
- 10
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-RCVT
-IF
-PUSHW_1
- 4
-MDAP[rnd]
-ELSE
-PUSHW_2
- 4
- 10
-MIAP[no-rnd]
-EIF
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 1
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 5
-MDRP[rp0,grey]
-PUSHW_1
- 6
-MDRP[rp0,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7231,111 +4197,12 @@ SplineSet
  233 686 l 1,7,-1
  351 686 l 1,4,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: numbersign
 Encoding: 35 35 147
 Width: 678
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_3
- 28
- 2
- 3
-CALL
-PUSHW_3
- 29
- 0
- 3
-CALL
-PUSHW_3
- 11
- 8
- 3
-CALL
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 4
-MDRP[rp0,grey]
-PUSHW_1
- 28
-SRP0
-PUSHW_1
- 6
-MDRP[rp0,grey]
-PUSHW_1
- 29
-SRP0
-PUSHW_1
- 7
-MDRP[rp0,grey]
-PUSHW_1
- 8
-SRP0
-PUSHW_1
- 12
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 11
-SRP0
-PUSHW_1
- 14
-MDRP[rp0,grey]
-PUSHW_1
- 12
-SRP0
-PUSHW_1
- 16
-MDRP[rp0,grey]
-PUSHW_1
- 11
-SRP0
-PUSHW_1
- 18
-MDRP[rp0,grey]
-PUSHW_1
- 8
-SRP0
-PUSHW_1
- 20
-MDRP[rp0,grey]
-PUSHW_1
- 28
-SRP0
-PUSHW_1
- 22
-MDRP[rp0,grey]
-PUSHW_1
- 29
-SRP0
-PUSHW_1
- 23
-MDRP[rp0,grey]
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 24
-MDRP[rp0,grey]
-PUSHW_1
- 2
-SRP0
-PUSHW_1
- 26
-MDRP[rp0,grey]
-PUSHW_1
- 8
-SRP0
-PUSHW_1
- 30
-MDRP[rp0,grey]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7374,62 +4241,12 @@ SplineSet
  285 399 l 1,31,-1
  268 241 l 1,28,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: asterisk
 Encoding: 42 42 148
 Width: 409
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 4
-MDAP[rnd]
-PUSHW_1
- 11
-MDAP[rnd]
-PUSHW_1
- 13
-MDAP[rnd]
-PUSHW_3
- 0
- 11
- 4
-SRP1
-SRP2
-IP
-PUSHW_3
- 3
- 11
- 4
-SRP1
-SRP2
-IP
-PUSHW_3
- 6
- 11
- 4
-SRP1
-SRP2
-IP
-PUSHW_3
- 9
- 11
- 4
-SRP1
-SRP2
-IP
-PUSHW_3
- 12
- 11
- 4
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7450,24 +4267,12 @@ SplineSet
  75 447 l 1,14,-1
  161 528 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: slash
 Encoding: 47 47 149
 Width: 472
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-MDAP[rnd]
-PUSHW_1
- 2
-MDAP[rnd]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7477,7 +4282,6 @@ SplineSet
  53 -81 l 1,3,-1
  310 745 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: percent
@@ -7490,58 +4294,46 @@ SplineSet
 197.5 662 m 0,0,1
  225 662 225 662 250 652.5 c 128,-1,2
  275 643 275 643 294 624.5 c 0,3,4
- 335 584.579 335 584.579 335 511 c 256,5,6
+ 335 584.579 335 584.579 335 511 c 0,5,6
  335 438 335 438 294 397 c 0,7,8
  256 359 256 359 197 359 c 0,9,10
  140 359 140 359 102 397 c 0,11,12
- 61 438 61 438 61 511 c 256,13,14
+ 61 438 61 438 61 511 c 0,13,14
  61 584.579 61 584.579 102 624.5 c 0,15,16
  140.514 662 140.514 662 197.5 662 c 0,0,1
-246 511 m 256,17,18
- 246 587 246 587 197 587 c 256,19,20
- 149 587 149 587 149 511 c 256,21,22
- 149 434 149 434 197 434 c 256,23,24
- 246 434 246 434 246 511 c 256,17,18
+246 511 m 0,17,18
+ 246 587 246 587 197 587 c 0,19,20
+ 149 587 149 587 149 511 c 0,21,22
+ 149 434 149 434 197 434 c 0,23,24
+ 246 434 246 434 246 511 c 0,17,18
 546 649 m 1,25,-1
  665 649 l 1,26,-1
  226 0 l 1,27,-1
  106 0 l 1,28,-1
  546 649 l 1,25,-1
-573 290 m 256,29,30
+573 290 m 128,-1,30
  630.487 290 630.487 290 669 252.5 c 0,31,32
  710 212.579 710 212.579 710 139 c 0,33,34
  710 65 710 65 669 24 c 0,35,36
- 631 -14 631 -14 573 -14 c 256,37,38
- 515 -14 515 -14 477 24 c 0,39,40
- 436 65 436 65 436 139 c 0,41,42
- 436 212.579 436 212.579 477 252.5 c 0,43,44
- 515.513 290 515.513 290 573 290 c 256,29,30
-573 215 m 0,45,46
- 525 215 525 215 525 138.5 c 128,-1,47
- 525 62 525 62 573 62 c 0,48,49
- 594 62 594 62 608 79.5 c 128,-1,50
- 622 97 622 97 622 138.5 c 128,-1,51
- 622 180 622 180 608 197.5 c 128,-1,52
- 594 215 594 215 573 215 c 0,45,46
+ 631 -14 631 -14 573 -14 c 128,-1,37
+ 515 -14 515 -14 477 24 c 0,38,39
+ 436 65 436 65 436 139 c 0,40,41
+ 436 212.579 436 212.579 477 252.5 c 0,42,29
+ 515.513 290 515.513 290 573 290 c 128,-1,30
+573 215 m 0,43,44
+ 525 215 525 215 525 138.5 c 128,-1,45
+ 525 62 525 62 573 62 c 0,46,47
+ 594 62 594 62 608 79.5 c 128,-1,48
+ 622 97 622 97 622 138.5 c 128,-1,49
+ 622 180 622 180 608 197.5 c 128,-1,50
+ 594 215 594 215 573 215 c 0,43,44
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: backslash
 Encoding: 92 92 151
 Width: 472
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 0
-MDAP[rnd]
-PUSHW_1
- 2
-MDAP[rnd]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7551,29 +4343,12 @@ SplineSet
  298 -80 l 1,3,-1
  41 746 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: bar
 Encoding: 124 124 152
 Width: 304
 Flags: W
-TtInstrs:
-PUSHW_3
- 1
- 0
- 3
-CALL
-SVTCA[y-axis]
-PUSHW_1
- 0
-MDAP[rnd]
-PUSHW_1
- 2
-MDAP[rnd]
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7583,42 +4358,12 @@ SplineSet
  93 -122 l 1,3,-1
  93 771 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: bracketleft
 Encoding: 91 91 153
 Width: 352
 Flags: W
-TtInstrs:
-PUSHW_3
- 3
- 0
- 3
-CALL
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 1
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 5
-MDRP[rp0,grey]
-SVTCA[y-axis]
-PUSHW_3
- 5
- 6
- 3
-CALL
-PUSHW_3
- 1
- 2
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7632,45 +4377,12 @@ SplineSet
  93 -141 l 1,7,-1
  93 790 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: bracketright
 Encoding: 93 93 154
 Width: 336
 Flags: W
-TtInstrs:
-PUSHW_3
- 0
- 1
- 3
-CALL
-PUSHW_1
- 0
-SRP0
-PUSHW_1
- 3
-MDRP[rp0,min,rnd,grey]
-PUSHW_1
- 1
-SRP0
-PUSHW_1
- 5
-MDRP[rp0,grey]
-SVTCA[y-axis]
-PUSHW_3
- 3
- 0
- 3
-CALL
-PUSHW_3
- 7
- 4
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7684,34 +4396,12 @@ SplineSet
  243 790 l 1,7,-1
  243 -141 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: asciicircum
 Encoding: 94 94 155
 Width: 527
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_1
- 1
-MDAP[rnd]
-PUSHW_1
- 0
-MDAP[rnd]
-PUSHW_1
- 3
-MDAP[rnd]
-PUSHW_3
- 5
- 0
- 1
-SRP1
-SRP2
-IP
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7724,23 +4414,12 @@ SplineSet
  150 218 l 1,6,-1
  20 218 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: underscore
 Encoding: 95 95 156
 Width: 768
 Flags: W
-TtInstrs:
-SVTCA[y-axis]
-PUSHW_3
- 1
- 2
- 3
-CALL
-IUP[y]
-IUP[x]
-EndTTInstrs
 LayerCount: 2
 Fore
 SplineSet
@@ -7750,7 +4429,6 @@ SplineSet
  55 -158 l 1,3,-1
  55 -55 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: braceleft
@@ -7788,7 +4466,6 @@ SplineSet
  313 -49 313 -49 387 -49 c 1,35,-1
  387 -156 l 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: braceright
@@ -7826,7 +4503,6 @@ SplineSet
  72 -156 72 -156 4 -156 c 1,35,-1
  4 -49 l 1,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: asciitilde
@@ -7850,7 +4526,6 @@ SplineSet
  236 253 236 253 217.5 259 c 128,-1,19
  199 265 199 265 184 265 c 0,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: atilde
@@ -7903,7 +4578,6 @@ SplineSet
  322 76 322 76 353.5 108.5 c 128,-1,56
  385 141 385 141 387 190 c 1,48,49
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ntilde
@@ -7945,7 +4619,6 @@ SplineSet
  347 714 347 714 359.5 708 c 128,-1,38
  372 702 372 702 384 702 c 0,18,19
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: otilde
@@ -7970,27 +4643,26 @@ SplineSet
  341 397 341 397 371 358.5 c 128,-1,20
  401 320 401 320 401 243 c 128,-1,21
  401 166 401 166 367 127.5 c 128,-1,22
- 333 89 333 89 280 89 c 256,23,24
- 227 89 227 89 196.5 127.5 c 128,-1,25
+ 333 89 333 89 280 89 c 128,-1,23
+ 227 89 227 89 196.5 127.5 c 128,-1,24
  166 166 166 166 166 243 c 128,-1,17
  166 320 166 320 200 358.5 c 128,-1,18
-353 702 m 0,26,27
- 385.269 702 385.269 702 406 751 c 1,28,-1
- 456 718 l 1,29,30
- 445 664 445 664 416.5 629.5 c 128,-1,31
- 388 595 388 595 356 595 c 0,32,33
- 338 595 338 595 320.5 602 c 128,-1,34
- 303 609 303 609 276.5 622.5 c 0,35,36
- 232.333 645 232.333 645 216.167 645 c 0,37,38
- 181.138 645 181.138 645 157 595 c 1,39,-1
- 110 623 l 1,40,41
- 122 684 122 684 150.5 717.5 c 128,-1,42
- 179 751 179 751 217 751 c 0,43,44
- 243.714 751 243.714 751 279.857 732.5 c 128,-1,45
- 316 714 316 714 328.5 708 c 128,-1,46
- 341 702 341 702 353 702 c 0,26,27
+353 702 m 0,25,26
+ 385.269 702 385.269 702 406 751 c 1,27,-1
+ 456 718 l 1,28,29
+ 445 664 445 664 416.5 629.5 c 128,-1,30
+ 388 595 388 595 356 595 c 0,31,32
+ 338 595 338 595 320.5 602 c 128,-1,33
+ 303 609 303 609 276.5 622.5 c 0,34,35
+ 232.333 645 232.333 645 216.167 645 c 0,36,37
+ 181.138 645 181.138 645 157 595 c 1,38,-1
+ 110 623 l 1,39,40
+ 122 684 122 684 150.5 717.5 c 128,-1,41
+ 179 751 179 751 217 751 c 0,42,43
+ 243.714 751 243.714 751 279.857 732.5 c 128,-1,44
+ 316 714 316 714 328.5 708 c 128,-1,45
+ 341 702 341 702 353 702 c 0,25,26
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: Atilde
@@ -8029,7 +4701,6 @@ SplineSet
  315 508 l 1,31,-1
  223 229 l 1,29,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Ntilde
@@ -8066,7 +4737,6 @@ SplineSet
  392 850 392 850 404.5 844 c 128,-1,30
  417 838 417 838 429 838 c 0,10,11
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: Otilde
@@ -8111,7 +4781,6 @@ SplineSet
  374 850 374 850 386.5 844 c 128,-1,45
  399 838 399 838 411 838 c 0,25,26
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: cedilla
@@ -8147,23 +4816,22 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-398.341 -104.721 m 4,0,1
- 398.341 -146.574 398.341 -146.574 359.374 -167.946 c 132,-1,2
- 320.408 -189.318 320.408 -189.318 246.971 -189.318 c 4,3,4
- 224.49 -189.318 224.49 -189.318 196.514 -186.646 c 5,5,-1
- 196.514 -134.107 l 5,6,7
- 213.999 -137.224 213.999 -137.224 238.478 -137.224 c 4,8,9
- 306.919 -137.224 306.919 -137.224 306.919 -106.501 c 4,10,11
- 306.919 -90.918 306.919 -90.918 292.932 -83.3486 c 132,-1,12
- 278.943 -75.7793 278.943 -75.7793 245.972 -75.7793 c 4,13,14
- 226.987 -75.7793 226.987 -75.7793 219.993 -76.6699 c 5,15,-1
- 250.967 -0.0859375 l 5,16,-1
- 322.406 -0.0859375 l 5,17,-1
- 305.92 -36.5967 l 5,18,19
- 352.88 -38.8232 352.88 -38.8232 375.61 -57.0781 c 132,-1,20
- 398.341 -75.334 398.341 -75.334 398.341 -104.721 c 4,0,1
+398.341 -104.721 m 0,0,1
+ 398.341 -146.574 398.341 -146.574 359.374 -167.946 c 128,-1,2
+ 320.408 -189.318 320.408 -189.318 246.971 -189.318 c 0,3,4
+ 224.49 -189.318 224.49 -189.318 196.514 -186.646 c 1,5,-1
+ 196.514 -134.107 l 1,6,7
+ 213.999 -137.224 213.999 -137.224 238.478 -137.224 c 0,8,9
+ 306.919 -137.224 306.919 -137.224 306.919 -106.501 c 0,10,11
+ 306.919 -90.918 306.919 -90.918 292.932 -83.3486 c 128,-1,12
+ 278.943 -75.7793 278.943 -75.7793 245.972 -75.7793 c 0,13,14
+ 226.987 -75.7793 226.987 -75.7793 219.993 -76.6699 c 1,15,-1
+ 250.967 -0.0859375 l 1,16,-1
+ 322.406 -0.0859375 l 1,17,-1
+ 305.92 -36.5967 l 1,18,19
+ 352.88 -38.8232 352.88 -38.8232 375.61 -57.0781 c 128,-1,20
+ 398.341 -75.334 398.341 -75.334 398.341 -104.721 c 0,0,1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: ccedilla
@@ -8172,9 +4840,42 @@ Width: 530
 VWidth: 0
 LayerCount: 2
 Fore
-Refer: 166 184 N 1 0 0 1 -7 -7.66667 2
-Refer: 14 99 N 1 0 0 1 0 0 3
-Validated: 5
+SplineSet
+391.341 -112.388 m 0,0,1
+ 391.341 -154.24 391.341 -154.24 352.374 -175.612 c 128,-1,2
+ 313.408 -196.984 313.408 -196.984 239.971 -196.984 c 0,3,4
+ 217.49 -196.984 217.49 -196.984 189.514 -194.312 c 1,5,-1
+ 189.514 -141.773 l 1,6,7
+ 206.999 -144.891 206.999 -144.891 231.478 -144.891 c 0,8,9
+ 299.919 -144.891 299.919 -144.891 299.919 -114.168 c 0,10,11
+ 299.919 -98.585 299.919 -98.585 285.932 -91.0156 c 128,-1,12
+ 271.943 -83.4463 271.943 -83.4463 238.972 -83.4463 c 0,13,14
+ 219.987 -83.4463 219.987 -83.4463 212.993 -84.3369 c 1,15,-1
+ 242.423 -11.5694 l 1,16,17
+ 169.268 -0.956153 169.268 -0.956153 116.5 56 c 0,18,19
+ 47 131.016 47 131.016 47 243 c 0,20,21
+ 47 360.794 47 360.794 116.5 432.5 c 0,22,23
+ 180.954 499 180.954 499 277.5 499 c 0,24,25
+ 324 499 324 499 360.5 483.5 c 128,-1,26
+ 397 468 397 468 422.5 443 c 0,27,28
+ 471.933 394.536 471.933 394.536 481 322 c 1,29,-1
+ 362 319 l 1,30,31
+ 354 351 354 351 332.5 372 c 128,-1,32
+ 311 393 311 393 283 393 c 128,-1,33
+ 255 393 255 393 235 384.5 c 128,-1,34
+ 215 376 215 376 200 357.5 c 0,35,36
+ 166 315.567 166 315.567 166 241.783 c 128,-1,37
+ 166 168 166 168 198 130.5 c 128,-1,38
+ 230 93 230 93 275.5 93 c 128,-1,39
+ 321 93 321 93 341.5 114.5 c 128,-1,40
+ 362 136 362 136 362 173 c 1,41,-1
+ 481 173 l 1,42,43
+ 481 93 481 93 428.5 40.5 c 0,44,45
+ 384.727 -3.27266 384.727 -3.27266 313.539 -11.8885 c 1,46,-1
+ 298.92 -44.2637 l 1,47,48
+ 345.88 -46.4902 345.88 -46.4902 368.61 -64.7451 c 128,-1,49
+ 391.341 -83.001 391.341 -83.001 391.341 -112.388 c 0,0,1
+EndSplineSet
 EndChar
 
 StartChar: ae
@@ -8230,7 +4931,6 @@ SplineSet
  714 367.703 714 367.703 663.5 395 c 0,61,62
  645 405 645 405 618 405 c 0,55,56
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: oe
@@ -8293,8 +4993,8 @@ SplineSet
  333 89 333 89 367 127.5 c 0,7,8
  396.734 161.169 396.734 161.169 400.465 224.284 c 1,9,10
  400 233.497 400 233.497 400 243 c 0,11,12
- 400 252.925 400 252.925 400.485 262.521 c 1,13,14
- 397.068 325.046 397.068 325.046 371 358.5 c 0,0,1
+ 399.99 252.925 399.99 252.925 400.465 262.521 c 0,13,14
+ 397.058 325.046 397.058 325.046 371 358.5 c 0,0,1
 283.5 499 m 0,15,16
  333 499 333 499 376 483.5 c 128,-1,17
  419 468 419 468 450.5 436 c 0,18,19
@@ -8328,7 +5028,6 @@ SplineSet
  725 367.703 725 367.703 674.5 395 c 0,66,67
  656 405 656 405 629 405 c 0,60,61
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Ccedilla
@@ -8337,9 +5036,41 @@ Width: 634
 VWidth: 0
 LayerCount: 2
 Fore
-Refer: 166 184 N 1 0 0 1 45 -7.66667 2
-Refer: 40 67 N 1 0 0 1 0 0 3
-Validated: 5
+SplineSet
+443.341 -112.388 m 0,0,1
+ 443.341 -154.24 443.341 -154.24 404.374 -175.612 c 128,-1,2
+ 365.408 -196.984 365.408 -196.984 291.971 -196.984 c 0,3,4
+ 269.49 -196.984 269.49 -196.984 241.514 -194.312 c 1,5,-1
+ 241.514 -141.773 l 1,6,7
+ 258.999 -144.891 258.999 -144.891 283.478 -144.891 c 0,8,9
+ 351.919 -144.891 351.919 -144.891 351.919 -114.168 c 0,10,11
+ 351.919 -98.585 351.919 -98.585 337.932 -91.0156 c 128,-1,12
+ 323.943 -83.4463 323.943 -83.4463 290.972 -83.4463 c 0,13,14
+ 271.987 -83.4463 271.987 -83.4463 264.993 -84.3369 c 1,15,-1
+ 294.141 -12.2668 l 1,16,17
+ 189.179 -1.51046 189.179 -1.51046 124 76 c 0,18,19
+ 47 167.568 47 167.568 47 326 c 0,20,21
+ 47 486.4 47 486.4 126.5 576.5 c 0,22,23
+ 201.941 662 201.941 662 326.5 662 c 0,24,25
+ 386 662 386 662 430 647.5 c 128,-1,26
+ 474 633 474 633 506 607 c 0,27,28
+ 569.264 555.598 569.264 555.598 588 464 c 1,29,-1
+ 462 441 l 1,30,31
+ 446 492 446 492 412.5 523.5 c 128,-1,32
+ 379 555 379 555 329 555 c 0,33,34
+ 261.368 555 261.368 555 219 497.5 c 0,35,36
+ 174 436.429 174 436.429 174 326.714 c 128,-1,37
+ 174 217 174 217 214 155.5 c 128,-1,38
+ 254 94 254 94 323 94 c 128,-1,39
+ 392 94 392 94 427 127.5 c 128,-1,40
+ 462 161 462 161 462 214 c 1,41,-1
+ 589 214 l 1,42,43
+ 589 105 589 105 519.5 45.5 c 0,44,45
+ 460.759 -4.78893 460.759 -4.78893 365.229 -12.5741 c 1,46,-1
+ 350.92 -44.2637 l 1,47,48
+ 397.88 -46.4902 397.88 -46.4902 420.61 -64.7451 c 128,-1,49
+ 443.341 -83.001 443.341 -83.001 443.341 -112.388 c 0,0,1
+EndSplineSet
 EndChar
 
 StartChar: ring
@@ -8369,7 +5100,6 @@ SplineSet
  188.945 616.406 188.945 616.406 207.012 634.473 c 128,-1,19
  225.078 652.539 225.078 652.539 225.078 678.906 c 0,8,9
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Aring
@@ -8380,7 +5110,6 @@ LayerCount: 2
 Fore
 Refer: 171 730 N 1 0 0 1 153.934 98.849 2
 Refer: 38 65 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: aring
@@ -8391,7 +5120,6 @@ LayerCount: 2
 Fore
 Refer: 171 730 N 1 0 0 1 132.934 4.11719 2
 Refer: 12 97 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: cacute
@@ -8402,7 +5130,6 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 108.5 -135 2
 Refer: 14 99 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Cacute
@@ -8413,7 +5140,6 @@ LayerCount: 2
 Fore
 Refer: 97 180 S 1 0 0 1 163.5 28 2
 Refer: 40 67 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: caron
@@ -8423,15 +5149,14 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-441 854.033 m 5,0,-1
- 366 913.033 l 5,1,-1
- 233 812.033 l 5,2,-1
- 99 913.033 l 5,3,-1
- 24 854.033 l 5,4,-1
- 233 693.033 l 5,5,-1
- 441 854.033 l 5,0,-1
+441 854.033 m 1,0,-1
+ 366 913.033 l 1,1,-1
+ 233 812.033 l 1,2,-1
+ 99 913.033 l 1,3,-1
+ 24 854.033 l 1,4,-1
+ 233 693.033 l 1,5,-1
+ 441 854.033 l 1,0,-1
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: scaron
@@ -8442,7 +5167,6 @@ LayerCount: 2
 Fore
 Refer: 176 711 S 1 0 0 1 33 -154.033 2
 Refer: 30 115 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: Scaron
@@ -8453,7 +5177,6 @@ LayerCount: 2
 Fore
 Refer: 176 711 S 1 0 0 1 81.2393 1.9668 2
 Refer: 56 83 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: Zcaron
@@ -8464,7 +5187,6 @@ LayerCount: 2
 Fore
 Refer: 176 711 S 1 0 0 1 86 -0.0332031 2
 Refer: 63 90 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: zcaron
@@ -8475,7 +5197,6 @@ LayerCount: 2
 Fore
 Refer: 176 711 S 1 0 0 1 15.5 -164.033 2
 Refer: 37 122 N 1 0 0 1 0 0 3
-Validated: 9
 EndChar
 
 StartChar: uni0243
@@ -8522,7 +5243,6 @@ SplineSet
  93 219 l 1,40,-1
  93 649 l 1,20,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Euro
@@ -8569,7 +5289,6 @@ SplineSet
  231 305.997 231 305.997 232.426 287 c 1,50,-1
  452 287 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: guillemotleft
@@ -8579,22 +5298,21 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-176.5 429 m 0,0,-1
- 285.5 429 l 24,1,-1
+176.5 429 m 1,0,-1
+ 285.5 429 l 1,1,-1
  147.5 233 l 1,2,-1
  285.5 37 l 1,3,-1
  176.5 37 l 1,4,-1
- 30.5 233 l 1,5,6
- 176.5 429 l 0,0,-1
-368.5 429 m 0,7,-1
- 477.5 429 l 24,8,-1
- 339.5 233 l 1,9,-1
- 477.5 37 l 1,10,-1
- 368.5 37 l 1,11,-1
- 222.5 233 l 1,12,-1
- 368.5 429 l 0,7,-1
+ 30.5 233 l 1,5,-1
+ 176.5 429 l 1,0,-1
+368.5 429 m 1,6,-1
+ 477.5 429 l 1,7,-1
+ 339.5 233 l 1,8,-1
+ 477.5 37 l 1,9,-1
+ 368.5 37 l 1,10,-1
+ 222.5 233 l 1,11,-1
+ 368.5 429 l 1,6,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: guillemotright
@@ -8604,22 +5322,77 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-335.5 429 m 0,0,-1
- 226.5 429 l 24,1,-1
+335.5 429 m 1,0,-1
+ 226.5 429 l 1,1,-1
  364.5 233 l 1,2,-1
  226.5 37 l 1,3,-1
  335.5 37 l 1,4,-1
- 481.5 233 l 1,5,6
- 335.5 429 l 0,0,-1
-143.5 429 m 0,7,-1
- 34.5 429 l 24,8,-1
- 172.5 233 l 1,9,-1
- 34.5 37 l 1,10,-1
- 143.5 37 l 1,11,-1
- 289.5 233 l 1,12,-1
- 143.5 429 l 0,7,-1
+ 481.5 233 l 1,5,-1
+ 335.5 429 l 1,0,-1
+143.5 429 m 1,6,-1
+ 34.5 429 l 1,7,-1
+ 172.5 233 l 1,8,-1
+ 34.5 37 l 1,9,-1
+ 143.5 37 l 1,10,-1
+ 289.5 233 l 1,11,-1
+ 143.5 429 l 1,6,-1
 EndSplineSet
-Validated: 9
+EndChar
+
+StartChar: quotedblleft
+Encoding: 8220 8220 185
+Width: 492
+Flags: W
+LayerCount: 2
+Fore
+Refer: 66 8216 N 1 0 0 1 221 0 2
+Refer: 66 8216 N 1 0 0 1 0 0 2
+EndChar
+
+StartChar: quotedblright
+Encoding: 8221 8221 186
+Width: 487
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 8217 S 1 0 0 1 216 0 2
+Refer: 67 8217 S 1 0 0 1 0 0 2
+EndChar
+
+StartChar: quotedblbase
+Encoding: 8222 8222 187
+Width: 487
+Flags: W
+LayerCount: 2
+Fore
+Refer: 186 8221 N 1 0 0 1 0 -545.919 2
+EndChar
+
+StartChar: quotereversed
+Encoding: 8219 8219 188
+Width: 271
+Flags: W
+LayerCount: 2
+Fore
+Refer: 66 8216 S 1 0 0 -1 0 1098.79 2
+EndChar
+
+StartChar: uni201F
+Encoding: 8223 8223 189
+Width: 492
+Flags: W
+LayerCount: 2
+Fore
+Refer: 185 8220 N 1 0 0 -1 0 1098.79 2
+EndChar
+
+StartChar: quotesinglbase
+Encoding: 8218 8218 190
+Width: 271
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 8217 S 1 0 0 1 0 -545.908 2
 EndChar
 EndChars
 EndSplineFont
