@@ -21,6 +21,9 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
+15 April 2014 (nclm) Karmilla v.010
+- Standardised the heights of apostrophe (U+02BC), left single quote (U+2018) and right single quote (U+2019), across both Regular and Bold.
+
 8 may 2013 (Raphaël Bastide) Karmilla v.009
 - Added french quotes «» and Bitcoin proposal Ƀ in both bold and regular.
 - Added Euro € and Bitcoin proposal Ƀ in both bold and regular.
@@ -72,3 +75,8 @@ N: Raphaël Bastide
 T: @raphaelbastide
 W: raphaelbastide.com
 D: Modification of some glyphs
+
+N: Nicolas Maravitti
+T: @nclm_
+W: probablement.net
+D: Moving of some glyphs
