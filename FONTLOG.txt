@@ -21,6 +21,12 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
+4 May 2014 (nclm) Karmilla v.012
+- Added ellipsis (…).
+- Added inverted question and exclamation marks (¿¡).
+- Added interrobang and irony mark (‽⸮).
+- Added multiplication sign (×).
+
 16 April 2014 (nclm) Karmilla v.011
 - Added quotation marks variants (U+2018 to U+201F).
 - Removed overlap between letter and cedilla in Ç and ç.
@@ -83,4 +89,4 @@ D: Modification of some glyphs
 N: Nicolas Maravitti
 T: @nclm_
 W: probablement.net
-D: Moving of some glyphs
+D: Modification of some glyphs

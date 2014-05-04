@@ -20,6 +20,7 @@ The changes we made so far:
 * added å for Scandinavian languages.
 * added ç (cedilla) character for better French support.
 * added œ (ligatured o and e) character for better French support.
+* added various punctuation marks.
 * the q character has been streamlined.
 * the position of the typographic apostrophe has been changed, so it matches the height of ascenders (l', d').
 
