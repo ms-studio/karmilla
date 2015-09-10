@@ -10,17 +10,18 @@ UnderlinePosition: -50
 UnderlineWidth: 50
 Ascent: 800
 Descent: 200
+InvalidEm: 0
 sfntRevision: 0x00010000
 LayerCount: 2
-Layer: 0 1 "Back"  1
-Layer: 1 1 "Fore"  0
+Layer: 0 1 "Back" 1
+Layer: 1 1 "Fore" 0
 XUID: [1021 288 713564382 10587622]
 FSType: 8
 OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1399190928
+ModificationTime: 1429371462
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -53,8 +54,8 @@ OS2StrikeYPos: 250
 OS2Vendor: 'pyrs'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80000027.08000042.14000000.00000000
-Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 0"  {"'onum' Oldstyle Figures in Latin lookup 0 subtable" ("oldstyle" ) } ['onum' ('latn' <'dflt' > ) ]
-Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0"  {"'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 0" { "'onum' Oldstyle Figures in Latin lookup 0 subtable" ("oldstyle") } ['onum' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 TtTable: prep
@@ -65,7 +66,7 @@ PUSHB_1
  4
 SCANTYPE
 EndTTInstrs
-LangName: 1033 "" "" "" "" "" "Version 1.000" "" "" "" "Jonathan Pinhorn" "" "" "jonpinhorn.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1." "http://scripts.sil.org/OFL" 
+LangName: 1033 "" "" "" "" "" "Version 1.000" "" "" "" "Jonathan Pinhorn" "" "" "jonpinhorn.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 3 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -78,15 +79,15 @@ BeginPrivate: 0
 EndPrivate
 Grid
 -1000 874.8 m 0
- 2000 874.8 l 0
+ 2000 874.8 l 1024
 -1000 -177 m 0
- 2000 -177 l 0
+ 2000 -177 l 1024
 -1000 0 m 0
- 2000 0 l 0
+ 2000 0 l 1024
 -1000 -236 m 0
- 2000 -236 l 0
+ 2000 -236 l 1024
 -1000 681 m 0
- 2000 681 l 0
+ 2000 681 l 1024
 -117 681 m 1
  -38 681 l 1
  -38 0 l 1
@@ -94,13 +95,15 @@ Grid
  -117 681 l 1
 EndSplineSet
 TeXData: 1 0 0 249561 124779 83187 501219 1048576 83187 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 65549 199
+BeginChars: 65549 200
 
 StartChar: .notdef
 Encoding: 65536 -1 0
 Width: 553
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: .null
@@ -108,6 +111,8 @@ Encoding: 65537 -1 1
 Width: 0
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: nonmarkingreturn
@@ -115,6 +120,8 @@ Encoding: 65538 -1 2
 Width: 553
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: space
@@ -123,6 +130,8 @@ AltUni2: 0000a0.ffffffff.0 0000a0.ffffffff.0 0000a0.ffffffff.0 0000a0.ffffffff.0
 Width: 238
 Flags: W
 LayerCount: 2
+Back
+Fore
 EndChar
 
 StartChar: comma
@@ -130,6 +139,7 @@ Encoding: 44 44 4
 Width: 210
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 67 10 m 128,-1,1
@@ -151,6 +161,7 @@ Encoding: 46 46 5
 Width: 179
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 46.5 7.5 m 128,-1,1
@@ -170,6 +181,7 @@ Encoding: 59 59 6
 Width: 262
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 94 10 m 128,-1,1
@@ -200,6 +212,7 @@ Encoding: 58 58 7
 Width: 231
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 72.5 39.5 m 128,-1,1
@@ -228,6 +241,7 @@ Encoding: 45 45 8
 Width: 349
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 38 325 m 1,0,-1
@@ -243,6 +257,7 @@ Encoding: 8211 8211 9
 Width: 474
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 55 325 m 1,0,-1
@@ -258,6 +273,7 @@ Encoding: 8212 8212 10
 Width: 726
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 55 325 m 1,0,-1
@@ -273,6 +289,7 @@ Encoding: 33 33 11
 Width: 278
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 99 627 m 1,0,-1
@@ -297,6 +314,7 @@ Encoding: 97 97 12
 Width: 560
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 397 310 m 2,0,1
@@ -327,7 +345,7 @@ SplineSet
  314 50 314 50 355.5 91.5 c 128,-1,34
  397 133 397 133 397 199 c 1,26,27
 EndSplineSet
-Kerns2: 62 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -89 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -89 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: b
@@ -335,6 +353,7 @@ Encoding: 98 98 13
 Width: 584
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 180 407 m 1,0,1
@@ -361,7 +380,7 @@ SplineSet
  372.085 420 372.085 420 314.8 420 c 128,-1,14
  257.514 420 257.514 420 219.735 383.27 c 128,-1,15
 EndSplineSet
-Kerns2: 62 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -29 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -29 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: c
@@ -369,6 +388,7 @@ Encoding: 99 99 14
 Width: 515
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 395.128 446.513 m 128,-1,1
@@ -391,7 +411,7 @@ SplineSet
  175.938 490 175.938 490 260.683 490 c 128,-1,0
  345.429 490 345.429 490 395.128 446.513 c 128,-1,1
 EndSplineSet
-Kerns2: 62 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: d
@@ -399,6 +419,7 @@ Encoding: 100 100 15
 Width: 594
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 414 407 m 1,0,-1
@@ -432,6 +453,7 @@ Encoding: 101 101 16
 Width: 515
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 266 53 m 0,0,1
@@ -455,7 +477,7 @@ SplineSet
  385 282 l 1,23,24
  385 382.2 385 382.2 323.5 415 c 0,17,18
 EndSplineSet
-Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: f
@@ -463,29 +485,30 @@ Encoding: 102 102 17
 Width: 343
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
-333 614 m 1,0,1
- 300.5 627 300.5 627 281.25 627 c 0,2,3
- 246.235 627 246.235 627 226.118 609.9 c 128,-1,4
- 206 592.8 206 592.8 206 550 c 2,5,-1
- 206 478 l 1,6,-1
- 305 478 l 1,7,-1
- 305 424 l 1,8,-1
- 206 424 l 1,9,-1
- 206 0 l 1,10,-1
- 128 0 l 1,11,-1
- 128 424 l 1,12,-1
- 49 424 l 1,13,-1
- 49 478 l 1,14,-1
- 128 478 l 1,15,-1
- 128 551 l 2,16,17
- 128 622 128 622 167 655.5 c 128,-1,18
- 206 689 206 689 257 689 c 128,-1,19
- 308 689 308 689 347 676 c 1,20,-1
- 333 614 l 1,0,1
+333 614 m 5,0,1
+ 300.5 627 300.5 627 281.25 627 c 4,2,3
+ 246.235 627 246.235 627 226.118 609.9 c 132,-1,4
+ 206 592.8 206 592.8 206 550 c 6,5,-1
+ 206 478 l 5,6,-1
+ 305 478 l 5,7,-1
+ 305 424 l 5,8,-1
+ 206 424 l 5,9,-1
+ 206 0 l 5,10,-1
+ 128 0 l 5,11,-1
+ 128 424 l 5,12,-1
+ 49 424 l 5,13,-1
+ 49 478 l 5,14,-1
+ 128 478 l 5,15,-1
+ 128 551 l 6,16,17
+ 128 622 128 622 167 655.5 c 132,-1,18
+ 206 689 206 689 257 689 c 132,-1,19
+ 308 689 308 689 347 676 c 5,20,-1
+ 333 614 l 5,0,1
 EndSplineSet
-Kerns2: 47 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 47 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 21 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: g
@@ -493,6 +516,7 @@ Encoding: 103 103 18
 Width: 565
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 121 15 m 1,0,1
@@ -543,7 +567,7 @@ SplineSet
  400 265 400 265 400 316.5 c 128,-1,51
  400 368 400 368 369 400.5 c 128,-1,52
 EndSplineSet
-Kerns2: 36 16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 73 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 36 16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 21 73 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: h
@@ -551,6 +575,7 @@ Encoding: 104 104 19
 Width: 604
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 180 390 m 1,0,1
@@ -570,7 +595,7 @@ SplineSet
  180 681 l 1,17,-1
  180 390 l 1,0,1
 EndSplineSet
-Kerns2: 62 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: i
@@ -578,6 +603,7 @@ Encoding: 105 105 20
 Width: 299
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 106 479 m 1,0,-1
@@ -602,17 +628,18 @@ Encoding: 106 106 21
 Width: 314
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
-122.5 604.5 m 128,-1,1
- 109 618 109 618 109 640.5 c 128,-1,2
- 109 663 109 663 122.5 676.5 c 128,-1,3
- 136 690 136 690 160 690 c 128,-1,4
- 184 690 184 690 198.5 676.5 c 128,-1,5
- 213 663 213 663 213 640.5 c 128,-1,6
- 213 618 213 618 198.5 604.5 c 128,-1,7
- 184 591 184 591 160 591 c 128,-1,0
- 136 591 136 591 122.5 604.5 c 128,-1,1
+122.5 604.5 m 132,-1,1
+ 109 618 109 618 109 640.5 c 132,-1,2
+ 109 663 109 663 122.5 676.5 c 132,-1,3
+ 136 690 136 690 160 690 c 132,-1,4
+ 184 690 184 690 198.5 676.5 c 132,-1,5
+ 213 663 213 663 213 640.5 c 132,-1,6
+ 213 618 213 618 198.5 604.5 c 132,-1,7
+ 184 591 184 591 160 591 c 132,-1,0
+ 136 591 136 591 122.5 604.5 c 132,-1,1
 33 -177 m 0,8,9
  121 -177 121 -177 121 -67 c 2,10,-1
  121 480 l 1,11,-1
@@ -624,7 +651,7 @@ SplineSet
  -82 -140 l 1,20,21
  -18.8824 -177 -18.8824 -177 33 -177 c 0,8,9
 EndSplineSet
-Kerns2: 17 -22 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 17 -22 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: k
@@ -632,6 +659,7 @@ Encoding: 107 107 22
 Width: 564
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 244 253 m 1,0,-1
@@ -648,7 +676,7 @@ SplineSet
  435 0 l 1,11,-1
  244 253 l 1,0,-1
 EndSplineSet
-Kerns2: 36 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 36 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 21 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: l
@@ -656,6 +684,7 @@ Encoding: 108 108 23
 Width: 280
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 681 m 1,0,-1
@@ -671,6 +700,7 @@ Encoding: 109 109 24
 Width: 935
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 177 386 m 1,0,1
@@ -700,7 +730,7 @@ SplineSet
  168 478 l 1,30,-1
  177 386 l 1,0,1
 EndSplineSet
-Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: n
@@ -708,6 +738,7 @@ Encoding: 110 110 25
 Width: 603
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 177 386 m 1,0,1
@@ -727,7 +758,7 @@ SplineSet
  168 478 l 1,17,-1
  177 386 l 1,0,1
 EndSplineSet
-Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: o
@@ -735,6 +766,7 @@ Encoding: 111 111 26
 Width: 546
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 273 490 m 128,-1,1
@@ -756,7 +788,7 @@ SplineSet
  416 154 416 154 416 239.5 c 128,-1,10
  416 325 416 325 380 373.5 c 128,-1,11
 EndSplineSet
-Kerns2: 62 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -71 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -71 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: p
@@ -764,6 +796,7 @@ Encoding: 112 112 27
 Width: 594
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 175 405 m 1,0,1
@@ -789,7 +822,7 @@ SplineSet
  256.059 59 256.059 59 311.779 59 c 128,-1,12
  367.5 59 367.5 59 410.25 106.963 c 128,-1,13
 EndSplineSet
-Kerns2: 62 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: q
@@ -797,6 +830,7 @@ Encoding: 113 113 28
 Width: 584
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 405 76 m 1,0,1
@@ -822,7 +856,7 @@ SplineSet
  329 420 329 420 270.957 420 c 128,-1,13
  212.915 420 212.915 420 172.457 371.244 c 128,-1,14
 EndSplineSet
-Kerns2: 62 -47 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  21 81 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -47 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 21 81 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: r
@@ -830,6 +864,7 @@ Encoding: 114 114 29
 Width: 381
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 296 411 m 0,0,1
@@ -844,7 +879,7 @@ SplineSet
  357 401 l 1,12,13
  327 411 327 411 296 411 c 0,0,1
 EndSplineSet
-Kerns2: 57 -48 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 57 -48 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: s
@@ -852,6 +887,7 @@ Encoding: 115 115 30
 Width: 526
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 126.5 455 m 128,-1,1
@@ -882,7 +918,7 @@ SplineSet
  76 268 76 268 76 361 c 0,31,0
  76 420 76 420 126.5 455 c 128,-1,1
 EndSplineSet
-Kerns2: 62 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -89 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -89 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: t
@@ -890,6 +926,7 @@ Encoding: 116 116 31
 Width: 376
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 351 14 m 1,0,1
@@ -911,7 +948,7 @@ SplineSet
  294 52 294 52 340 70 c 1,21,-1
  351 14 l 1,0,1
 EndSplineSet
-Kerns2: 62 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: u
@@ -919,6 +956,7 @@ Encoding: 117 117 32
 Width: 606
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 426 95 m 1,0,1
@@ -937,7 +975,7 @@ SplineSet
  426 0 l 1,17,-1
  426 95 l 1,0,1
 EndSplineSet
-Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: v
@@ -945,6 +983,7 @@ Encoding: 118 118 33
 Width: 503
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 107 478 m 1,0,-1
@@ -956,7 +995,7 @@ SplineSet
  18 478 l 1,6,-1
  107 478 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -60 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: w
@@ -964,6 +1003,7 @@ Encoding: 119 119 34
 Width: 725
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 100 478 m 1,0,-1
@@ -981,7 +1021,7 @@ SplineSet
  18 478 l 1,12,-1
  100 478 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: x
@@ -989,6 +1029,7 @@ Encoding: 120 120 35
 Width: 512
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 485 0 m 1,0,-1
@@ -1005,7 +1046,7 @@ SplineSet
  303 239 l 1,11,-1
  485 0 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: y
@@ -1013,6 +1054,7 @@ Encoding: 121 121 36
 Width: 484
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 5 -139 m 1,0,1
@@ -1031,7 +1073,7 @@ SplineSet
  66.7647 -246 66.7647 -246 5 -211 c 1,17,-1
  5 -139 l 1,0,1
 EndSplineSet
-Kerns2: 62 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -56 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -56 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: z
@@ -1039,6 +1081,7 @@ Encoding: 122 122 37
 Width: 475
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 53 64 m 1,0,-1
@@ -1053,7 +1096,7 @@ SplineSet
  53 0 l 1,9,-1
  53 64 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: A
@@ -1061,6 +1104,7 @@ Encoding: 65 65 38
 Width: 575
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 242 629 m 1,0,-1
@@ -1077,7 +1121,7 @@ SplineSet
  289 532 l 1,10,-1
  184 222 l 1,8,-1
 EndSplineSet
-Kerns2: 62 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -22 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 -22 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: B
@@ -1085,6 +1129,7 @@ Encoding: 66 66 39
 Width: 622
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 629 m 1,0,-1
@@ -1123,6 +1168,7 @@ Encoding: 67 67 40
 Width: 613
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 319 640 m 0,0,1
@@ -1152,6 +1198,7 @@ Encoding: 68 68 41
 Width: 661
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 285 629 m 2,0,1
@@ -1171,7 +1218,7 @@ SplineSet
  179 559 l 1,16,-1
  179 69 l 1,8,-1
 EndSplineSet
-Kerns2: 62 -25 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -25 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: E
@@ -1179,6 +1226,7 @@ Encoding: 69 69 42
 Width: 562
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 100 629 m 1,0,-1
@@ -1202,6 +1250,7 @@ Encoding: 70 70 43
 Width: 524
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 629 m 1,0,-1
@@ -1216,7 +1265,7 @@ SplineSet
  101 0 l 1,9,-1
  101 629 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  61 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  37 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  35 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 61 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 37 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 35 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 -36 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 -32 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 32 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: G
@@ -1224,6 +1273,7 @@ Encoding: 71 71 44
 Width: 645
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 490 108 m 1,0,1
@@ -1257,6 +1307,7 @@ Encoding: 72 72 45
 Width: 669
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 180 629 m 1,0,-1
@@ -1280,6 +1331,7 @@ Encoding: 73 73 46
 Width: 280
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 629 m 1,0,-1
@@ -1295,6 +1347,7 @@ Encoding: 74 74 47
 Width: 404
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 277.5 34 m 128,-1,1
@@ -1316,6 +1369,7 @@ Encoding: 75 75 48
 Width: 609
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 181 629 m 1,0,-1
@@ -1339,6 +1393,7 @@ Encoding: 76 76 49
 Width: 468
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 180 69 m 1,0,-1
@@ -1349,7 +1404,7 @@ SplineSet
  180 629 l 1,5,-1
  180 69 l 1,0,-1
 EndSplineSet
-Kerns2: 62 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  60 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  57 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 60 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -20 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 -24 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: M
@@ -1357,6 +1412,7 @@ Encoding: 77 77 50
 Width: 848
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 214 629 m 1,0,-1
@@ -1381,6 +1437,7 @@ Encoding: 78 78 51
 Width: 685
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 193 629 m 1,0,-1
@@ -1402,6 +1459,7 @@ Encoding: 79 79 52
 Width: 646
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 323 640 m 0,0,1
@@ -1423,7 +1481,7 @@ SplineSet
  514 437 514 437 462.5 503 c 128,-1,11
  411 569 411 569 323 569 c 128,-1,12
 EndSplineSet
-Kerns2: 62 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  61 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  59 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 61 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 59 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: P
@@ -1431,6 +1489,7 @@ Encoding: 80 80 53
 Width: 554
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 460.5 576.5 m 128,-1,1
@@ -1452,7 +1511,7 @@ SplineSet
  178 311 l 1,17,-1
  302 311 l 2,10,11
 EndSplineSet
-Kerns2: 38 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 38 -38 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Q
@@ -1460,6 +1519,7 @@ Encoding: 81 81 54
 Width: 652
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 596 -148 m 1,0,1
@@ -1488,7 +1548,7 @@ SplineSet
  514 437 514 437 462.5 503 c 128,-1,22
  411 569 411 569 323 569 c 128,-1,23
 EndSplineSet
-Kerns2: 62 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: R
@@ -1496,6 +1556,7 @@ Encoding: 82 82 55
 Width: 613
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 497.5 323 m 128,-1,1
@@ -1527,6 +1588,7 @@ Encoding: 83 83 56
 Width: 605
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 436 476 m 1,0,1
@@ -1558,7 +1620,7 @@ SplineSet
  505 551 505 551 513 476 c 1,31,-1
  436 476 l 1,0,1
 EndSplineSet
-Kerns2: 62 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 62 -26 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: T
@@ -1566,6 +1628,7 @@ Encoding: 84 84 57
 Width: 501
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 6 629 m 1,0,-1
@@ -1578,7 +1641,7 @@ SplineSet
  6 561 l 1,7,-1
  6 629 l 1,0,-1
 EndSplineSet
-Kerns2: 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  37 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  35 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -97 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  27 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -79 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  25 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  24 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -85 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 37 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -50 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 35 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 32 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -97 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -73 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 27 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -79 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 25 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 24 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -85 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -75 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -87 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: U
@@ -1586,6 +1649,7 @@ Encoding: 85 85 58
 Width: 654
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 166 629 m 1,0,-1
@@ -1611,6 +1675,7 @@ Encoding: 86 86 59
 Width: 563
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 629 m 1,0,-1
@@ -1622,7 +1687,7 @@ SplineSet
  18 629 l 1,6,-1
  101 629 l 1,0,-1
 EndSplineSet
-Kerns2: 52 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  40 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -29 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 52 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 40 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -29 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: W
@@ -1630,6 +1695,7 @@ Encoding: 87 87 60
 Width: 895
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 102 629 m 1,0,-1
@@ -1647,7 +1713,7 @@ SplineSet
  14 629 l 1,12,-1
  102 629 l 1,0,-1
 EndSplineSet
-Kerns2: 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 32 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: X
@@ -1655,6 +1721,7 @@ Encoding: 88 88 61
 Width: 642
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 593 0 m 1,0,-1
@@ -1671,7 +1738,7 @@ SplineSet
  366 313 l 1,11,-1
  593 0 l 1,0,-1
 EndSplineSet
-Kerns2: 52 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 52 -12 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Y
@@ -1679,6 +1746,7 @@ Encoding: 89 89 62
 Width: 549
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 104 629 m 1,0,-1
@@ -1692,7 +1760,7 @@ SplineSet
  10 629 l 1,8,-1
  104 629 l 1,0,-1
 EndSplineSet
-Kerns2: 56 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  54 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  52 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  47 -82 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  45 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  40 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  38 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  37 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  36 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  35 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  34 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  33 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  32 -67 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  31 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  30 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  29 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  28 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  27 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  26 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  25 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  24 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  18 -77 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  17 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  16 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  15 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  14 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable"  12 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 56 -28 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 54 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 52 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -82 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 45 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 40 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 37 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 36 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 35 -53 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 34 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 33 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 32 -67 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 31 -37 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 27 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 25 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 24 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -77 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -65 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -61 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Z
@@ -1700,6 +1768,7 @@ Encoding: 90 90 63
 Width: 592
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 73 71 m 1,0,-1
@@ -1721,6 +1790,7 @@ Encoding: 39 39 64
 Width: 136
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 109 677 m 1,0,-1
@@ -1736,6 +1806,7 @@ Encoding: 700 700 65
 Width: 184
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 73 594 m 128,-1,1
@@ -1757,6 +1828,7 @@ Encoding: 8216 8216 66
 Width: 214
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 146.5 488.5 m 128,-1,1
@@ -1778,6 +1850,7 @@ Encoding: 8217 8217 67
 Width: 214
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 51.998 666 m 128,-1,1
@@ -1799,6 +1872,7 @@ Encoding: 40 40 68
 Width: 356
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 155 307 m 128,-1,1
@@ -1818,6 +1892,7 @@ Encoding: 41 41 69
 Width: 356
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 201 307 m 128,-1,1
@@ -1837,6 +1912,7 @@ Encoding: 43 43 70
 Width: 527
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 303 491 m 1,0,-1
@@ -1860,6 +1936,7 @@ Encoding: 8722 8722 71
 Width: 488
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 409 325 m 1,0,-1
@@ -1875,6 +1952,7 @@ Encoding: 61 61 72
 Width: 488
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 409 185 m 1,0,-1
@@ -1895,6 +1973,7 @@ Encoding: 48 48 73
 Width: 594
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 477.802 556.219 m 128,-1,1
@@ -1924,6 +2003,7 @@ Encoding: 49 49 74
 Width: 331
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 49 580 m 1,0,1
@@ -1943,6 +2023,7 @@ Encoding: 50 50 75
 Width: 580
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 143 73 m 1,0,-1
@@ -1978,6 +2059,7 @@ Encoding: 51 51 76
 Width: 591
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 505 468 m 0,0,1
@@ -2018,6 +2100,7 @@ Encoding: 52 52 77
 Width: 559
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 428 638 m 1,0,-1
@@ -2045,6 +2128,7 @@ Encoding: 53 53 78
 Width: 565
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 427 204 m 0,0,1
@@ -2076,6 +2160,7 @@ Encoding: 54 54 79
 Width: 573
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 425 470 m 1,0,1
@@ -2114,6 +2199,7 @@ Encoding: 55 55 80
 Width: 470
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 452 629 m 1,0,-1
@@ -2130,48 +2216,49 @@ EndChar
 
 StartChar: eight
 Encoding: 56 56 81
-Width: 615
+Width: 625
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
-201 318 m 1,0,1
- 76 374.818 76 374.818 76 473 c 0,2,3
- 76 547.881 76 547.881 137.761 593.941 c 128,-1,4
- 199.523 640 199.523 640 302.066 640 c 128,-1,5
- 404.609 640 404.609 640 470.804 590.887 c 128,-1,6
- 537 541.774 537 541.774 537 465 c 0,7,8
- 537 413 537 413 502.5 372 c 128,-1,9
- 468 331 468 331 401 321 c 1,10,-1
- 418 315 l 1,11,12
- 487 289 487 289 524 253.5 c 128,-1,13
- 561 218 561 218 561 157 c 0,14,15
- 561 81.1818 561 81.1818 493.4 35.0909 c 128,-1,16
- 425.8 -11 425.8 -11 311.244 -11 c 128,-1,17
- 196.688 -11 196.688 -11 125.844 39.7537 c 128,-1,18
- 55 90.5075 55 90.5075 55 168 c 0,19,20
- 55 230 55 230 95.5 269 c 128,-1,21
- 136 308 136 308 201 318 c 1,0,1
-276 289 m 1,22,23
- 213 282 213 282 175 249.5 c 128,-1,24
- 137 217 137 217 137 169.196 c 128,-1,25
- 137 121.391 137 121.391 184.897 91.1957 c 128,-1,26
- 232.793 61 232.793 61 310.397 61 c 128,-1,27
- 388 61 388 61 433.5 87 c 128,-1,28
- 479 113 479 113 479 150 c 128,-1,29
- 479 187 479 187 455 209.5 c 128,-1,30
- 431 232 431 232 389 247 c 2,31,-1
- 276 289 l 1,22,23
-159 463 m 0,32,33
- 159 436 159 436 181 416.5 c 128,-1,34
- 203 397 203 397 244 381 c 2,35,-1
- 317 353 l 1,36,37
- 377.283 355.079 377.283 355.079 416.141 384.485 c 128,-1,38
- 455 413.892 455 413.892 455 461.446 c 128,-1,39
- 455 509 455 509 414 538.5 c 128,-1,40
- 373 568 373 568 308.111 568 c 128,-1,41
- 243.222 568 243.222 568 201.111 539.575 c 128,-1,42
- 159 511.15 159 511.15 159 463 c 0,32,33
+211 318 m 1,0,1
+ 86 374.818359375 86 374.818359375 86 473 c 0,2,3
+ 86 547.880859375 86 547.880859375 147.760742188 593.94140625 c 128,-1,4
+ 209.5234375 640 209.5234375 640 312.06640625 640 c 128,-1,5
+ 414.609375 640 414.609375 640 480.803710938 590.88671875 c 128,-1,6
+ 547 541.774414062 547 541.774414062 547 465 c 0,7,8
+ 547 413 547 413 512.5 372 c 128,-1,9
+ 478 331 478 331 411 321 c 1,10,-1
+ 428 315 l 1,11,12
+ 497 289 497 289 534 253.5 c 128,-1,13
+ 571 218 571 218 571 157 c 0,14,15
+ 571 81.181640625 571 81.181640625 503.400390625 35.0908203125 c 128,-1,16
+ 435.799804688 -11 435.799804688 -11 321.244140625 -11 c 128,-1,17
+ 206.688476562 -11 206.688476562 -11 135.84375 39.75390625 c 128,-1,18
+ 65 90.5078125 65 90.5078125 65 168 c 0,19,20
+ 65 230 65 230 105.5 269 c 128,-1,21
+ 146 308 146 308 211 318 c 1,0,1
+286 289 m 1,22,23
+ 223 282 223 282 185 249.5 c 128,-1,24
+ 147 217 147 217 147 169.196289062 c 128,-1,25
+ 147 121.390625 147 121.390625 194.897460938 91.1953125 c 128,-1,26
+ 242.79296875 61 242.79296875 61 320.397460938 61 c 128,-1,27
+ 398 61 398 61 443.5 87 c 128,-1,28
+ 489 113 489 113 489 150 c 128,-1,29
+ 489 187 489 187 465 209.5 c 128,-1,30
+ 441 232 441 232 399 247 c 2,31,-1
+ 286 289 l 1,22,23
+169 463 m 0,32,33
+ 169 436 169 436 191 416.5 c 128,-1,34
+ 213 397 213 397 254 381 c 2,35,-1
+ 327 353 l 1,36,37
+ 387.283203125 355.079101562 387.283203125 355.079101562 426.140625 384.485351562 c 128,-1,38
+ 465 413.891601562 465 413.891601562 465 461.446289062 c 128,-1,39
+ 465 509 465 509 424 538.5 c 128,-1,40
+ 383 568 383 568 318.111328125 568 c 128,-1,41
+ 253.221679688 568 253.221679688 568 211.111328125 539.575195312 c 128,-1,42
+ 169 511.150390625 169 511.150390625 169 463 c 0,32,33
 EndSplineSet
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
@@ -2181,6 +2268,7 @@ Encoding: 57 57 82
 Width: 581
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 282.5 640 m 0,0,1
@@ -2221,6 +2309,7 @@ Encoding: 65539 -1 83
 Width: 531
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 265.5 551 m 128,-1,1
@@ -2245,6 +2334,7 @@ Encoding: 65540 -1 84
 Width: 331
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 49 489 m 1,0,1
@@ -2263,6 +2353,7 @@ Encoding: 65541 -1 85
 Width: 575
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 143 73 m 1,0,-1
@@ -2297,6 +2388,7 @@ Encoding: 65542 -1 86
 Width: 562
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 260 483 m 0,0,1
@@ -2335,6 +2427,7 @@ Encoding: 65543 -1 87
 Width: 560
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 427 546 m 1,0,-1
@@ -2361,6 +2454,7 @@ Encoding: 65544 -1 88
 Width: 569
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 187 296 m 1,0,1
@@ -2392,6 +2486,7 @@ Encoding: 65545 -1 89
 Width: 573
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 425 470 m 1,0,1
@@ -2429,6 +2524,7 @@ Encoding: 65546 -1 90
 Width: 470
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 452 551 m 1,0,-1
@@ -2447,6 +2543,7 @@ Encoding: 65547 -1 91
 Width: 615
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 201 318 m 1,0,1
@@ -2494,6 +2591,7 @@ Encoding: 65548 -1 92
 Width: 580
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 285.5 551 m 0,0,1
@@ -2533,6 +2631,7 @@ Encoding: 36 36 93
 Width: 632
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 417 330 m 2,0,1
@@ -2583,6 +2682,7 @@ Encoding: 63 63 94
 Width: 499
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 248 568 m 0,0,1
@@ -2623,6 +2723,7 @@ Encoding: 163 163 95
 Width: 565
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 400 490 m 1,0,1
@@ -2664,6 +2765,7 @@ Encoding: 96 96 96
 Width: 315
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 57 860 m 1,0,-1
@@ -2679,6 +2781,7 @@ Encoding: 180 180 97
 Width: 315
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 290 790 m 1,0,-1
@@ -2694,6 +2797,7 @@ Encoding: 224 224 98
 Width: 551
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 387 310 m 2,0,1
@@ -2736,6 +2840,7 @@ Encoding: 232 232 99
 Width: 514
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 267 53 m 0,0,1
@@ -2771,6 +2876,7 @@ Encoding: 242 242 100
 Width: 547
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 274 490 m 128,-1,1
@@ -2804,6 +2910,7 @@ Encoding: 192 192 101
 Width: 575
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 242 629 m 1,0,-1
@@ -2832,6 +2939,7 @@ Encoding: 200 200 102
 Width: 564
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 100 629 m 1,0,-1
@@ -2860,6 +2968,7 @@ Encoding: 249 249 103
 Width: 606
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 426 95 m 1,0,1
@@ -2890,6 +2999,7 @@ Encoding: 225 225 104
 Width: 551
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 387 310 m 2,0,1
@@ -2932,6 +3042,7 @@ StartChar: eacute
 Encoding: 233 233 105
 Width: 515
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 N 1 0 0 1 115.642 -127 2
 Refer: 16 101 N 1 0 0 1 0 0 3
@@ -2941,6 +3052,7 @@ StartChar: oacute
 Encoding: 243 243 106
 Width: 546
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 S 1 0 0 1 132 -127 2
 Refer: 26 111 N 1 0 0 1 0 0 3
@@ -2950,6 +3062,7 @@ StartChar: uacute
 Encoding: 250 250 107
 Width: 606
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 N 1 0 0 1 140 -127 2
 Refer: 32 117 N 1 0 0 1 0 0 3
@@ -2960,6 +3073,7 @@ Encoding: 193 193 108
 Width: 575
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 242 629 m 1,0,-1
@@ -2987,6 +3101,7 @@ StartChar: Eacute
 Encoding: 201 201 109
 Width: 562
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 N 1 0 0 1 160.5 23 2
 Refer: 42 69 N 1 0 0 1 0 0 3
@@ -2997,6 +3112,7 @@ Encoding: 204 204 110
 Width: 280
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 629 m 1,0,-1
@@ -3016,6 +3132,7 @@ StartChar: Iacute
 Encoding: 205 205 111
 Width: 280
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 S 1 0 0 1 -11.5 23 2
 Refer: 46 73 N 1 0 0 1 0 0 3
@@ -3026,6 +3143,7 @@ Encoding: 210 210 112
 Width: 646
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 323 640 m 0,0,1
@@ -3058,6 +3176,7 @@ StartChar: Oacute
 Encoding: 211 211 113
 Width: 646
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 S 1 0 0 1 177 23 2
 Refer: 52 79 N 1 0 0 1 0 0 3
@@ -3068,6 +3187,7 @@ Encoding: 217 217 114
 Width: 654
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 166 629 m 1,0,-1
@@ -3097,6 +3217,7 @@ StartChar: Uacute
 Encoding: 218 218 115
 Width: 654
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 S 1 0 0 1 180 23 2
 Refer: 58 85 N 1 0 0 1 0 0 3
@@ -3107,6 +3228,7 @@ Encoding: 710 710 116
 Width: 407
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 383 716 m 1,0,-1
@@ -3124,6 +3246,7 @@ Encoding: 226 226 117
 Width: 551
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 387 310 m 2,0,1
@@ -3168,6 +3291,7 @@ Encoding: 234 234 118
 Width: 514
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 270 53 m 0,0,1
@@ -3205,6 +3329,7 @@ Encoding: 244 244 119
 Width: 547
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 274 490 m 128,-1,1
@@ -3240,6 +3365,7 @@ Encoding: 251 251 120
 Width: 606
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 426 95 m 1,0,1
@@ -3272,6 +3398,7 @@ Encoding: 194 194 121
 Width: 575
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 242 629 m 1,0,-1
@@ -3302,6 +3429,7 @@ Encoding: 202 202 122
 Width: 564
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 105 629 m 1,0,-1
@@ -3332,6 +3460,7 @@ Encoding: 206 206 123
 Width: 280
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 629 m 1,0,-1
@@ -3354,6 +3483,7 @@ Encoding: 212 212 124
 Width: 646
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 323 640 m 0,0,1
@@ -3389,6 +3519,7 @@ Encoding: 219 219 125
 Width: 654
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 166 629 m 1,0,-1
@@ -3421,6 +3552,7 @@ Encoding: 732 732 126
 Width: 366
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 112 770 m 0,0,1
@@ -3448,6 +3580,7 @@ Encoding: 38 38 127
 Width: 916
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 725 350 m 1,0,1
@@ -3504,6 +3637,7 @@ Encoding: 64 64 128
 Width: 940
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 575 289 m 2,0,1
@@ -3561,6 +3695,7 @@ Encoding: 168 168 129
 Width: 323
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 38.5 793.5 m 128,-1,1
@@ -3589,6 +3724,7 @@ Encoding: 228 228 130
 Width: 551
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 387 310 m 2,0,1
@@ -3644,6 +3780,7 @@ Encoding: 235 235 131
 Width: 514
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 267 53 m 0,0,1
@@ -3692,6 +3829,7 @@ Encoding: 246 246 132
 Width: 547
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 274 490 m 128,-1,1
@@ -3738,6 +3876,7 @@ Encoding: 252 252 133
 Width: 606
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 426 95 m 1,0,1
@@ -3781,6 +3920,7 @@ Encoding: 196 196 134
 Width: 575
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 242 629 m 1,0,-1
@@ -3822,6 +3962,7 @@ Encoding: 203 203 135
 Width: 564
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 100 629 m 1,0,-1
@@ -3863,6 +4004,7 @@ Encoding: 207 207 136
 Width: 280
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 629 m 1,0,-1
@@ -3896,6 +4038,7 @@ Encoding: 214 214 137
 Width: 646
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 323 640 m 0,0,1
@@ -3942,6 +4085,7 @@ Encoding: 220 220 138
 Width: 654
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 166 629 m 1,0,-1
@@ -3985,6 +4129,7 @@ Encoding: 305 305 139
 Width: 280
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 479 m 1,0,-1
@@ -4000,6 +4145,7 @@ Encoding: 236 236 140
 Width: 299
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 106 479 m 1,0,-1
@@ -4019,6 +4165,7 @@ StartChar: iacute
 Encoding: 237 237 141
 Width: 280
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 S 1 0 0 1 -15.5 -127 2
 Refer: 139 305 N 1 0 0 1 0 0 3
@@ -4029,6 +4176,7 @@ Encoding: 238 238 142
 Width: 299
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 106 479 m 1,0,-1
@@ -4051,6 +4199,7 @@ Encoding: 239 239 143
 Width: 299
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 106 479 m 1,0,-1
@@ -4084,6 +4233,7 @@ Encoding: 8377 8377 144
 Width: 581
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 92 629 m 1,0,-1
@@ -4118,6 +4268,7 @@ Encoding: 60 60 145
 Width: 454
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 408 512 m 1,0,-1
@@ -4136,6 +4287,7 @@ Encoding: 62 62 146
 Width: 454
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 98 572 m 1,0,-1
@@ -4154,6 +4306,7 @@ Encoding: 34 34 147
 Width: 306
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 110 681 m 1,0,-1
@@ -4174,6 +4327,7 @@ Encoding: 35 35 148
 Width: 627
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 380 170 m 1,0,-1
@@ -4218,6 +4372,7 @@ Encoding: 42 42 149
 Width: 412
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 173 516 m 1,0,-1
@@ -4244,6 +4399,7 @@ Encoding: 47 47 150
 Width: 432
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 308 731 m 1,0,-1
@@ -4259,6 +4415,7 @@ Encoding: 37 37 151
 Width: 726
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 279 602 m 128,-1,1
@@ -4310,6 +4467,7 @@ Encoding: 92 92 152
 Width: 432
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 45 731 m 1,0,-1
@@ -4325,6 +4483,7 @@ Encoding: 124 124 153
 Width: 280
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 750 m 1,0,-1
@@ -4340,6 +4499,7 @@ Encoding: 91 91 154
 Width: 317
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 101 731 m 1,0,-1
@@ -4359,6 +4519,7 @@ Encoding: 93 93 155
 Width: 285
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 184 -102 m 1,0,-1
@@ -4378,6 +4539,7 @@ Encoding: 94 94 156
 Width: 448
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 21 245 m 1,0,-1
@@ -4396,6 +4558,7 @@ Encoding: 95 95 157
 Width: 726
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 55 -56 m 1,0,-1
@@ -4411,6 +4574,7 @@ Encoding: 123 123 158
 Width: 349
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 154 303 m 1,0,1
@@ -4445,6 +4609,7 @@ Encoding: 125 125 159
 Width: 349
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 195 307 m 1,0,1
@@ -4479,6 +4644,7 @@ Encoding: 126 126 160
 Width: 515
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 158 282 m 0,0,1
@@ -4501,6 +4667,7 @@ Encoding: 227 227 161
 Width: 551
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 387 310 m 2,0,1
@@ -4556,6 +4723,7 @@ Encoding: 241 241 162
 Width: 604
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 339 490 m 0,0,1
@@ -4599,6 +4767,7 @@ Encoding: 245 245 163
 Width: 547
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 274 490 m 128,-1,1
@@ -4644,6 +4813,7 @@ Encoding: 195 195 164
 Width: 575
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 242 629 m 1,0,-1
@@ -4684,6 +4854,7 @@ Encoding: 209 209 165
 Width: 686
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 99 629 m 1,0,-1
@@ -4722,6 +4893,7 @@ Encoding: 213 213 166
 Width: 646
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 323 640 m 0,0,1
@@ -4767,6 +4939,7 @@ Encoding: 231 231 167
 Width: 515
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 351.075 -108.613 m 0,0,1
@@ -4807,6 +4980,7 @@ Encoding: 263 263 168
 Width: 515
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 S 1 0 0 1 123.683 -127 2
 Refer: 14 99 N 1 0 0 1 0 0 3
@@ -4908,6 +5082,7 @@ Encoding: 338 338 170
 Width: 646
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 323 640 m 0,0,1
@@ -4978,6 +5153,7 @@ Encoding: 199 199 172
 Width: 613
 VWidth: 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 396.5 -108.613 m 0,0,1
@@ -5019,6 +5195,7 @@ Width: 434
 VWidth: 0
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 287.315 688.672 m 128,-1,1
@@ -5040,7 +5217,7 @@ SplineSet
  197.472 621.777 197.472 621.777 216.026 641.553 c 128,-1,10
  234.581 661.328 234.581 661.328 234.581 688.672 c 128,-1,11
 EndSplineSet
-Kerns2: 36 -686 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 
+Kerns2: 36 -686 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar
 
 StartChar: Aring
@@ -5048,6 +5225,7 @@ Encoding: 197 197 174
 Width: 575
 VWidth: 0
 LayerCount: 2
+Back
 Fore
 Refer: 173 730 N 1 0 0 1 120.849 61.6309 2
 Refer: 38 65 N 1 0 0 1 0 0 3
@@ -5058,6 +5236,7 @@ Encoding: 229 229 175
 Width: 560
 VWidth: 0
 LayerCount: 2
+Back
 Fore
 Refer: 173 730 N 1 0 0 1 116.849 -20.5078 2
 Refer: 12 97 N 1 0 0 1 0 0 3
@@ -5068,6 +5247,7 @@ Encoding: 711 711 176
 Width: 407
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 382.964 837 m 1,0,-1
@@ -5085,6 +5265,7 @@ Encoding: 262 262 177
 Width: 613
 VWidth: 0
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 S 1 0 0 1 173 23 2
 Refer: 40 67 N 1 0 0 1 0 0 3
@@ -5095,6 +5276,7 @@ Encoding: 353 353 178
 Width: 526
 VWidth: 0
 LayerCount: 2
+Back
 Fore
 Refer: 176 711 N 1 0 0 1 59.5361 -131 2
 Refer: 30 115 N 1 0 0 1 0 0 3
@@ -5105,6 +5287,7 @@ Encoding: 352 352 179
 Width: 605
 VWidth: 0
 LayerCount: 2
+Back
 Fore
 Refer: 176 711 N 1 0 0 1 93.5361 19 2
 Refer: 56 83 N 1 0 0 1 0 0 3
@@ -5115,6 +5298,7 @@ Encoding: 382 382 180
 Width: 475
 VWidth: 0
 LayerCount: 2
+Back
 Fore
 Refer: 176 711 N 1 0 0 1 34.5361 -131 2
 Refer: 37 122 N 1 0 0 1 0 0 3
@@ -5125,6 +5309,7 @@ Encoding: 381 381 181
 Width: 592
 VWidth: 0
 LayerCount: 2
+Back
 Fore
 Refer: 176 711 N 1 0 0 1 100.536 19 2
 Refer: 63 90 N 1 0 0 1 0 0 3
@@ -5135,6 +5320,7 @@ Encoding: 579 579 182
 Width: 622
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 180 348 m 1,0,-1
@@ -5181,6 +5367,7 @@ Encoding: 8364 8364 183
 Width: 612
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 337 640 m 0,0,1
@@ -5226,6 +5413,7 @@ Encoding: 171 171 184
 Width: 454
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 369 429.1 m 1,0,-1
@@ -5243,6 +5431,7 @@ Encoding: 171 171 185
 Width: 470
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 181.5 429 m 1,0,-1
@@ -5267,6 +5456,7 @@ Encoding: 187 187 186
 Width: 470
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 293.5 429 m 1,0,-1
@@ -5291,6 +5481,7 @@ Encoding: 8220 8220 187
 Width: 379
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 66 8216 S 1 0 0 1 165 0 2
 Refer: 66 8216 S 1 0 0 1 0 0 2
@@ -5301,6 +5492,7 @@ Encoding: 8221 8221 188
 Width: 376
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 67 8217 S 1 0 0 1 162 0 2
 Refer: 67 8217 S 1 0 0 1 0 0 2
@@ -5311,6 +5503,7 @@ Encoding: 8219 8219 189
 Width: 214
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 66 8216 N 1 0 0 -1 0 1154 2
 EndChar
@@ -5320,6 +5513,7 @@ Encoding: 8223 8223 190
 Width: 379
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 187 8220 N 1 0 0 -1 0 1153.94 2
 EndChar
@@ -5329,6 +5523,7 @@ Encoding: 8218 8218 191
 Width: 214
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 67 8217 S 1 0 0 1 0 -578.989 2
 EndChar
@@ -5338,6 +5533,7 @@ Encoding: 8222 8222 192
 Width: 376
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 188 8221 S 1 0 0 1 0 -578.999 2
 EndChar
@@ -5347,6 +5543,7 @@ Encoding: 8230 8230 193
 Width: 537
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 5 46 N 1 0 0 1 357.996 0 2
 Refer: 5 46 N 1 0 0 1 179.059 0 2
@@ -5358,6 +5555,7 @@ Encoding: 191 191 194
 Width: 499
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 94 63 N -1 0 0 -1 499 625 2
 EndChar
@@ -5367,6 +5565,7 @@ Encoding: 161 161 195
 Width: 278
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 11 33 S -1 0 0 -1 278.011 627 2
 EndChar
@@ -5376,6 +5575,7 @@ Encoding: 1567 1567 196
 Width: 499
 Flags: W
 LayerCount: 2
+Back
 Fore
 Refer: 94 63 S -1 0 0 1 483 0 2
 EndChar
@@ -5385,6 +5585,7 @@ Encoding: 8253 8253 197
 Width: 499
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 167 499.067 m 1,0,-1
@@ -5427,6 +5628,7 @@ Encoding: 215 215 198
 Width: 512
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 434 507 m 1,0,-1
@@ -5442,6 +5644,77 @@ SplineSet
  78 507 l 1,10,-1
  256 329 l 1,11,-1
  434 507 l 1,0,-1
+EndSplineSet
+EndChar
+
+StartChar: germandbls
+Encoding: 223 223 199
+Width: 611
+Flags: WO
+LayerCount: 2
+Back
+Fore
+SplineSet
+295.231445312 350.176757812 m 1,0,-1
+ 295.155273438 399.608398438 l 1,1,-1
+ 295.263671875 405.288085938 l 1,2,3
+ 333.692382812 411 333.692382812 411 348.614257812 423.318359375 c 0,4,5
+ 371.692382812 442 371.692382812 442 383.975585938 470.095703125 c 0,6,7
+ 396.998046875 500.71875 396.998046875 500.71875 398.397460938 530.349609375 c 2,8,-1
+ 398.736328125 537.524414062 l 1,9,-1
+ 398.762695312 538.5234375 l 2,10,11
+ 398.692382812 551 398.692382812 551 397.73046875 558.896484375 c 0,12,13
+ 393.692382812 578 393.692382812 578 389.8125 585.09765625 c 0,14,15
+ 373.692382812 612 373.692382812 612 352.370117188 622.87109375 c 0,16,17
+ 325.692382812 636 325.692382812 636 292.676757812 634.469726562 c 0,18,19
+ 252.692382812 633 252.692382812 633 235.158203125 620.655273438 c 0,20,21
+ 214.692382812 606 214.692382812 606 207.397460938 582.3359375 c 0,22,23
+ 203.692382812 568 203.692382812 568 203.662109375 554.829101562 c 0,24,25
+ 203.692382812 540 203.692382812 540 204.329101562 520.912109375 c 2,26,-1
+ 203.872070312 446.987304688 l 1,27,-1
+ 203.938476562 298.493164062 l 1,28,-1
+ 205.092773438 1.2939453125 l 1,29,-1
+ 124.169921875 0.853515625 l 1,30,-1
+ 123.006835938 298.333007812 l 1,31,-1
+ 123.006835938 447.188476562 l 2,32,33
+ 122.71484375 510.115234375 122.71484375 510.115234375 123.448242188 521.93359375 c 2,34,-1
+ 124.627929688 540.948242188 l 1,35,-1
+ 125.372070312 551.013671875 l 1,36,-1
+ 125.926757812 556.61328125 l 1,37,-1
+ 126.649414062 562.286132812 l 2,38,39
+ 129.692382812 588 129.692382812 588 138.518554688 607.254882812 c 0,40,41
+ 150.692382812 634 150.692382812 634 165.340820312 649.296875 c 0,42,43
+ 184.692382812 669 184.692382812 669 205.85546875 678.354492188 c 0,44,45
+ 243.692382812 695 243.692382812 695 292.692382812 694 c 0,46,47
+ 345.692382812 693 345.692382812 693 377.708007812 677.084960938 c 0,48,49
+ 423.692382812 655 423.692382812 655 446.27734375 614.522460938 c 0,50,51
+ 457.986328125 593.9921875 457.986328125 593.9921875 462.118164062 570.583007812 c 0,52,53
+ 464.692382812 556 464.692382812 556 465.083984375 547.662109375 c 1,54,-1
+ 465.346679688 536.469726562 l 2,55,56
+ 465.692382812 531 465.692382812 531 464.760742188 525.587890625 c 0,57,58
+ 456.692382812 474 456.692382812 474 440.048828125 442.765625 c 0,59,60
+ 423.692382812 413 423.692382812 413 397.06640625 387.314453125 c 1,61,62
+ 440.692382812 368 440.692382812 368 459.388671875 351.07421875 c 0,63,64
+ 497.692382812 317 497.692382812 317 512.54296875 274.668945312 c 0,65,66
+ 526.692382812 233 526.692382812 233 525.180664062 186.045898438 c 0,67,68
+ 524.692382812 162 524.692382812 162 519.155273438 141.043945312 c 0,69,70
+ 511.692382812 114 511.692382812 114 502.604492188 96.841796875 c 0,71,72
+ 492.692382812 78 492.692382812 78 474.025390625 57.8505859375 c 0,73,74
+ 457.692382812 41 457.692382812 41 436.388671875 28.9482421875 c 0,75,76
+ 399.692382812 8 399.692382812 8 353.471679688 0.6982421875 c 0,77,78
+ 317.692382812 -5 317.692382812 -5 271.879882812 -2.7470703125 c 1,79,-1
+ 271.879882812 56.7724609375 l 1,80,81
+ 326.791015625 61.6279296875 326.791015625 61.6279296875 341.48828125 65.423828125 c 0,82,83
+ 383.692382812 76 383.692382812 76 401.194335938 88.51953125 c 0,84,85
+ 426.692382812 106 426.692382812 106 439.79296875 129.979492188 c 0,86,87
+ 445.692382812 141 445.692382812 141 449.7421875 157.608398438 c 0,88,89
+ 453.692382812 179 453.692382812 179 453.794921875 188.598632812 c 0,90,91
+ 453.692382812 264 453.692382812 264 414.669921875 301.021484375 c 0,92,93
+ 390.692382812 324 390.692382812 324 360.30859375 334.436523438 c 0,94,95
+ 333.002929688 344.063476562 333.002929688 344.063476562 327.666992188 344.96875 c 0,96,97
+ 315.692382812 347 315.692382812 347 310.307617188 348.549804688 c 0,98,99
+ 308.692382812 349 308.692382812 349 304.39453125 349.48046875 c 0,100,-1
+ 295.231445312 350.176757812 l 1,0,-1
 EndSplineSet
 EndChar
 EndChars
