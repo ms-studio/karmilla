@@ -1,0 +1,26 @@
+StartChar: n
+Encoding: 110 110 25
+Width: 603
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+177 386 m 1,0,1
+ 223.902 490 223.902 490 338 490 c 0,2,3
+ 423 490 423 490 470.5 434 c 128,-1,4
+ 518 378 518 378 518 281 c 2,5,-1
+ 518 0 l 1,6,-1
+ 440 0 l 1,7,-1
+ 440 281 l 2,8,9
+ 440 350 440 350 407.5 385 c 128,-1,10
+ 375 420 375 420 315 420 c 128,-1,11
+ 255 420 255 420 218 371 c 128,-1,12
+ 181 322 181 322 179 235 c 1,13,-1
+ 179 0 l 1,14,-1
+ 100 0 l 1,15,-1
+ 100 478 l 1,16,-1
+ 168 478 l 1,17,-1
+ 177 386 l 1,0,1
+EndSplineSet
+Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+EndChar
