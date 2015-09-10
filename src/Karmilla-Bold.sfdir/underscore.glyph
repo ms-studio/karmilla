@@ -1,0 +1,14 @@
+StartChar: underscore
+Encoding: 95 95 156
+Width: 768
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+55 -55 m 1,0,-1
+ 714 -55 l 1,1,-1
+ 714 -158 l 1,2,-1
+ 55 -158 l 1,3,-1
+ 55 -55 l 1,0,-1
+EndSplineSet
+EndChar

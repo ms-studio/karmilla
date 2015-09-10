@@ -1,0 +1,19 @@
+StartChar: Igrave
+Encoding: 204 204 109
+Width: 304
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+41 900 m 1,0,-1
+ 308 768 l 1,1,-1
+ 278 694 l 1,2,-1
+ -1 798 l 1,3,-1
+ 41 900 l 1,0,-1
+93 649 m 1,4,-1
+ 211 649 l 1,5,-1
+ 211 0 l 1,6,-1
+ 93 0 l 1,7,-1
+ 93 649 l 1,4,-1
+EndSplineSet
+EndChar
