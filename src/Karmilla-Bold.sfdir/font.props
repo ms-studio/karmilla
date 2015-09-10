@@ -4,7 +4,7 @@ FullName: Karmilla Bold
 FamilyName: Karmilla
 Weight: Bold
 Copyright: Karmilla is Copyright (c) 2012, Manuel Schmalstieg (greyscalepress.com) and Raphael Bastide (raphaelbastide.com).\nKarmilla is a variation of Karla, optimized for French.\nCopyright (c) 2011, Jonathan Pinhorn (pinhorn.typedesign@gmail.com), with Reserved Font Names "Karla" and "Karla Tamil".
-Version: 1.800
+Version: 013
 ItalicAngle: 0
 UnderlinePosition: -50
 UnderlineWidth: 50
@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1441918545
+ModificationTime: 1441918732
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -74,7 +74,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 8232 14 10
+WinInfo: 8190 14 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -91,4 +91,5 @@ Grid
 -1000 -190 m 0
  2000 -190 l 1024
 EndSplineSet
+TeXData: 1 0 0 265289 132644 88429 509608 1048576 88429 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 EndSplineFont
