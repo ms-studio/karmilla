@@ -1,0 +1,10 @@
+StartChar: Imacron
+Encoding: 298 298 227
+Width: 280
+VWidth: 0
+LayerCount: 2
+Back
+Fore
+Refer: 204 175 N 1 0 0 1 -47 -100 2
+Refer: 46 73 N 1 0 0 1 0 0 3
+EndChar

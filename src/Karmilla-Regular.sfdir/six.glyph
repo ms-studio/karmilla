@@ -34,6 +34,6 @@ SplineSet
  358 309 358 309 301.576 309 c 128,-1,22
  245.152 309 245.152 309 207.5 273.5 c 128,-1,23
 EndSplineSet
-Validated: 524289
+Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar

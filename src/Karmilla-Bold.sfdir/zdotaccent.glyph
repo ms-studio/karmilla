@@ -1,0 +1,10 @@
+StartChar: zdotaccent
+Encoding: 380 380 227
+Width: 495
+VWidth: 0
+LayerCount: 2
+Back
+Fore
+Refer: 5 46 N 1 0 0 1 141 568 2
+Refer: 37 122 N 1 0 0 1 0 0 3
+EndChar

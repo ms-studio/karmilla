@@ -21,6 +21,9 @@ To contribute to Karla contact Jonathan Pinhorn
 
 ChangeLog
 
+18 September 2015 (ms-studio) Karmilla v.014
+- Added ø, uppercase Æ, and many combined characters.
+
 10 September 2015 (nclm) Karmilla v.013
 - Added single guillemets (‹›).
 - Added eszett (ß) / 18 April 2015 (elpoto).

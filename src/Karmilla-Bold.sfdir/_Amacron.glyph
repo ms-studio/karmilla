@@ -1,0 +1,10 @@
+StartChar: Amacron
+Encoding: 256 256 272
+Width: 626
+VWidth: 0
+LayerCount: 2
+Back
+Fore
+Refer: 270 175 N 1 0 0 1 129.5 -65 2
+Refer: 38 65 N 1 0 0 1 0 0 3
+EndChar
