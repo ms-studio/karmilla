@@ -1,7 +1,6 @@
 **Karmilla** is a slightly modified version of **Karla**. 
 
-Karla is an outstanding grotesque sans serif 
-typeface family created by Jonathan Pinhorn ([@jonpinhorn_type](http://twitter.com/jonpinhorn_type), a graduate of the MA in Typeface Design at the University of Reading), released through Google Webfonts in 2012.
+Karla is an outstanding grotesque sans serif typeface family created by Jonathan Pinhorn ([@jonpinhorn_type](http://twitter.com/jonpinhorn_type), a graduate of the MA in Typeface Design at the University of Reading), released through Google Webfonts in 2012.
 
 The aim of Karmilla is to offer a workaround for designers who want to use Karla on a French language website, which requires adding and tweaking some glyphs.
 
@@ -9,11 +8,15 @@ The original Karla font can be found here: http://www.google.com/webfonts/specim
 
 The source files have been obtained from http://code.google.com/p/googlefontdirectory/ 
 
-We are working in FontForge, so we are using the provided SFD files (maybe not optimal, as it seems the font was originally developed in FontLab?).
+## Where are the source files?
+
+The contributors are working mostly with FontForge, and we are currently using the native sfdir (SplineFont Directory) format. This format stores each glyph in a single file. We plan to move to the more widespread UFO format in the near future (see [issue #17](https://github.com/ms-studio/karmilla/issues/17)).
+
+To open the font via FontForge, do "File > Open", navigate to and highlight the "Karmilla-Regular.sfdir" folder, and click "OK" – FontForge will then open the font. Don't attempt to open a single .glyph file.
 
 ## Changes:
 
-The changes we made so far:
+Some of the changes we made so far:
 
 * added french quotes «», €, ᴃ
 * improved éóíú on retina screens.

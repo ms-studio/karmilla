@@ -74,7 +74,7 @@ Acknowledgements
 If you make modifications be sure to add your name (N),
 email (if you have one) (E), web-address (if you have one) (W),
 twitter handle (if you have one) (T) and description (D).
-This list is in alphabetical order.
+This list is in chronological order.
 
 N: Jonathan Pinhorn
 E: pinhorn.typedesign@gmail.com
@@ -94,3 +94,7 @@ N: Nicolas Maravitti
 T: @nclm_
 W: probablement.net
 D: Modification of some glyphs
+
+N: elpoto
+D: Modification of some glyphs
+
