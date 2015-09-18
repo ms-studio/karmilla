@@ -14,6 +14,13 @@ The contributors are working mostly with FontForge, and we are currently using t
 
 To open the font via FontForge, do "File > Open", navigate to and highlight the "Karmilla-Regular.sfdir" folder, and click "OK" – FontForge will then open the font. Don't attempt to open a single .glyph file.
 
+## How to generate fonts?
+
+Here is the convention we are using we make changes, such as adding or improving glyphs:
+- Change the version number, under Element > Font Info
+- Export a new TTF, via Generate Fonts > TTF.
+- We name the TTF with the version appended to the filename, such as Karmilla-Regular-013.ttf - this makes it easier to test and compare different versions.
+
 ## Changes:
 
 Some of the changes we made so far:
