@@ -10,16 +10,21 @@ The source files have been obtained from http://code.google.com/p/googlefontdire
 
 ## Where are the source files?
 
-The contributors are working mostly with FontForge, and we are currently using the native sfdir (SplineFont Directory) format. This format stores each glyph in a single file. We plan to move to the more widespread UFO format in the near future (see [issue #17](https://github.com/ms-studio/karmilla/issues/17)).
+You will find them in the "src" folder.
 
-To open the font via FontForge, do "File > Open", navigate to and highlight the "Karmilla-Regular.sfdir" folder, and click "OK" – FontForge will then open the font. Don't attempt to open a single .glyph file.
+## What format are they in?
+
+The contributors are working mostly with FontForge, and we are currently using the native sfdir (SplineFont Directory) format. This format stores each glyph in a single file. We plan to move to the more widespread UFO format at some point in the future (see [issue #17](https://github.com/ms-studio/karmilla/issues/17)).
+
+To open the font with FontForge, do "File > Open", navigate to "/src/" and highlight the "Karmilla-Regular.sfdir" folder, and click "OK" – FontForge will open the font. Don't attempt to open a single .glyph file.
 
 ## How to generate fonts?
 
-Here is the convention we are using we make changes, such as adding or improving glyphs:
-- Change the version number, under Element > Font Info
-- Export a new TTF, via Generate Fonts > TTF.
-- We name the TTF with the version appended to the filename, such as Karmilla-Regular-013.ttf - this makes it easier to test and compare different versions.
+Here is the convention we are using when we make significant changes, such as adding or improving glyphs:
+
+- Increment the version number, under "Element > Font Info".
+- Export a new TTF, via "Generate Fonts > TTF".
+- We name the TTF with the version appended to the filename, such as "Karmilla-Regular-014.ttf" - this makes it easier to test and compare different versions.
 
 ## Changes:
 
@@ -27,7 +32,7 @@ Some of the changes we made so far:
 
 * added french quotes «», €, ᴃ
 * improved éóíú on retina screens.
-* added å for Scandinavian languages.
+* added å, ø and æ for Scandinavian languages.
 * added ç (cedilla) character for better French support.
 * added œ (ligatured o and e) character for better French support.
 * added various punctuation marks.
