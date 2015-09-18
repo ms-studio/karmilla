@@ -23,5 +23,6 @@ SplineSet
  180 681 l 1,17,-1
  180 390 l 1,0,1
 EndSplineSet
+Validated: 524289
 Kerns2: 62 -45 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar

@@ -15,5 +15,6 @@ SplineSet
  24 629 l 1,6,-1
  452 629 l 1,0,-1
 EndSplineSet
+Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar
