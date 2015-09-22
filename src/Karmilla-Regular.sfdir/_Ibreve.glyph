@@ -1,0 +1,10 @@
+StartChar: Ibreve
+Encoding: 300 300 348
+Width: 280
+VWidth: 0
+LayerCount: 2
+Back
+Fore
+Refer: 342 728 N 1 0 0 1 -25 103 2
+Refer: 46 73 N 1 0 0 1 0 0 3
+EndChar
