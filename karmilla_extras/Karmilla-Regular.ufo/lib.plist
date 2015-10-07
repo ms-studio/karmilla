@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.schriftgestaltung.fontMasterID</key>
+	<string>B82B187F-4D71-419C-8BC5-05B1FD988BCD</string>
+	<key>com.schriftgestaltung.useNiceNames</key>
+	<integer>0</integer>
+	<key>com.schriftgestaltung.weightValue</key>
+	<integer>0</integer>
+	<key>org.robofab.glyphOrder</key>
+	<array>
+		<string>.notdef</string>
+		<string>.null</string>
+		<string>CR</string>
+		<string>space</string>
+		<string>exclam</string>
+		<string>quotedbl</string>
+		<string>numbersign</string>
+		<string>dollar</string>
+		<string>percent</string>
+		<string>ampersand</string>
+		<string>quotesingle</string>
+		<string>parenleft</string>
+		<string>parenright</string>
+		<string>asterisk</string>
+		<string>plus</string>
+		<string>comma</string>
+		<string>hyphen</string>
+		<string>period</string>
+		<string>slash</string>
+		<string>zero</string>
+		<string>one</string>
+		<string>two</string>
+		<string>three</string>
+		<string>four</string>
+		<string>five</string>
+		<string>six</string>
+		<string>seven</string>
+		<string>eight</string>
+		<string>nine</string>
+		<string>colon</string>
+		<string>semicolon</string>
+		<string>less</string>
+		<string>equal</string>
+		<string>greater</string>
+		<string>question</string>
+		<string>at</string>
+		<string>A</string>
+		<string>B</string>
+		<string>C</string>
+		<string>D</string>
+		<string>E</string>
+		<string>F</string>
+		<string>G</string>
+		<string>H</string>
+		<string>I</string>
+		<string>J</string>
+		<string>K</string>
+		<string>L</string>
+		<string>M</string>
+		<string>N</string>
+		<string>O</string>
+		<string>P</string>
+		<string>Q</string>
+		<string>R</string>
+		<string>S</string>
+		<string>T</string>
+		<string>U</string>
+		<string>V</string>
+		<string>W</string>
+		<string>X</string>
+		<string>Y</string>
+		<string>Z</string>
+		<string>bracketleft</string>
+		<string>backslash</string>
+		<string>bracketright</string>
+		<string>asciicircum</string>
+		<string>underscore</string>
+		<string>grave</string>
+		<string>a</string>
+		<string>b</string>
+		<string>c</string>
+		<string>d</string>
+		<string>e</string>
+		<string>f</string>
+		<string>g</string>
+		<string>h</string>
+		<string>i</string>
+		<string>j</string>
+		<string>k</string>
+		<string>l</string>
+		<string>m</string>
+		<string>n</string>
+		<string>o</string>
+		<string>p</string>
+		<string>q</string>
+		<string>r</string>
+		<string>s</string>
+		<string>t</string>
+		<string>u</string>
+		<string>v</string>
+		<string>w</string>
+		<string>x</string>
+		<string>y</string>
+		<string>z</string>
+		<string>braceleft</string>
+		<string>bar</string>
+		<string>braceright</string>
+		<string>asciitilde</string>
+		<string>exclamdown</string>
+		<string>cent</string>
+		<string>sterling</string>
+		<string>currency</string>
+		<string>yen</string>
+		<string>brokenbar</string>
+		<string>section</string>
+		<string>dieresis</string>
+		<string>copyright</string>
+		<string>ordfeminine</string>
+		<string>guillemotleft</string>
+		<string>logicalnot</string>
+		<string>uni00AD</string>
+		<string>registered</string>
+		<string>macron</string>
+		<string>degree</string>
+		<string>plusminus</string>
+		<string>twosuperior</string>
+		<string>threesuperior</string>
+		<string>acute</string>
+		<string>uni00B5</string>
+		<string>paragraph</string>
+		<string>periodcentered</string>
+		<string>cedilla</string>
+		<string>onesuperior</string>
+		<string>ordmasculine</string>
+		<string>guillemotright</string>
+		<string>onequarter</string>
+		<string>onehalf</string>
+		<string>threequarters</string>
+		<string>questiondown</string>
+		<string>Agrave</string>
+		<string>Aacute</string>
+		<string>Acircumflex</string>
+		<string>circumflex</string>
+		<string>Atilde</string>
+		<string>tilde</string>
+		<string>Adieresis</string>
+		<string>Aring</string>
+		<string>AE</string>
+		<string>Ccedilla</string>
+		<string>Egrave</string>
+		<string>Eacute</string>
+		<string>Ecircumflex</string>
+		<string>Edieresis</string>
+		<string>Igrave</string>
+		<string>Iacute</string>
+		<string>Icircumflex</string>
+		<string>Idieresis</string>
+		<string>Eth</string>
+		<string>Ntilde</string>
+		<string>Ograve</string>
+		<string>Oacute</string>
+		<string>Ocircumflex</string>
+		<string>Otilde</string>
+		<string>Odieresis</string>
+		<string>multiply</string>
+		<string>Oslash</string>
+		<string>Ugrave</string>
+		<string>Uacute</string>
+		<string>Ucircumflex</string>
+		<string>Udieresis</string>
+		<string>Yacute</string>
+		<string>Thorn</string>
+		<string>germandbls</string>
+		<string>agrave</string>
+		<string>aacute</string>
+		<string>acircumflex</string>
+		<string>atilde</string>
+		<string>adieresis</string>
+		<string>aring</string>
+		<string>ring</string>
+		<string>ae</string>
+		<string>ccedilla</string>
+		<string>egrave</string>
+		<string>eacute</string>
+		<string>ecircumflex</string>
+		<string>edieresis</string>
+		<string>igrave</string>
+		<string>dotlessi</string>
+		<string>iacute</string>
+		<string>icircumflex</string>
+		<string>idieresis</string>
+		<string>eth</string>
+		<string>ntilde</string>
+		<string>ograve</string>
+		<string>oacute</string>
+		<string>ocircumflex</string>
+		<string>otilde</string>
+		<string>odieresis</string>
+		<string>divide</string>
+		<string>oslash</string>
+		<string>ugrave</string>
+		<string>uacute</string>
+		<string>ucircumflex</string>
+		<string>udieresis</string>
+		<string>yacute</string>
+		<string>thorn</string>
+		<string>ydieresis</string>
+		<string>Amacron</string>
+		<string>amacron</string>
+		<string>Abreve</string>
+		<string>breve</string>
+		<string>abreve</string>
+		<string>Aogonek</string>
+		<string>aogonek</string>
+		<string>Cacute</string>
+		<string>cacute</string>
+		<string>Ccaron</string>
+		<string>caron</string>
+		<string>ccaron</string>
+		<string>Dcaron</string>
+		<string>dcaron</string>
+		<string>commaaccent</string>
+		<string>Dcroat</string>
+		<string>dcroat</string>
+		<string>Emacron</string>
+		<string>emacron</string>
+		<string>Edotaccent</string>
+		<string>edotaccent</string>
+		<string>Eogonek</string>
+		<string>eogonek</string>
+		<string>Ecaron</string>
+		<string>ecaron</string>
+		<string>Gbreve</string>
+		<string>gbreve</string>
+		<string>Gcommaaccent</string>
+		<string>gcommaaccent</string>
+		<string>Imacron</string>
+		<string>imacron</string>
+		<string>Iogonek</string>
+		<string>iogonek</string>
+		<string>Idotaccent</string>
+		<string>Kcommaaccent</string>
+		<string>kcommaaccent</string>
+		<string>Lacute</string>
+		<string>lacute</string>
+		<string>Lcommaaccent</string>
+		<string>lcommaaccent</string>
+		<string>Lcaron</string>
+		<string>lcaron</string>
+		<string>Lslash</string>
+		<string>lslash</string>
+		<string>Nacute</string>
+		<string>nacute</string>
+		<string>Ncommaaccent</string>
+		<string>ncommaaccent</string>
+		<string>Ncaron</string>
+		<string>ncaron</string>
+		<string>Omacron</string>
+		<string>omacron</string>
+		<string>Ohungarumlaut</string>
+		<string>hungarumlaut</string>
+		<string>ohungarumlaut</string>
+		<string>OE</string>
+		<string>oe</string>
+		<string>Racute</string>
+		<string>racute</string>
+		<string>Rcommaaccent</string>
+		<string>rcommaaccent</string>
+		<string>Rcaron</string>
+		<string>rcaron</string>
+		<string>Sacute</string>
+		<string>sacute</string>
+		<string>Scedilla</string>
+		<string>scedilla</string>
+		<string>Scaron</string>
+		<string>scaron</string>
+		<string>Tcommaaccent</string>
+		<string>tcommaaccent</string>
+		<string>Tcaron</string>
+		<string>tcaron</string>
+		<string>Umacron</string>
+		<string>umacron</string>
+		<string>Uring</string>
+		<string>uring</string>
+		<string>Uhungarumlaut</string>
+		<string>uhungarumlaut</string>
+		<string>Uogonek</string>
+		<string>uogonek</string>
+		<string>Ydieresis</string>
+		<string>Zacute</string>
+		<string>zacute</string>
+		<string>Zdotaccent</string>
+		<string>zdotaccent</string>
+		<string>Zcaron</string>
+		<string>zcaron</string>
+		<string>florin</string>
+		<string>Scommaaccent</string>
+		<string>scommaaccent</string>
+		<string>uni021A</string>
+		<string>uni021B</string>
+		<string>uni02C9</string>
+		<string>minus</string>
+		<string>dotaccent</string>
+		<string>ogonek</string>
+		<string>pi</string>
+		<string>endash</string>
+		<string>emdash</string>
+		<string>quoteleft</string>
+		<string>quoteright</string>
+		<string>quotesinglbase</string>
+		<string>quotedblleft</string>
+		<string>quotedblright</string>
+		<string>quotedblbase</string>
+		<string>dagger</string>
+		<string>daggerdbl</string>
+		<string>bullet</string>
+		<string>ellipsis</string>
+		<string>perthousand</string>
+		<string>guilsinglleft</string>
+		<string>guilsinglright</string>
+		<string>fraction</string>
+		<string>Euro</string>
+		<string>uni2113</string>
+		<string>trademark</string>
+		<string>uni2126</string>
+		<string>estimated</string>
+		<string>partialdiff</string>
+		<string>uni2206</string>
+		<string>product</string>
+		<string>summation</string>
+		<string>uni2215</string>
+		<string>uni2219</string>
+		<string>radical</string>
+		<string>infinity</string>
+		<string>integral</string>
+		<string>approxequal</string>
+		<string>notequal</string>
+		<string>lessequal</string>
+		<string>greaterequal</string>
+		<string>lozenge</string>
+		<string>apostrophe</string>
+		<string>rupeesymbol</string>
+		<string>zero.propold</string>
+		<string>one.propold</string>
+		<string>two.propold</string>
+		<string>three.propold</string>
+		<string>four.propold</string>
+		<string>five.propold</string>
+		<string>six.propold</string>
+		<string>seven.propold</string>
+		<string>eight.propold</string>
+		<string>nine.propold</string>
+	</array>
+	<key>org.robofab.opentype.classes</key>
+	<string>languagesystem latn dflt;
+</string>
+	<key>org.robofab.opentype.featureorder</key>
+	<array>
+		<string>aalt</string>
+		<string>kern</string>
+		<string>onum</string>
+	</array>
+	<key>org.robofab.opentype.features</key>
+	<dict>
+		<key>aalt</key>
+		<string>feature aalt{
+  feature onum;
+} aalt;
+</string>
+		<key>kern</key>
+		<string>feature kern { # Kerning
+ script latn; # Latin
+lookup kern0 {
+    pos A T -40;
+    pos A V -28;
+    pos A W -28;
+    pos A Y -26;
+    pos A f -12;
+    pos A v -22;
+    pos A w -24;
+    pos A y -28;
+    pos D Y -25;
+    pos F A -57;
+    pos F W -8;
+    pos F X -16;
+    pos F Y -8;
+    pos F a -24;
+    pos F c -28;
+    pos F d -24;
+    pos F e -28;
+    pos F g -45;
+    pos F o -28;
+    pos F q -28;
+    pos F u -24;
+    pos F v -32;
+    pos F w -36;
+    pos F x -28;
+    pos F y -28;
+    pos F z -24;
+    pos L J 16;
+    pos L T -49;
+    pos L V -45;
+    pos L W -41;
+    pos L Y -69;
+    pos L v -24;
+    pos L w -24;
+    pos L y -20;
+    pos O V -8;
+    pos O X -12;
+    pos O Y -16;
+    pos P A -38;
+    pos Q Y -16;
+    pos S Y -26;
+    pos T A -40;
+    pos T J -69;
+    pos T a -87;
+    pos T c -75;
+    pos T d -85;
+    pos T e -75;
+    pos T f -53;
+    pos T g -87;
+    pos T m -69;
+    pos T n -69;
+    pos T o -79;
+    pos T p -69;
+    pos T q -75;
+    pos T r -73;
+    pos T s -97;
+    pos T u -69;
+    pos T v -73;
+    pos T w -40;
+    pos T x -57;
+    pos T y -50;
+    pos T z -53;
+    pos V A -33;
+    pos V C -8;
+    pos V J -69;
+    pos V O -8;
+    pos V a -33;
+    pos V c -33;
+    pos V d -33;
+    pos V e -33;
+    pos V f -40;
+    pos V g -49;
+    pos V o -33;
+    pos V q -29;
+    pos V r -17;
+    pos V s -33;
+    pos W A -33;
+    pos W J -69;
+    pos W a -33;
+    pos W c -33;
+    pos W d -33;
+    pos W e -33;
+    pos W f -40;
+    pos W g -49;
+    pos W o -33;
+    pos W q -33;
+    pos W r -33;
+    pos W s -40;
+    pos W u -28;
+    pos X O -12;
+    pos Y A -69;
+    pos Y C -17;
+    pos Y H -8;
+    pos Y J -82;
+    pos Y O -16;
+    pos Y Q -16;
+    pos Y S -28;
+    pos Y a -61;
+    pos Y c -65;
+    pos Y d -65;
+    pos Y e -65;
+    pos Y f -65;
+    pos Y g -77;
+    pos Y m -65;
+    pos Y n -65;
+    pos Y o -65;
+    pos Y p -65;
+    pos Y q -65;
+    pos Y r -65;
+    pos Y s -65;
+    pos Y t -37;
+    pos Y u -67;
+    pos Y v -45;
+    pos Y w -45;
+    pos Y x -53;
+    pos Y y -57;
+    pos Y z -65;
+    pos a T -89;
+    pos a V -37;
+    pos a W -28;
+    pos a Y -53;
+    pos b T -20;
+    pos b V -29;
+    pos b Y -17;
+    pos c T -61;
+    pos c V -28;
+    pos c Y -33;
+    pos e T -61;
+    pos e V -24;
+    pos e Y -41;
+    pos f A -16;
+    pos f J -53;
+    pos f c -16;
+    pos f g -26;
+    pos f j -16;
+    pos f s -24;
+    pos g j 73;
+    pos g y 16;
+    pos h T -8;
+    pos h Y -45;
+    pos j f -22;
+    pos k f -16;
+    pos k j -8;
+    pos k y -16;
+    pos m T -36;
+    pos m Y -41;
+    pos n T -44;
+    pos n Y -41;
+    pos o T -71;
+    pos o V -33;
+    pos o W -33;
+    pos o Y -65;
+    pos p T -53;
+    pos p Y -36;
+    pos q T -73;
+    pos q Y -47;
+    pos q j 81;
+    pos r J -40;
+    pos r T -48;
+    pos r g -20;
+    pos s T -89;
+    pos s V -28;
+    pos s W -36;
+    pos s Y -57;
+    pos s f -28;
+    pos s y -20;
+    pos t Y -37;
+    pos u T -57;
+    pos u Y -49;
+    pos v A -24;
+    pos v J -53;
+    pos v T -60;
+    pos v Y -45;
+    pos v g -8;
+    pos w A -28;
+    pos w J -41;
+    pos w T -32;
+    pos w Y -32;
+    pos x T -41;
+    pos x Y -49;
+    pos y A -12;
+    pos y J -24;
+    pos y T -56;
+    pos y Y -28;
+    pos y g -8;
+    pos z T -24;
+    pos z Y -41;
+} kern0;
+} kern;
+</string>
+		<key>onum</key>
+		<string>feature onum { # Oldstyle Figures
+ script latn; # Latin
+    sub @onum1 by @onum2;
+} onum;
+</string>
+	</dict>
+	<key>public.glyphOrder</key>
+	<array>
+		<string>AE</string>
+		<string>Eth</string>
+		<string>Thorn</string>
+		<string>ae</string>
+		<string>eth</string>
+		<string>thorn</string>
+		<string>germandbls</string>
+	</array>
+</dict>
+</plist>

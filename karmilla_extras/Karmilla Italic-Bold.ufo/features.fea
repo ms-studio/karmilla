@@ -1,0 +1,49 @@
+@.LeftRounded = [ zero six C G O' Q c e o q Ograve Oacute Ocircumflex Otilde Odieresis egrave eacute ecircumflex edieresis ograve oacute ocircumflex otilde odieresis zero.prop six.prop ];
+
+@.VerticalOutstroke = [ h m n' ntilde ];
+
+@.Odiacritics = [ O' Ograve Oacute Ocircumflex Otilde Odieresis ];
+
+@.idiacritics = [ i' igrave iacute icircumflex idieresis ];
+
+@.Ediacritics = [ E' Egrave Eacute Ecircumflex Edieresis ];
+
+@.LeftVertical = [ B D E F H' I K L M N P R b h i j k l m n p r bar dotlessi Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Ntilde igrave iacute icircumflex idieresis ntilde bracketleft ];
+
+@.Ndiacritics = [ N', Ntilde ];
+
+@.RightRounded = [ zero nine D O' Q o p Ograve Oacute Ocircumflex Otilde Odieresis ograve oacute ocircumflex otilde odieresis zero.prop nine.prop ];
+
+@.Idiacritics = [ I' Igrave Iacute Icircumflex Idieresis ];
+
+@.Udiacritics = [ U' Ugrave Uacute Ucircumflex Udieresis ];
+
+@.VerticalInstroke = [ U u' Ugrave Uacute Ucircumflex Udieresis ugrave uacute ucircumflex udieresis ];
+
+@.adiacritics = [ a' agrave aacute acircumflex atilde adieresis ];
+
+@.odiacritics = [ o' ograve oacute ocircumflex otilde odieresis ];
+
+@.ediacritics = [ e' egrave eacute ecircumflex edieresis ];
+
+@.ndiacritics = [ n', ntilde ];
+
+@.Adiacritics = [ A' Agrave Aacute Acircumflex Atilde Adieresis ];
+
+@.udiacritics = [ u' ugrave uacute ucircumflex udieresis ];
+
+@.RightVertical = [ one H' I M N bracketright d i j l q bar dotlessi Igrave Iacute Icircumflex Idieresis Ntilde igrave iacute icircumflex idieresis ugrave uacute ucircumflex udieresis one.prop zero nine D O Q o p Ograve Oacute Ocircumflex Otilde Odieresis ograve oacute ocircumflex otilde odieresis zero.prop nine.prop ];
+
+feature onum {
+  sub zero by zero.prop ;
+  sub one by one.prop ;
+  sub two by two.prop ;
+  sub three by three.prop ;
+  sub four by four.prop ;
+  sub five by five.prop ;
+  sub six by six.prop ;
+  sub seven by seven.prop ;
+  sub eight by eight.prop ;
+  sub nine by nine.prop ;
+} onum;
+
