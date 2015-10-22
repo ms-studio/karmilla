@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1442931199
+ModificationTime: 1445549615
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -76,7 +76,7 @@ NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 112 14 10
+WinInfo: 216 18 10
 BeginPrivate: 0
 EndPrivate
 Grid
