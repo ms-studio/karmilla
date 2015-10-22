@@ -13,20 +13,30 @@ the Tamil script. This is the Latin script subset of the family.
 The aim of Karmilla is to optimize Karla for the support of the French
 language, which requires adding and modifiying some glyphs.
 
-To contribute to Karmilla contact Greyscale Press
-@greyscalepress
+To contribute to Karmilla, just use the github repository:
+https://github.com/ms-studio/karmilla/
 
-To contribute to Karla contact Jonathan Pinhorn
+To contribute to Karla contact Jonathan Pinhorn:
 @jonpinhorn_type
 
 ChangeLog
+
+22 october 2015 (ms-studio) Karmilla v.015
+- New glyphs contributed by Jonathan Pinhorn: Æ, ß, Ð, ð, Þ, þ.
+- The Icelandic alphabet is now fully supported.
+- New glyphs contributed by Andrew Shadura: Ľ, ľ (for Slovak).
+
+22 september 2015 (ms-studio) Karmilla v.014+
+- Added a hand-drawn ogonek (U+02DB), which allows to produce some more combined characters (Ąą...). 
+- Added a hand-drawn breve (U+02D8), which also alows more combined glyphs (Ăă...). 
+- Added polish Ł and ł, © and ®, the ¥ symbol.
 
 18 September 2015 (ms-studio) Karmilla v.014
 - Added ø, uppercase Æ, and many combined characters.
 
 10 September 2015 (nclm) Karmilla v.013
 - Added single guillemets (‹›).
-- Added eszett (ß) / 18 April 2015 (elpoto).
+- Added eszett (ß) / 18 April 2015 (contributed by elpoto).
 
 4 May 2014 (nclm) Karmilla v.012
 - Added ellipsis (…).
@@ -96,6 +106,9 @@ D: Modification of some glyphs
 N: Nicolas Maravitti
 T: @nclm_
 W: probablement.net
+D: Modification of some glyphs
+
+N: Andrew Shadura
 D: Modification of some glyphs
 
 N: elpoto
