@@ -2,11 +2,19 @@
 
 Karla is an outstanding grotesque sans serif typeface family created by Jonathan Pinhorn ([@jonpinhorn_type](http://twitter.com/jonpinhorn_type), a graduate of the MA in Typeface Design at the University of Reading), released through Google Webfonts in 2012.
 
-The aim of Karmilla is to offer a workaround for designers who want to use Karla but need supoort for French, German, Norvegian, Slovak or Icelandic, which requires adding and tweaking some glyphs.
+The aim of Karmilla is to offer a workaround for designers who want to use Karla but need support for French, German, Norvegian, Slovak or Icelandic, which requires adding and tweaking some glyphs.
 
 The original Karla font can be found here: http://www.google.com/webfonts/specimen/Karla
 
-The source files have been obtained from http://code.google.com/p/googlefontdirectory/ 
+The source files have been obtained from https://github.com/google/fonts/tree/master/ofl/karla
+
+## Can I install the font on my computer?
+
+Yes you can! You will find the files in the "ttf" folder. The .ttf extension stands for "TrueType font", a common format for fonts on Mac OS, Microsoft Windows and Linux.
+
+## Can I use Karmilla as a webfont?
+
+Yes of course! For your convenience, we have generated a webfont, which you can find in the "webfontkit" folder.
 
 ## Where are the source files?
 
@@ -32,8 +40,7 @@ Some of the changes we made so far:
 
 * added ß for the German alphabet.
 * added characters for the Icelandic alphabet.
-* added french quotes «», €, ᴃ
-* improved éóíú on retina screens.
+* added french quotes «», €, ¥, ᴃ
 * added å, ø and æ for Scandinavian languages.
 * added ç (cedilla) character for better French support.
 * added œ (ligatured o and e) character for better French support.
