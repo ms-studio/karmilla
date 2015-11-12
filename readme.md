@@ -49,3 +49,12 @@ Some of the changes we made so far:
 * the position of the typographic apostrophe has been changed, so it matches the height of ascenders (l', d').
 
 See the [FONTLOG.txt](https://github.com/ms-studio/karmilla/blob/master/FONTLOG.txt) for details.
+
+## In Collections:
+
+Karmilla is featured in the following font collections:
+
+- The [Open Font Library](https://fontlibrary.org/en/font/karmilla)
+- [Use & Modify](http://usemodify.com/fonts/karmilla/), curated by Raphaël Bastide
+- [Interstice Typothèque](http://typotheque.interstices.io/fonts/karmilla/), curated by Alexandre Liziard & Étienne Ozeray
+- [Supertypo](http://supertypo.anka.io/), curated by Karol Zaharanski 
