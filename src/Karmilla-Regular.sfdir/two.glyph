@@ -3,6 +3,7 @@ Encoding: 50 50 75
 Width: 580
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 143 73 m 1,0,-1
@@ -30,5 +31,6 @@ SplineSet
  143 144 143 144 143 103 c 2,28,-1
  143 73 l 1,0,-1
 EndSplineSet
+Validated: 1
 Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
 EndChar

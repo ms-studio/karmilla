@@ -2,7 +2,9 @@ StartChar: uacute
 Encoding: 250 250 107
 Width: 606
 LayerCount: 2
+Back
 Fore
 Refer: 97 180 N 1 0 0 1 140 -127 2
 Refer: 32 117 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar

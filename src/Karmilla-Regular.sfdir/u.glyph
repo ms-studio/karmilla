@@ -3,6 +3,7 @@ Encoding: 117 117 32
 Width: 606
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 426 95 m 1,0,1
@@ -21,5 +22,6 @@ SplineSet
  426 0 l 1,17,-1
  426 95 l 1,0,1
 EndSplineSet
+Validated: 1
 Kerns2: 62 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -57 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar

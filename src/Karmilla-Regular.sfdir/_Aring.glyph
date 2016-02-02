@@ -3,7 +3,9 @@ Encoding: 197 197 174
 Width: 575
 VWidth: 0
 LayerCount: 2
+Back
 Fore
-Refer: 173 730 N 1 0 0 1 120.849 61.6309 2
+Refer: 173 730 S 1 0 0 1 120.849 61.6309 2
 Refer: 38 65 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar

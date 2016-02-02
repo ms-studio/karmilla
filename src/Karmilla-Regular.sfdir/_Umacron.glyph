@@ -1,0 +1,10 @@
+StartChar: Umacron
+Encoding: 362 362 253
+Width: 654
+VWidth: 0
+LayerCount: 2
+Back
+Fore
+Refer: 204 175 N 1 0 0 1 138.5 -100 2
+Refer: 58 85 N 1 0 0 1 0 0 3
+EndChar

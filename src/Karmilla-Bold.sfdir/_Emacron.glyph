@@ -1,0 +1,10 @@
+StartChar: Emacron
+Encoding: 274 274 273
+Width: 586
+VWidth: 0
+LayerCount: 2
+Back
+Fore
+Refer: 270 175 N 1 0 0 1 113.5 -78 2
+Refer: 42 69 N 1 0 0 1 0 0 3
+EndChar

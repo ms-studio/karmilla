@@ -3,6 +3,7 @@ Encoding: 8250 8250 200
 Width: 291
 Flags: W
 LayerCount: 2
+Back
 Fore
 SplineSet
 115 429 m 1,0,-1
@@ -13,4 +14,5 @@ SplineSet
  261 233 l 1,5,-1
  115 429 l 1,0,-1
 EndSplineSet
+Validated: 9
 EndChar

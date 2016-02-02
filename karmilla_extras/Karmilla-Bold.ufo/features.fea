@@ -1,0 +1,17 @@
+# Prefix: Prefix
+languagesystem latn dflt;
+
+@onum2 = [ .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef .notdef ];
+
+@onum1 = [ zero one two three four five six seven eight nine ];
+
+feature aalt {
+  feature onum;
+} aalt;
+
+feature onum {
+ # Oldstyle Figures
+ script latn; # Latin
+    sub @onum1 by @onum2;
+} onum;
+

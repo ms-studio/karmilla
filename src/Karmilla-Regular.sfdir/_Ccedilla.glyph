@@ -3,6 +3,7 @@ Encoding: 199 199 172
 Width: 613
 VWidth: 0
 LayerCount: 2
+Back
 Fore
 SplineSet
 396.5 -108.613 m 0,0,1
@@ -36,4 +37,5 @@ SplineSet
  358.039 -47.2402 358.039 -47.2402 377.269 -63.8115 c 128,-1,43
  396.5 -80.3818 396.5 -80.3818 396.5 -108.613 c 0,0,1
 EndSplineSet
+Validated: 1
 EndChar
