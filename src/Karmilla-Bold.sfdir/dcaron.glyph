@@ -1,0 +1,11 @@
+StartChar: dcaron
+Encoding: 271 271 321
+Width: 614
+VWidth: 0
+Flags: W
+LayerCount: 2
+Back
+Fore
+Refer: 65 700 N 1 0 0 1 575 0 2
+Refer: 15 100 N 1 0 0 1 0 0 2
+EndChar

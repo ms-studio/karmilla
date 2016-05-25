@@ -21,6 +21,9 @@ To contribute to Karla contact Jonathan Pinhorn:
 
 ChangeLog
 
+23 may 2016 (ms-studio) Karmilla v.016
+- Adding turkish glyphs to the Bold version.
+
 22 october 2015 (ms-studio) Karmilla v.015
 - New glyphs contributed by Jonathan Pinhorn: Æ, ß, Ð, ð, Þ, þ.
 - The Icelandic alphabet is now fully supported.
