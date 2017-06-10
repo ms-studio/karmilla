@@ -20,7 +20,7 @@ Yes of course! For your convenience, we have generated a webfont, which you can 
 
 You will find them in the "src" folder.
 
-## What format are they in?
+## What format are they in?
 
 The contributors are working mostly with FontForge, and we are currently using the native sfdir (SplineFont Directory) format. This format stores each glyph in a single file. We plan to move to the more widespread UFO format at some point in the future (see [issue #17](https://github.com/ms-studio/karmilla/issues/17)).
 
@@ -50,7 +50,7 @@ Some of the changes we made so far:
 
 See the [FONTLOG.txt](https://github.com/ms-studio/karmilla/blob/master/FONTLOG.txt) for details.
 
-## In Collections:
+## In Collections:
 
 Karmilla is featured in the following font collections:
 
