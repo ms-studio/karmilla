@@ -1,19 +1,10 @@
 StartChar: lcaron
-<<<<<<< HEAD
 Encoding: 537 318 376
 Width: 316
-=======
-Encoding: 318 318 325
-Width: 304
->>>>>>> refs/remotes/ms-studio/master
 VWidth: 0
 Flags: W
 LayerCount: 2
 Fore
-<<<<<<< HEAD
 Refer: 65 700 N 1 0 0 1 147 0 2
-=======
-Refer: 65 700 S 0.7 0 0 0.7 228 205.2 2
->>>>>>> refs/remotes/ms-studio/master
 Refer: 23 108 N 1 0 0 1 0 0 2
 EndChar

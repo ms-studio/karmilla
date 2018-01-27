@@ -1,18 +1,9 @@
 StartChar: uhungarumlaut
-<<<<<<< HEAD
 Encoding: 539 369 378
 Width: 606
 VWidth: 0
 LayerCount: 2
 Fore
 Refer: 377 733 N 1 0 0 1 128.5 -77 2
-=======
-Encoding: 369 369 327
-Width: 627
-VWidth: 0
-LayerCount: 2
-Fore
-Refer: 326 733 N 1 0 0 1 176.967 -126.77 2
->>>>>>> refs/remotes/ms-studio/master
 Refer: 32 117 N 1 0 0 1 0 0 3
 EndChar

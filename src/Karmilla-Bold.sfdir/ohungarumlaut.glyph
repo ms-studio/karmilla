@@ -1,18 +1,9 @@
 StartChar: ohungarumlaut
-<<<<<<< HEAD
 Encoding: 540 337 379
 Width: 546
 VWidth: 0
 LayerCount: 2
 Fore
 Refer: 377 733 N 1 0 0 1 105.5 -77 2
-=======
-Encoding: 337 337 330
-Width: 566
-VWidth: 0
-LayerCount: 2
-Fore
-Refer: 326 733 N 1 0 0 1 151.967 -126.77 2
->>>>>>> refs/remotes/ms-studio/master
 Refer: 26 111 N 1 0 0 1 0 0 3
 EndChar
