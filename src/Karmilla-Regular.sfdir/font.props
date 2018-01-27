@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1517061925
+ModificationTime: 1517092494
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -54,6 +54,7 @@ OS2StrikeYPos: 250
 OS2Vendor: 'pyrs'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80000027.08000042.14000000.00000000
+Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 1" { "'locl' Localized Forms in Cyrillic lookup 1-1" ("loclBGR") } ['locl' ('cyrl' <'BGR ' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 0" { "'onum' Oldstyle Figures in Latin lookup 0 subtable" ("oldstyle") } ['onum' ('latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1

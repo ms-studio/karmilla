@@ -7,4 +7,5 @@ VStem: 101 80<0 227 338 629>
 LayerCount: 2
 Fore
 Refer: 48 75 N 1 0 0 1 0 0 2
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 1-1" afii10028.loclBGR
 EndChar
