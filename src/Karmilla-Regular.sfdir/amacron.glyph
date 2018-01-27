@@ -1,9 +1,8 @@
 StartChar: amacron
-Encoding: 257 257 211
+Encoding: 372 257 211
 Width: 560
 VWidth: 0
 LayerCount: 2
-Back
 Fore
 Refer: 204 175 N 1 0 0 1 98.5 -250 2
 Refer: 12 97 N 1 0 0 1 0 0 3

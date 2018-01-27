@@ -1,9 +1,8 @@
 StartChar: Aogonek
-Encoding: 260 260 306
+Encoding: 467 260 306
 Width: 575
 VWidth: 0
 LayerCount: 2
-Back
 Fore
 Refer: 299 731 S 1 0 0 1 206.243 -3.5263 2
 Refer: 38 65 N 1 0 0 1 0 0 2

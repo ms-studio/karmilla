@@ -1,6 +1,11 @@
 StartChar: tcaron
+<<<<<<< HEAD
+Encoding: 402 357 241
+Width: 557
+=======
 Encoding: 357 357 241
 Width: 401
+>>>>>>> refs/remotes/ms-studio/master
 VWidth: 0
 Flags: W
 LayerCount: 2

@@ -1,15 +1,14 @@
 StartChar: dotlessi
-Encoding: 305 305 138
+Encoding: 315 305 138
 Width: 304
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
-93 487 m 1,0,-1
- 211 487 l 1,1,-1
- 211 0 l 1,2,-1
- 93 0 l 1,3,-1
- 93 487 l 1,0,-1
+93 0 m 1,0,-1
+ 93 487 l 1,1,-1
+ 211 487 l 1,2,-1
+ 211 0 l 1,3,-1
+ 93 0 l 1,0,-1
 EndSplineSet
 EndChar

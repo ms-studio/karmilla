@@ -1,18 +1,16 @@
 StartChar: circumflex
-Encoding: 710 710 116
+Encoding: 295 710 116
 Width: 407
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
-383 716 m 1,0,-1
- 333 677 l 1,1,-1
- 204 785 l 1,2,-1
- 74 677 l 1,3,-1
- 24 716 l 1,4,-1
- 204 872 l 1,5,-1
- 383 716 l 1,0,-1
+24 716 m 1,0,-1
+ 204 872 l 1,1,-1
+ 383 716 l 1,2,-1
+ 333 677 l 1,3,-1
+ 204 785 l 1,4,-1
+ 74 677 l 1,5,-1
+ 24 716 l 1,0,-1
 EndSplineSet
-Validated: 1
 EndChar
