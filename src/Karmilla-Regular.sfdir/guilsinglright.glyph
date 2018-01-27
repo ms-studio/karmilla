@@ -1,9 +1,8 @@
 StartChar: guilsinglright
-Encoding: 8250 8250 200
+Encoding: 361 8250 200
 Width: 291
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 115 429 m 1,0,-1

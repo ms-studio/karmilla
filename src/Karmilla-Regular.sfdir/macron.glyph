@@ -1,9 +1,8 @@
 StartChar: macron
-Encoding: 175 175 204
+Encoding: 365 175 204
 Width: 373
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 21 874 m 5,0,-1

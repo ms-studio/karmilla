@@ -1,10 +1,9 @@
 StartChar: thorn
-Encoding: 254 254 371
+Encoding: 532 254 371
 Width: 594
 VWidth: 0
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 316 -11 m 256,0,1

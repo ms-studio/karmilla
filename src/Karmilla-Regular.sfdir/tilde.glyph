@@ -1,9 +1,8 @@
 StartChar: tilde
-Encoding: 732 732 126
+Encoding: 305 732 126
 Width: 366
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 112 770 m 0,0,1

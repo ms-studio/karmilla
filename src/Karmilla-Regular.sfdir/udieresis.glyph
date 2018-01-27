@@ -1,9 +1,8 @@
 StartChar: udieresis
-Encoding: 252 252 133
+Encoding: 310 252 133
 Width: 606
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 426 95 m 1,0,1

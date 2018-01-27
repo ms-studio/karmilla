@@ -1,10 +1,9 @@
 StartChar: ogonek
-Encoding: 731 731 299
+Encoding: 460 731 299
 Width: 614
 VWidth: 2000
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 309.5 -179 m 0,0,1

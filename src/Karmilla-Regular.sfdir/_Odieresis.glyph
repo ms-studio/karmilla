@@ -1,9 +1,8 @@
 StartChar: Odieresis
-Encoding: 214 214 137
+Encoding: 314 214 137
 Width: 646
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 323 640 m 0,0,1

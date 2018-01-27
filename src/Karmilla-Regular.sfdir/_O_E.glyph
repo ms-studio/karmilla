@@ -1,9 +1,8 @@
 StartChar: OE
-Encoding: 338 338 170
+Encoding: 331 338 170
 Width: 646
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 323 640 m 0,0,1

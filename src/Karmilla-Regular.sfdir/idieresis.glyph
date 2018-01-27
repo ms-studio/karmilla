@@ -1,9 +1,8 @@
 StartChar: idieresis
-Encoding: 239 239 143
+Encoding: 320 239 143
 Width: 299
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 106 479 m 1,0,-1

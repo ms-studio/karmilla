@@ -1,9 +1,8 @@
 StartChar: emdash
-Encoding: 8212 8212 10
+Encoding: 260 8212 10
 Width: 726
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 55 325 m 1,0,-1

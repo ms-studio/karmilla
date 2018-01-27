@@ -1,9 +1,8 @@
 StartChar: egrave
-Encoding: 232 232 99
+Encoding: 278 232 99
 Width: 514
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 267 53 m 0,0,1

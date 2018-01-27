@@ -1,9 +1,8 @@
 StartChar: Agrave
-Encoding: 192 192 101
+Encoding: 280 192 101
 Width: 575
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 242 629 m 1,0,-1

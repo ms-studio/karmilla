@@ -1,10 +1,9 @@
 StartChar: eth
-Encoding: 240 240 370
+Encoding: 531 240 370
 Width: 555
 VWidth: 0
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 257 490 m 256,0,1

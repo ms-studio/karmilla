@@ -1,9 +1,8 @@
 StartChar: yen
-Encoding: 165 165 300
+Encoding: 461 165 300
 Width: 549
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 74 255 m 1,0,-1

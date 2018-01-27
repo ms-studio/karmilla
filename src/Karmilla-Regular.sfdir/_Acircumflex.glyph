@@ -1,9 +1,8 @@
 StartChar: Acircumflex
-Encoding: 194 194 121
+Encoding: 300 194 121
 Width: 575
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
 242 629 m 1,0,-1
