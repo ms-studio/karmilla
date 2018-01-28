@@ -14,5 +14,6 @@ SplineSet
  240 0 l 1,6,-1
  18 629 l 1,0,-1
 EndSplineSet
+Validated: 1
 Kerns2: 52 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 47 -69 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 40 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 38 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 30 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 29 -17 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 28 -29 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 26 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 18 -49 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -40 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 16 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 15 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 14 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 12 -33 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar

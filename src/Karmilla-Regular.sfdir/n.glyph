@@ -9,7 +9,7 @@ SplineSet
  100 478 l 1,1,-1
  168 478 l 1,2,-1
  177 386 l 1,3,4
- 223.902 490 223.902 490 338 490 c 0,5,6
+ 224 490 224 490 338 490 c 0,5,6
  423 490 423 490 470.5 434 c 128,-1,7
  518 378 518 378 518 281 c 2,8,-1
  518 0 l 1,9,-1
@@ -22,5 +22,6 @@ SplineSet
  179 0 l 1,17,-1
  100 0 l 1,0,-1
 EndSplineSet
+Validated: 1
 Kerns2: 62 -41 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 57 -44 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
 EndChar

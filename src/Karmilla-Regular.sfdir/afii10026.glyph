@@ -21,5 +21,6 @@ SplineSet
  180 0 l 1,11,-1
  101 0 l 1,0,-1
 EndSplineSet
+Validated: 1
 Substitution2: "'locl' Localized Forms in Cyrillic lookup 1-1" afii10026.loclBGR
 EndChar
