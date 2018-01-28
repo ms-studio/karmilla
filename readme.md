@@ -1,4 +1,4 @@
-![Sample Image](/images/Karmilla_01.jpg)
+![Sample Image](/img/Karmilla_01.jpg)
 
 **Karmilla** is a slightly modified version of **Karla**. 
 
