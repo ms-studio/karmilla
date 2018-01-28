@@ -50,6 +50,11 @@ Some of the changes we made so far:
 
 See the [FONTLOG.txt](https://github.com/ms-studio/karmilla/blob/master/FONTLOG.txt) for details.
 
+## Examples
+
+See [images](/img/) and [Gallery](/img/Gallery.md).
+
+
 ## In Collections:
 
 Karmilla is featured in the following font collections:
