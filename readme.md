@@ -1,3 +1,5 @@
+![Sample Image](/images/Karmilla_01.jpg)
+
 **Karmilla** is a slightly modified version of **Karla**. 
 
 Karla is an outstanding grotesque sans serif typeface family created by Jonathan Pinhorn ([@jonpinhorn_type](http://twitter.com/jonpinhorn_type), a graduate of the MA in Typeface Design at the University of Reading), released through Google Webfonts in 2012.
