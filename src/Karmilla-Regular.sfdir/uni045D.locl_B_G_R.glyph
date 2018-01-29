@@ -1,0 +1,12 @@
+StartChar: uni045D.loclBGR
+Encoding: 568 -1 471
+Width: 518
+Flags: W
+HStem: 0 21G<50 143.46 390 469> 459 20G<50 129 375.54 469>
+VStem: 50 79<118 479> 390 79<0 361>
+LayerCount: 2
+Fore
+Refer: 96 96 N 1 0 0 1 -10 -127 2
+Refer: 456 -1 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar

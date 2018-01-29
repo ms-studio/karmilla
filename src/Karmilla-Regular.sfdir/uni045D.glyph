@@ -1,0 +1,13 @@
+StartChar: uni045D
+Encoding: 538 1117 441
+Width: 519
+Flags: W
+HStem: -9 69<203.848 352.168> 0 21G<426 505> 459 20G<87 166 426 505>
+VStem: 87 79<98.2852 479> 426 79<0 95 142.155 479>
+LayerCount: 2
+Fore
+Refer: 96 96 N 1 0 0 1 -10 -127 2
+Refer: 417 1080 N 1 0 0 1 0 0 3
+Validated: 1
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 1-1" uni045D.loclBGR
+EndChar

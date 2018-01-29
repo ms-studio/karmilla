@@ -1,10 +1,10 @@
 StartChar: Oslashacute
-Encoding: 510 510 277
+Encoding: 438 510 277
 Width: 646
 VWidth: 0
 LayerCount: 2
-Back
 Fore
-Refer: 97 180 S 1 0 0 1 166.229 23 2
+Refer: 97 180 S 1 0 0 1 166 23 2
 Refer: 203 216 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar

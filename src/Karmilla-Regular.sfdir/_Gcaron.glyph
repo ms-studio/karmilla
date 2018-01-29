@@ -1,10 +1,10 @@
 StartChar: Gcaron
-Encoding: 486 486 324
+Encoding: 485 486 324
 Width: 645
 VWidth: 0
 LayerCount: 2
-Back
 Fore
-Refer: 176 711 N 1 0 0 1 142.536 19 2
+Refer: 176 711 N 1 0 0 1 143 19 2
 Refer: 44 71 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar

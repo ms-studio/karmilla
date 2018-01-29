@@ -1,11 +1,10 @@
 StartChar: Scaron
-Encoding: 352 352 179
+Encoding: 340 352 179
 Width: 605
 VWidth: 0
 LayerCount: 2
-Back
 Fore
-Refer: 176 711 N 1 0 0 1 93.5361 19 2
+Refer: 176 711 N 1 0 0 1 94 19 2
 Refer: 56 83 N 1 0 0 1 0 0 3
-Validated: 9
+Validated: 1
 EndChar

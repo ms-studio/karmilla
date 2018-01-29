@@ -1,0 +1,19 @@
+StartChar: afii10093
+Encoding: 235 1099 436
+Width: 605
+Flags: W
+HStem: 0 21G<476 555> 0 57<129 304.478> 262 68<129.005 304.665> 459 20G<50 129.001 476 555>
+VStem: 50 79<57 262 330 479> 344 80<92.6646 227.847> 476 79<0 479>
+LayerCount: 2
+Fore
+SplineSet
+476 0 m 1
+ 476 479 l 1
+ 555 479 l 1
+ 555 0 l 1
+ 476 0 l 1
+EndSplineSet
+Refer: 437 1100 N 1 0 0 1 0 0 2
+Validated: 8388609
+Substitution2: "'locl' Localized Forms in Cyrillic lookup 1-1" afii10093.loclBGR
+EndChar

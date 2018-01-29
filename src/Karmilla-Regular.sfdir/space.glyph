@@ -5,6 +5,29 @@ Width: 238
 Flags: W
 LayerCount: 2
 Back
+SplineSet
+374 -4 m 5
+ 374 340 l 5
+ 374 681 l 5
+ 374 -4 l 5
+30 340 m 5
+ 374 340 l 5
+ 718 340 l 5
+ 30 340 l 5
+30 684 m 5
+ 718 -4 l 5
+ 30 -4 l 5
+ 30 684 l 5
+30 684 m 5
+ 718 684 l 5
+ 30 -4 l 5
+ 30 684 l 5
+30 684 m 5
+ 718 684 l 5
+ 718 -4 l 5
+ 30 -4 l 5
+ 30 684 l 5
+EndSplineSet
 Fore
 Validated: 1
 EndChar

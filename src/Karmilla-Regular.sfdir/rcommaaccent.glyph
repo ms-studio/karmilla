@@ -1,10 +1,10 @@
 StartChar: rcommaaccent
-Encoding: 343 343 251
+Encoding: 412 343 251
 Width: 381
 VWidth: 0
 LayerCount: 2
-Back
 Fore
-Refer: 65 700 N 1 0 0 1 29.5 -741 2
+Refer: 65 700 N 1 0 0 1 30 -741 2
 Refer: 29 114 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar

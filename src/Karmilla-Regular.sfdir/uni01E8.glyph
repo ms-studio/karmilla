@@ -1,10 +1,10 @@
 StartChar: uni01E8
-Encoding: 488 488 322
+Encoding: 483 488 322
 Width: 609
 VWidth: 0
 LayerCount: 2
-Back
 Fore
-Refer: 176 711 N 1 0 0 1 132.536 19 2
+Refer: 176 711 N 1 0 0 1 133 19 2
 Refer: 48 75 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar

@@ -1,10 +1,10 @@
 StartChar: uni01CE
-Encoding: 462 462 319
+Encoding: 480 462 319
 Width: 560
 VWidth: 0
 LayerCount: 2
-Back
 Fore
-Refer: 176 711 N 1 0 0 1 82.536 -131 2
+Refer: 176 711 N 1 0 0 1 83 -131 2
 Refer: 12 97 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar

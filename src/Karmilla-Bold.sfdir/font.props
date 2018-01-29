@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1464005768
+ModificationTime: 1517135587
 PfmFamily: 33
 TTFWeight: 700
 TTFWidth: 5
@@ -51,8 +51,6 @@ OS2SupXOff: 0
 OS2SupYOff: 477
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
-OS2CapHeight: 0
-OS2XHeight: 0
 OS2Vendor: 'pyrs'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80000027.08000042.14000000.00000000
@@ -70,28 +68,39 @@ SCANTYPE
 EndTTInstrs
 LangName: 1033 "" "" "" "" "" "Version 1.000" "" "" "" "Jonathan Pinhorn" "" "" "jonpinhorn.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 3 0
-Encoding: UnicodeBmp
+Encoding: UnicodeFull
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
-FitToEm: 1
-WinInfo: 0 18 17
+FitToEm: 0
+WinInfo: 0 32 16
 BeginPrivate: 0
 EndPrivate
 Grid
--1000 685.9 m 0
- 2000 685.9 l 1024
-  Named: "l-height"
--169 686 m 1
- -51 686 l 1
- -51 0 l 1
- -169 0 l 1
- -169 686 l 1
--1000 913.033 m 0
- 2000 913.033 l 1024
--1000 -190 m 0
- 2000 -190 l 1024
+50 0 m 1
+ 50 479 l 1
+ 168 479 l 1
+ 168 300 l 1
+ 383 300 l 1
+ 383 479 l 1
+ 501 479 l 1
+ 501 0 l 1
+ 383 0 l 1
+ 383 221 l 1
+ 168 221 l 1
+ 168 0 l 1
+ 50 0 l 1
+50 0 m 1
+ 50 479 l 1
+ 501 479 l 1
+ 501 0 l 1
+ 50 0 l 1
+383 383 m 1
+ 168 383 l 1
+ 168 96 l 1
+ 383 96 l 1
+ 383 383 l 1
 EndSplineSet
 TeXData: 1 0 0 265289 132644 88429 509608 1048576 88429 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 EndSplineFont

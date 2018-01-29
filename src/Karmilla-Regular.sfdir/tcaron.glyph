@@ -1,11 +1,11 @@
 StartChar: tcaron
-Encoding: 357 357 242
-Width: 384
+Encoding: 403 357 242
+Width: 412
 VWidth: 0
 Flags: W
 LayerCount: 2
-Back
 Fore
-Refer: 65 700 N 0.8 0 0 0.8 275 134.6 2
+Refer: 65 700 N 1 0 0 1 243 -70 2
 Refer: 31 116 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar

@@ -1,0 +1,17 @@
+StartChar: afii10029.loclBGR
+Encoding: 1114131 -1 454
+Width: 607
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+587 0 m 5,0,-1
+ 462 0 l 5,1,-1
+ 304 501 l 5,2,-1
+ 144 0 l 5,3,-1
+ 20 0 l 5,4,-1
+ 243 649 l 5,5,-1
+ 367 649 l 5,6,-1
+ 587 0 l 5,0,-1
+EndSplineSet
+EndChar

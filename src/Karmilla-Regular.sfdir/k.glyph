@@ -3,22 +3,21 @@ Encoding: 107 107 22
 Width: 564
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
-244 253 m 1,0,-1
- 180 201 l 1,1,-1
- 180 0 l 1,2,-1
- 101 0 l 1,3,-1
- 101 681 l 1,4,-1
- 180 681 l 1,5,-1
- 180 285 l 1,6,-1
- 411 478 l 1,7,-1
- 521 478 l 1,8,-1
- 301 299 l 1,9,-1
- 532 0 l 1,10,-1
- 435 0 l 1,11,-1
- 244 253 l 1,0,-1
+101 0 m 1,0,-1
+ 101 681 l 1,1,-1
+ 180 681 l 1,2,-1
+ 180 285 l 1,3,-1
+ 411 478 l 1,4,-1
+ 521 478 l 1,5,-1
+ 301 299 l 1,6,-1
+ 532 0 l 1,7,-1
+ 435 0 l 1,8,-1
+ 244 253 l 1,9,-1
+ 180 201 l 1,10,-1
+ 180 0 l 1,11,-1
+ 101 0 l 1,0,-1
 EndSplineSet
 Validated: 1
 Kerns2: 36 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 21 -8 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -16 "'kern' Horizontal Kerning in Latin lookup 0 subtable"

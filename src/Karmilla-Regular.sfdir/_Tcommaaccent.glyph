@@ -1,10 +1,10 @@
 StartChar: Tcommaaccent
-Encoding: 354 354 239
+Encoding: 400 354 239
 Width: 501
 VWidth: 0
 LayerCount: 2
-Back
 Fore
-Refer: 171 184 N 1 0 0 1 -32.7215 5.91806 2
+Refer: 171 184 N 1 0 0 1 -33 6 2
 Refer: 57 84 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar

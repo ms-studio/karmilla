@@ -21,7 +21,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1307536560
-ModificationTime: 1464005806
+ModificationTime: 1517162565
 PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
@@ -51,11 +51,10 @@ OS2SupXOff: 0
 OS2SupYOff: 477
 OS2StrikeYSize: 50
 OS2StrikeYPos: 250
-OS2CapHeight: 0
-OS2XHeight: 0
 OS2Vendor: 'pyrs'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80000027.08000042.14000000.00000000
+Lookup: 1 0 0 "'locl' Localized Forms in Cyrillic lookup 1" { "'locl' Localized Forms in Cyrillic lookup 1-1" ("loclBGR") } ['locl' ('cyrl' <'BGR ' > ) ]
 Lookup: 1 0 0 "'onum' Oldstyle Figures in Latin lookup 0" { "'onum' Oldstyle Figures in Latin lookup 0 subtable" ("oldstyle") } ['onum' ('latn' <'dflt' > ) ]
 Lookup: 258 0 0 "'kern' Horizontal Kerning in Latin lookup 0" { "'kern' Horizontal Kerning in Latin lookup 0 subtable"  } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -70,16 +69,29 @@ SCANTYPE
 EndTTInstrs
 LangName: 1033 "" "" "" "" "" "Version 1.000" "" "" "" "Jonathan Pinhorn" "" "" "jonpinhorn.com" "This Font Software is licensed under the SIL Open Font License, Version 1.1." "http://scripts.sil.org/OFL"
 GaspTable: 1 65535 3 0
-Encoding: UnicodeBmp
+Encoding: iso8859-5
 UnicodeInterp: none
 NameList: Adobe Glyph List
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 36 18 17
+WinInfo: 128 32 16
 BeginPrivate: 0
 EndPrivate
 Grid
+50 479 m 5
+ 129 479 l 5
+ 129 295 l 5
+ 390 295 l 5
+ 390 479 l 5
+ 469 479 l 5
+ 469 0 l 5
+ 390 0 l 5
+ 390 227 l 5
+ 129 227 l 5
+ 129 0 l 5
+ 50 0 l 5
+ 50 479 l 5
 -1000 874.8 m 0
  2000 874.8 l 1024
 -1000 -177 m 0

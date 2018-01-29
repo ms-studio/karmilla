@@ -1,18 +1,17 @@
 StartChar: caron
-Encoding: 711 711 176
+Encoding: 337 711 176
 Width: 407
 Flags: W
 LayerCount: 2
-Back
 Fore
 SplineSet
-382.964 837 m 1,0,-1
- 332.964 876 l 1,1,-1
- 203.964 768 l 1,2,-1
- 73.9639 876 l 1,3,-1
- 23.9639 837 l 1,4,-1
- 203.964 681 l 1,5,-1
- 382.964 837 l 1,0,-1
+24 837 m 1,0,-1
+ 74 876 l 1,1,-1
+ 204 768 l 1,2,-1
+ 333 876 l 1,3,-1
+ 383 837 l 1,4,-1
+ 204 681 l 1,5,-1
+ 24 837 l 1,0,-1
 EndSplineSet
-Validated: 9
+Validated: 1
 EndChar

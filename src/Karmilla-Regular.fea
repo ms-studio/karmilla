@@ -1,0 +1,336 @@
+languagesystem cyrl BGR ;
+languagesystem latn dflt;
+
+
+# GSUB 
+
+
+lookup loclLocalizedFormsinCyrilliclookup1 {
+  lookupflag 0;
+    sub \afii10021 by \afii10021.loclBGR ;
+    sub \afii10024 by \afii10024.loclBGR ;
+    sub \afii10025 by \afii10025.loclBGR ;
+    sub \afii10026 by \afii10026.loclBGR ;
+    sub \afii10027 by \afii10027.loclBGR ;
+    sub \afii10028 by \afii10028.loclBGR ;
+    sub \afii10029 by \afii10029.loclBGR ;
+    sub \afii10038 by \afii10038.loclBGR ;
+    sub \afii10067 by \afii10067.loclBGR ;
+    sub \afii10068 by \afii10068.loclBGR ;
+    sub \afii10069 by \afii10069.loclBGR ;
+    sub \afii10072 by \afii10072.loclBGR ;
+    sub \afii10073 by \afii10073.loclBGR ;
+    sub \afii10074 by \afii10074.loclBGR ;
+    sub \afii10075 by \afii10075.loclBGR ;
+    sub \afii10076 by \afii10076.loclBGR ;
+    sub \afii10077 by \afii10077.loclBGR ;
+    sub \afii10081 by \afii10081.loclBGR ;
+    sub \afii10084 by \afii10084.loclBGR ;
+    sub \afii10086 by \afii10086.loclBGR ;
+    sub \afii10088 by \afii10088.loclBGR ;
+    sub \afii10089 by \afii10089.loclBGR ;
+    sub \afii10090 by \afii10090.loclBGR ;
+    sub \afii10091 by \afii10091.loclBGR ;
+    sub \afii10092 by \afii10092.loclBGR ;
+    sub \afii10093 by \afii10093.loclBGR ;
+    sub \afii10094 by \afii10094.loclBGR ;
+    sub \afii10096 by \afii10096.loclBGR ;
+    sub \uni045D by \uni045D.loclBGR ;
+} loclLocalizedFormsinCyrilliclookup1;
+
+lookup onumOldstyleFiguresinLatinlookup0 {
+  lookupflag 0;
+    sub \zero by \.notdef ;
+    sub \one by \.notdef ;
+    sub \two by \.notdef ;
+    sub \three by \.notdef ;
+    sub \four by \.notdef ;
+    sub \five by \.notdef ;
+    sub \six by \.notdef ;
+    sub \seven by \.notdef ;
+    sub \eight by \.notdef ;
+    sub \nine by \.notdef ;
+} onumOldstyleFiguresinLatinlookup0;
+
+feature locl {
+
+ script cyrl;
+     language BGR  exclude_dflt;
+      lookup loclLocalizedFormsinCyrilliclookup1;
+} locl;
+
+feature onum {
+
+ script latn;
+     language dflt ;
+      lookup onumOldstyleFiguresinLatinlookup0;
+} onum;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninginLatinlookup0 {
+  lookupflag 0;
+    pos \a \Y -53;
+    pos \a \W -28;
+    pos \a \V -37;
+    pos \a \T -89;
+    pos \b \Y -17;
+    pos \b \V -29;
+    pos \b \T -20;
+    pos \c \Y -33;
+    pos \c \V -28;
+    pos \c \T -61;
+    pos \e \Y -41;
+    pos \e \V -24;
+    pos \e \T -61;
+    pos \f \J -53;
+    pos \f \A -16;
+    pos \f \s -24;
+    pos \f \j -16;
+    pos \f \g -26;
+    pos \f \c -16;
+    pos \g \y 16;
+    pos \g \j 73;
+    pos \h \Y -45;
+    pos \h \T -8;
+    pos \j \f -22;
+    pos \k \y -16;
+    pos \k \j -8;
+    pos \k \f -16;
+    pos \m \Y -41;
+    pos \m \T -36;
+    pos \n \Y -41;
+    pos \n \T -44;
+    pos \o \Y -65;
+    pos \o \W -33;
+    pos \o \V -33;
+    pos \o \T -71;
+    pos \p \Y -36;
+    pos \p \T -53;
+    pos \q \Y -47;
+    pos \q \T -73;
+    pos \q \j 81;
+    pos \r \T -48;
+    pos \r \J -40;
+    pos \r \g -20;
+    pos \s \Y -57;
+    pos \s \W -36;
+    pos \s \V -28;
+    pos \s \T -89;
+    pos \s \y -20;
+    pos \s \f -28;
+    pos \t \Y -37;
+    pos \u \Y -49;
+    pos \u \T -57;
+    pos \v \Y -45;
+    pos \v \T -60;
+    pos \v \J -53;
+    pos \v \A -24;
+    pos \v \g -8;
+    pos \w \Y -32;
+    pos \w \T -32;
+    pos \w \J -41;
+    pos \w \A -28;
+    pos \x \Y -49;
+    pos \x \T -41;
+    pos \y \Y -28;
+    pos \y \T -56;
+    pos \y \J -24;
+    pos \y \A -12;
+    pos \y \g -8;
+    pos \z \Y -41;
+    pos \z \T -24;
+    pos \A \Y -26;
+    pos \A \W -28;
+    pos \A \V -28;
+    pos \A \T -40;
+    pos \A \y -28;
+    pos \A \w -24;
+    pos \A \v -22;
+    pos \A \f -12;
+    pos \D \Y -25;
+    pos \F \Y -8;
+    pos \F \X -16;
+    pos \F \W -8;
+    pos \F \A -57;
+    pos \F \z -24;
+    pos \F \y -28;
+    pos \F \x -28;
+    pos \F \w -36;
+    pos \F \v -32;
+    pos \F \u -24;
+    pos \F \q -28;
+    pos \F \o -28;
+    pos \F \g -45;
+    pos \F \e -28;
+    pos \F \d -24;
+    pos \F \c -28;
+    pos \F \a -24;
+    pos \L \Y -69;
+    pos \L \W -41;
+    pos \L \V -45;
+    pos \L \T -49;
+    pos \L \J 16;
+    pos \L \y -20;
+    pos \L \w -24;
+    pos \L \v -24;
+    pos \O \Y -16;
+    pos \O \X -12;
+    pos \O \V -8;
+    pos \P \A -38;
+    pos \Q \Y -16;
+    pos \S \Y -26;
+    pos \T \J -69;
+    pos \T \A -40;
+    pos \T \z -53;
+    pos \T \y -50;
+    pos \T \x -57;
+    pos \T \w -40;
+    pos \T \v -73;
+    pos \T \u -69;
+    pos \T \s -97;
+    pos \T \r -73;
+    pos \T \q -75;
+    pos \T \p -69;
+    pos \T \o -79;
+    pos \T \n -69;
+    pos \T \m -69;
+    pos \T \g -87;
+    pos \T \f -53;
+    pos \T \e -75;
+    pos \T \d -85;
+    pos \T \c -75;
+    pos \T \a -87;
+    pos \V \O -8;
+    pos \V \J -69;
+    pos \V \C -8;
+    pos \V \A -33;
+    pos \V \s -33;
+    pos \V \r -17;
+    pos \V \q -29;
+    pos \V \o -33;
+    pos \V \g -49;
+    pos \V \f -40;
+    pos \V \e -33;
+    pos \V \d -33;
+    pos \V \c -33;
+    pos \V \a -33;
+    pos \W \J -69;
+    pos \W \A -33;
+    pos \W \u -28;
+    pos \W \s -40;
+    pos \W \r -33;
+    pos \W \q -33;
+    pos \W \o -33;
+    pos \W \g -49;
+    pos \W \f -40;
+    pos \W \e -33;
+    pos \W \d -33;
+    pos \W \c -33;
+    pos \W \a -33;
+    pos \X \O -12;
+    pos \Y \S -28;
+    pos \Y \Q -16;
+    pos \Y \O -16;
+    pos \Y \J -82;
+    pos \Y \H -8;
+    pos \Y \C -17;
+    pos \Y \A -69;
+    pos \Y \z -65;
+    pos \Y \y -57;
+    pos \Y \x -53;
+    pos \Y \w -45;
+    pos \Y \v -45;
+    pos \Y \u -67;
+    pos \Y \t -37;
+    pos \Y \s -65;
+    pos \Y \r -65;
+    pos \Y \q -65;
+    pos \Y \p -65;
+    pos \Y \o -65;
+    pos \Y \n -65;
+    pos \Y \m -65;
+    pos \Y \g -77;
+    pos \Y \f -65;
+    pos \Y \e -65;
+    pos \Y \d -65;
+    pos \Y \c -65;
+    pos \Y \a -61;
+    pos \ring \y -686;
+} kernHorizontalKerninginLatinlookup0;
+
+feature kern {
+
+ script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinlookup0;
+} kern;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\.null \nonmarkingreturn \space \comma \period \semicolon \colon 
+	\hyphen \endash \emdash \exclam \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v 
+	\w \x \y \z \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z \quotesingle 
+	\apostrophe \quoteleft \quoteright \parenleft \parenright \plus \minus \equal 
+	\zero \one \two \three \four \five \six \seven \eight \nine \zero.propold 
+	\one.propold \two.propold \three.propold \four.propold \five.propold 
+	\six.propold \seven.propold \eight.propold \nine.propold \dollar \question 
+	\sterling \grave \acute \agrave \egrave \ograve \Agrave \Egrave \ugrave \aacute 
+	\eacute \oacute \uacute \Aacute \Eacute \Igrave \Iacute \Ograve \Oacute \Ugrave 
+	\Uacute \circumflex \acircumflex \ecircumflex \ocircumflex \ucircumflex 
+	\Acircumflex \Ecircumflex \Icircumflex \Ocircumflex \Ucircumflex \tilde 
+	\ampersand \at \dieresis \adieresis \edieresis \odieresis \udieresis \Adieresis 
+	\Edieresis \Idieresis \Odieresis \Udieresis \dotlessi \igrave \iacute 
+	\icircumflex \idieresis \rupeesymbol \less \greater \quotedbl \numbersign 
+	\asterisk \slash \percent \backslash \bar \bracketleft \bracketright 
+	\asciicircum \underscore \braceleft \braceright \asciitilde \atilde \ntilde 
+	\otilde \Atilde \Ntilde \Otilde \ccedilla \cacute \oe \OE \cedilla \Ccedilla \ring 
+	\Aring \aring \caron \Cacute \scaron \Scaron \zcaron \Zcaron \uni0243 \Euro 
+	\guillemotleft \guillemotright \quotedblleft \quotedblright \quotereversed 
+	\uni201F \quotesinglbase \quotedblbase \ellipsis \questiondown \exclamdown 
+	\afii57407 \uni203D \multiply \germandbls \guilsinglleft \guilsinglright \ae 
+	\oslash \Oslash \macron \Ccircumflex \ccircumflex \Cdotaccent \cdotaccent 
+	\Ccaron \ccaron \amacron \Amacron \ydieresis \yacute \Yacute \Emacron \emacron 
+	\Edotaccent \edotaccent \Ecaron \ecaron \Gcircumflex \gcircumflex \Idotaccent 
+	\lacute \Lacute \Imacron \imacron \gdotaccent \Gdotaccent \dcaron \Dcaron 
+	\Nacute \nacute \Ncommaaccent \ncommaaccent \Omacron \omacron \Tcommaaccent 
+	\tcommaaccent \Tcaron \tcaron \scedilla \Scedilla \scircumflex \Scircumflex 
+	\sacute \Sacute \rcaron \Rcaron \rcommaaccent \Rcommaaccent \Umacron \umacron 
+	\uring \Uring \zdotaccent \Zdotaccent \zacute \Zacute \Ydieresis \ycircumflex 
+	\Ycircumflex \wcircumflex \Wcircumflex \racute \Racute \ncaron \Ncaron \Itilde 
+	\itilde \Lcommaaccent \lcommaaccent \AE \AEacute \aeacute \Oslashacute 
+	\oslashacute \uni0227 \uni0226 \uni0228 \uni0229 \uni01E2 \uni01E3 \uni018A 
+	\uni0181 \uni0257 \uni0253 \uni018E \uni01DD \Lslash \lslash \jcircumflex 
+	\Gcommaaccent \uni0237 \Jcircumflex \Kcommaaccent \kcommaaccent \ogonek \yen 
+	\copyright \registered \aogonek \Abreve \abreve \Aogonek \uni0232 \uni0233 
+	\uni021E \uni021F \scommaaccent \Scommaaccent \uni021A \uni021B \uni01D2 
+	\uni01D1 \uni01D0 \uni01CF \uni01CE \uni01CD \uni01E9 \uni01E8 \gcaron \Gcaron 
+	\uni01EB \uni01F9 \uni01F8 \uni01EA \uni01D4 \uni01D3 \utilde \Utilde \Lcaron 
+	\Hcircumflex \hcircumflex \eogonek \Eogonek \iogonek \Iogonek \uogonek \Uogonek 
+	\breve \Ebreve \ebreve \Gbreve \gbreve \ibreve \Ibreve \Obreve \obreve \Ubreve 
+	\ubreve \uni01EC \uni01ED \uni1E62 \uni1E63 \uni1EB9 \uni1EB8 \uni1ECB \uni1ECA 
+	\uni1EA0 \uni1EA1 \uni1EE4 \uni1EE5 \uni1ECC \uni1ECD \lcaron \Eth \Thorn \eth 
+	\thorn \hungarumlaut \uhungarumlaut \ohungarumlaut \Ohungarumlaut 
+	\Uhungarumlaut \afii10017 \afii10018 \afii10019 \afii10020 \afii10021 
+	\afii10022 \afii10024 \afii10025 \afii10026 \afii10027 \afii10028 \afii10029 
+	\afii10030 \afii10031 \afii10032 \afii10033 \afii10034 \afii10035 \afii10036 
+	\afii10037 \afii10038 \afii10039 \afii10040 \afii10041 \afii10042 \afii10043 
+	\afii10044 \afii10045 \afii10046 \afii10047 \afii10048 \afii10049 \afii10065 
+	\afii10066 \afii10067 \afii10068 \afii10069 \afii10070 \afii10072 \afii10073 
+	\afii10074 \afii10075 \afii10076 \afii10077 \afii10078 \afii10079 \afii10080 
+	\afii10081 \afii10082 \afii10083 \afii10084 \afii10085 \afii10086 \afii10087 
+	\afii10088 \afii10089 \afii10090 \afii10091 \afii10092 \afii10093 \afii10094 
+	\afii10095 \afii10096 \afii10097 \uni045D \uni040D \afii10021.loclBGR 
+	\afii10024.loclBGR \afii10025.loclBGR \afii10026.loclBGR \afii10027.loclBGR 
+	\afii10028.loclBGR \afii10029.loclBGR \afii10038.loclBGR \afii10067.loclBGR 
+	\afii10068.loclBGR \afii10069.loclBGR \afii10072.loclBGR \afii10073.loclBGR 
+	\afii10074.loclBGR \afii10075.loclBGR \afii10076.loclBGR \afii10077.loclBGR 
+	\afii10081.loclBGR \afii10084.loclBGR \afii10086.loclBGR \afii10088.loclBGR 
+	\afii10089.loclBGR \afii10090.loclBGR \afii10091.loclBGR \afii10092.loclBGR 
+	\afii10093.loclBGR \afii10094.loclBGR \afii10096.loclBGR \uni045D.loclBGR ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

@@ -1,10 +1,10 @@
 StartChar: Gcircumflex
-Encoding: 284 284 222
+Encoding: 383 284 222
 Width: 645
 VWidth: 0
 LayerCount: 2
-Back
 Fore
-Refer: 116 710 N 1 0 0 1 142.5 23 2
+Refer: 116 710 N 1 0 0 1 142 23 2
 Refer: 44 71 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar

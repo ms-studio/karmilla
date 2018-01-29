@@ -1,9 +1,9 @@
 StartChar: Uhungarumlaut
-Encoding: 368 368 328
-Width: 690
+Encoding: 368 368 381
+Width: 654
 VWidth: 0
 LayerCount: 2
 Fore
-Refer: 326 733 N 1 0 0 1 214.467 36.2305 2
+Refer: 377 733 N 1 0 0 1 158.5 73 2
 Refer: 58 85 N 1 0 0 1 0 0 3
 EndChar
