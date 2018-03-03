@@ -1,13 +1,13 @@
 FONTLOG for the Karmilla font
 
 This file provides detailed information on Karmilla Font Software.
-This information should be distributed along with the Karmilla 
+This information should be distributed along with the Karmilla
 font and any derivative works.
 
 Basic Font Information
 
-Karmilla is a modified version of Karla, a Unicode grotesque sans serif 
-typeface family that supports languages that use the Latin script and 
+Karmilla is a modified version of Karla, a Unicode grotesque sans serif
+typeface family that supports languages that use the Latin script and
 the Tamil script. This is the Latin script subset of the family.
 
 The aim of Karmilla is to optimize Karla for the support of the French
@@ -53,7 +53,7 @@ ChangeLog
 a clean sans-serif font by Steve Matteson. I think this one works fine with Karla.
 
 11 September 2012 (ms-studio) Karmilla v.005
-- Not convinced by the hand drawn cedilla. Copy-pasted the cedilla from Inconsolata 
+- Not convinced by the hand drawn cedilla. Copy-pasted the cedilla from Inconsolata
 (Regular and Bold), a beautiful monospaced font by Raph Levien.
 
 14 August 2012 (ms-studio) Karmilla v.004
@@ -67,13 +67,13 @@ a clean sans-serif font by Steve Matteson. I think this one works fine with Karl
 
 Acknowledgements
 
-If you make modifications be sure to add your name (N), 
-email (if you have one) (E), web-address (if you have one) (W), 
-twitter handle (if you have one) (T) and description (D). 
+If you make modifications be sure to add your name (N),
+email (if you have one) (E), web-address (if you have one) (W),
+twitter handle (if you have one) (T) and description (D).
 This list is in alphabetical order.
 
-N: Jonathan Pinhorn
-E: pinhorn.typedesign@gmail.com
+N: Jonny Pinhorn
+E: jonpinhorn.typedesign@gmail.com
 D: Designer
 
 N: Manuel Schmalstieg
