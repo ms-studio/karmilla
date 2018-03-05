@@ -92,8 +92,8 @@ email (if you have one) (E), web-address (if you have one) (W),
 twitter handle (if you have one) (T) and description (D).
 This list is in chronological order.
 
-N: Jonathan Pinhorn
-E: pinhorn.typedesign@gmail.com
+N: Jonny Pinhorn
+E: jonpinhorn.typedesign@gmail.com
 D: Designer
 
 N: Manuel Schmalstieg
