@@ -21,15 +21,36 @@ To contribute to Karla contact Jonathan Pinhorn:
 
 ChangeLog
 
-23 may 2016 (ms-studio) Karmilla v.016
-- Adding turkish glyphs to the Bold version.
+11 December 2018 (Thomas Linard)
+- Improvement of directory structure.
 
-22 october 2015 (ms-studio) Karmilla v.015
+18 November 2018 (Andrew Shadura)
+- Improvements to Cyrillic glyphs.
+
+29 January 2018 (Stefan Peev)
+- Added Cyrillic glyphs to Regular.
+
+23 September 2017 (Andrew Shadura)
+- Added missing bold Ľ/ľ.
+- Fix of caron-comma sizes.
+- Added Hungarian umlauts to Bold.
+
+23 May 2016 (ms-studio) Karmilla v.016
+- Adding turkish glyphs to the Bold version, in response to issue #36.
+
+2 February 2016 (nclm)
+- Fixing webfonts (vertical metrics).
+
+23 December 2015 (Andrew Shadura)
+- Fix of "dcaron".
+- Added Hungarian unmlauts to Regular.
+
+22 October 2015 (ms-studio) Karmilla v.015
 - New glyphs contributed by Jonathan Pinhorn: Æ, ß, Ð, ð, Þ, þ.
-- The Icelandic alphabet is now fully supported.
+- The icelandic alphabet is now fully supported.
 - New glyphs contributed by Andrew Shadura: Ľ, ľ (for Slovak).
 
-22 september 2015 (ms-studio) Karmilla v.014+
+22 September 2015 (ms-studio) Karmilla v.014+
 - Added a hand-drawn ogonek (U+02DB), which allows to produce some more combined characters (Ąą...). 
 - Added a hand-drawn breve (U+02D8), which also alows more combined glyphs (Ăă...). 
 - Added polish Ł and ł, © and ®, the ¥ symbol.
@@ -39,7 +60,7 @@ ChangeLog
 
 10 September 2015 (nclm) Karmilla v.013
 - Added single guillemets (‹›).
-- Added eszett (ß) / 18 April 2015 (contributed by elpoto).
+- Added eszett (ß) / 18 April 2015 (contributed by Botho).
 
 4 May 2014 (nclm) Karmilla v.012
 - Added ellipsis (…).
@@ -89,7 +110,7 @@ Acknowledgements
 
 If you make modifications be sure to add your name (N),
 email (if you have one) (E), web-address (if you have one) (W),
-twitter handle (if you have one) (T) and description (D).
+twitter handle (if you have one) (T) github handle (G) and description (D).
 This list is in chronological order.
 
 N: Jonny Pinhorn
@@ -111,9 +132,22 @@ T: @nclm_
 W: probablement.net
 D: Modification of some glyphs
 
-N: Andrew Shadura
+N: Andrej Shadura
+G: andrewshadura
+W: shadura.me
 D: Modification of some glyphs
 
-N: elpoto
+N: Botho
+G: elbotho
+W: botho.cc
 D: Modification of some glyphs
+
+N: Stefan Peev
+G: StefanPeev
+W: localfonts.eu
+D: Creation of cyrillic glyphs
+
+N: Thomas Linard
+G: thlinard
+D: Directory structure
 
