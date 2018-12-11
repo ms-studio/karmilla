@@ -1,4 +1,4 @@
-![Sample Image](/img/Karmilla_01.jpg)
+![Sample Image](/documentation/Karmilla_01.jpg)
 
 **Karmilla** is a slightly modified version of **Karla**. 
 
@@ -54,7 +54,7 @@ See the [FONTLOG.txt](https://github.com/ms-studio/karmilla/blob/master/FONTLOG.
 
 ## Examples
 
-See [images](/img/) and [Gallery](/img/Gallery.md).
+See [images](/documentation/) and [Gallery](/documentation/Gallery.md).
 
 
 ## In Collections:
