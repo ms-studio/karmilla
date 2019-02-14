@@ -1,4 +1,4 @@
-Copyright (c) 2012, Manuel Schmalstieg (@greyscalepress), with Reserved Font Name "Karmilla". 
+Copyright (c) 2012, The Karmilla Project Authors (https://github.com/ms-studio/karmilla). 
 Most of the glyphs originate from Karla, copyright (c) 2011 by Jonathan Pinhorn (pinhorn.typedesign@gmail.com)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
