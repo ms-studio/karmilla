@@ -6,7 +6,7 @@ Karla is an outstanding grotesque sans serif typeface family created by Jonathan
 
 The aim of Karmilla is to offer a workaround for designers who want to use Karla but need support for French, German, Norvegian, Slovak or Icelandic, which requires adding and tweaking some glyphs.
 
-The original Karla font can be found here: http://www.google.com/webfonts/specimen/Karla
+The original Karla font can be found here: https://fonts.google.com/specimen/Karla
 
 The source files have been obtained from https://github.com/google/fonts/tree/master/ofl/karla
 
@@ -24,7 +24,7 @@ You will find them in the "sources" folder.
 
 ## What format are they in?
 
-The contributors are working mostly with FontForge, and we are currently using the native sfdir (SplineFont Directory) format. This format stores each glyph in a single file. We plan to move to the more widespread UFO format at some point in the future (see [issue #17](https://github.com/ms-studio/karmilla/issues/17)).
+The contributors are working mostly with [FontForge](https://fontforge.github.io/), and we are currently using the native sfdir (SplineFont Directory) format. This format stores each glyph in a single file. We plan to move to the more widespread UFO format at some point in the future (see [issue #17](https://github.com/ms-studio/karmilla/issues/17)).
 
 To open the font with FontForge, do "File > Open", navigate to "sources" and highlight the "Karmilla-Regular.sfdir" folder, and click "OK" – FontForge will open the font. Don't attempt to open a single .glyph file.
 
@@ -40,6 +40,7 @@ Here is the convention we are using when we make significant changes, such as ad
 Some of the changes we made so far:
 
 * added ß for the German alphabet.
+* added characters for the Bulgarian and Russian cyrillic alphabet.
 * added characters for the Icelandic alphabet.
 * added french quotes «», €, ¥, ᴃ
 * added å, ø and æ for Scandinavian languages.
@@ -58,9 +59,10 @@ See [images](/documentation/) and [Gallery](/documentation/Gallery.md).
 
 ## In Collections:
 
-Karmilla is featured in the following font collections:
+Karmilla has been included in the following font collections:
 
 - The [Open Font Library](https://fontlibrary.org/en/font/karmilla)
-- [Use & Modify](http://usemodify.com/fonts/karmilla/), curated by Raphaël Bastide
-- [Interstice Typothèque](http://typotheque.interstices.io/fonts/karmilla/), curated by Alexandre Liziard & Étienne Ozeray
-- [Supertypo](http://supertypo.anka.io/), curated by Karol Zaharanski 
+- [Font Squirrel](https://www.fontsquirrel.com/fonts/karmilla)
+- [Use & Modify](http://usemodify.com/fonts/karmilla/), curated by [Raphaël Bastide](https://github.com/raphaelbastide)
+- Interstice Typothèque, curated by Alexandre Liziard & Étienne Ozeray
+- Supertypo, curated by Karol Zaharanski
