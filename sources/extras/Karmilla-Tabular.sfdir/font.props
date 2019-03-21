@@ -1,0 +1,49 @@
+SplineFontDB: 3.0
+FontName: Karmilla-Tabular
+FullName: Karmilla Tabular
+FamilyName: Karmilla
+Weight: Regular
+Copyright: Karmilla is Copyright (c) 2012, Manuel Schmalstieg (greyscalepress.com), Raphael Bastide (raphaelbastide.com) and other contributors.\nKarmilla is a variation of Karla, optimized for French.\nKarla is Copyright (c) 2011, Jonathan Pinhorn (pinhorn.typedesign@gmail.com), with Reserved Font Names "Karla" and "Karla Tamil".
+UComments: "2019-2-26: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 1015 -95913730 169988]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1551177373
+ModificationTime: 1552925736
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -36
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 25 10
+BeginPrivate: 0
+EndPrivate
+EndSplineFont
