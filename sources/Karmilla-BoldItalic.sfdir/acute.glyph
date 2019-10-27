@@ -1,0 +1,25 @@
+StartChar: acute
+Encoding: 180 180 97
+Width: 324
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 1
+MDAP[rnd]
+PUSHW_1
+ 3
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+377 799 m 1,0,-1
+ 113 696 l 1,1,-1
+ 93 772 l 1,2,-1
+ 349 904 l 1,3,-1
+ 377 799 l 1,0,-1
+EndSplineSet
+EndChar

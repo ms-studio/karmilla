@@ -21,6 +21,9 @@ To contribute to Karla contact Jonathan Pinhorn:
 
 ChangeLog
 
+27 october 2018 (ms-studio)
+- Adding Italic and BoldItalic from Karla (but missing new glyphs)
+
 11 December 2018 (Thomas Linard)
 - Improvement of directory structure.
 

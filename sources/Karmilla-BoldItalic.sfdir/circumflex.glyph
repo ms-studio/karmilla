@@ -1,0 +1,30 @@
+StartChar: circumflex
+Encoding: 710 710 116
+Width: 423
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 1
+MDAP[rnd]
+PUSHW_1
+ 3
+MDAP[rnd]
+PUSHW_1
+ 5
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+474 756 m 1,0,-1
+ 397 695 l 1,1,-1
+ 287 795 l 1,2,-1
+ 156 695 l 1,3,-1
+ 93 756 l 1,4,-1
+ 298 917 l 1,5,-1
+ 474 756 l 1,0,-1
+EndSplineSet
+EndChar

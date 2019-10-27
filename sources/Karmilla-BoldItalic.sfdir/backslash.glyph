@@ -1,0 +1,25 @@
+StartChar: backslash
+Encoding: 92 92 152
+Width: 429
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+MDAP[rnd]
+PUSHW_1
+ 2
+MDAP[rnd]
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+91 747 m 1,0,-1
+ 202 747 l 1,1,-1
+ 513 -81 l 1,2,-1
+ 400 -81 l 1,3,-1
+ 91 747 l 1,0,-1
+EndSplineSet
+EndChar

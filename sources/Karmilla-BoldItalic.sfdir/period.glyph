@@ -1,0 +1,77 @@
+StartChar: period
+Encoding: 46 46 5
+Width: 196
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 9
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 9
+ 6
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 3
+MDRP[rp0,min,rnd,grey]
+NPUSHW
+ 27
+ 7
+ 3
+ 23
+ 3
+ 39
+ 3
+ 55
+ 3
+ 71
+ 3
+ 87
+ 3
+ 103
+ 3
+ 119
+ 3
+ 135
+ 3
+ 151
+ 3
+ 167
+ 3
+ 183
+ 3
+ 199
+ 3
+ 13
+DELTAP1
+NPUSHW
+ 5
+ 214
+ 3
+ 230
+ 3
+ 2
+DELTAP1
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+28 72 m 1,0,1
+ 30 106 30 106 54 129.5 c 128,-1,2
+ 78 153 78 153 111 153 c 256,3,4
+ 144 153 144 153 164 129.5 c 128,-1,5
+ 184 106 184 106 181 71.5 c 256,6,7
+ 178 37 178 37 154 14 c 128,-1,8
+ 130 -9 130 -9 96 -9 c 256,9,10
+ 62 -9 62 -9 42.5 14 c 128,-1,11
+ 23 37 23 37 28 72 c 1,0,1
+EndSplineSet
+EndChar

@@ -1,0 +1,18 @@
+StartChar: one
+Encoding: 49 49 74
+Width: 323
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+301 655 m 1,0,-1
+ 240 0 l 1,1,-1
+ 129 0 l 1,2,-1
+ 177 509 l 1,3,4
+ 129 485 129 485 83 485 c 1,5,-1
+ 94 602 l 1,6,7
+ 163.927868852 613.278688525 163.927868852 613.278688525 219 655 c 1,8,-1
+ 301 655 l 1,0,-1
+EndSplineSet
+Substitution2: "'onum' Oldstyle Figures in Latin lookup 0 subtable" .notdef
+EndChar

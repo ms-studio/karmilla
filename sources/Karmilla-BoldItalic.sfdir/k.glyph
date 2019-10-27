@@ -1,0 +1,94 @@
+StartChar: k
+Encoding: 107 107 22
+Width: 518
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 4
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 4
+ 10
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 2
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 2
+ 6
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 10
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 10
+ 6
+MIAP[no-rnd]
+EIF
+PUSHW_1
+ 0
+RCVT
+IF
+PUSHW_1
+ 7
+MDAP[rnd]
+ELSE
+PUSHW_2
+ 7
+ 2
+MIAP[no-rnd]
+EIF
+PUSHW_3
+ 6
+ 2
+ 4
+SRP1
+SRP2
+IP
+PUSHW_3
+ 8
+ 2
+ 4
+SRP1
+SRP2
+IP
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+262 235 m 1,0,-1
+ 211 192 l 1,1,-1
+ 193 0 l 1,2,-1
+ 83 0 l 1,3,-1
+ 147 686 l 1,4,-1
+ 258 686 l 1,5,-1
+ 223 319 l 1,6,-1
+ 408 487 l 1,7,-1
+ 557 487 l 1,8,-1
+ 346 307 l 1,9,-1
+ 521 0 l 1,10,-1
+ 388 0 l 1,11,-1
+ 262 235 l 1,0,-1
+EndSplineSet
+Kerns2: 36 -14 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 21 -7 "'kern' Horizontal Kerning in Latin lookup 0 subtable" 17 -14 "'kern' Horizontal Kerning in Latin lookup 0 subtable"
+EndChar
