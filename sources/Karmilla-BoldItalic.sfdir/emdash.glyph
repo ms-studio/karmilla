@@ -1,0 +1,24 @@
+StartChar: emdash
+Encoding: 8212 8212 10
+Width: 695
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_3
+ 1
+ 2
+ 3
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+83 356 m 1,0,-1
+ 680 356 l 1,1,-1
+ 670 249 l 1,2,-1
+ 73 249 l 1,3,-1
+ 83 356 l 1,0,-1
+EndSplineSet
+EndChar

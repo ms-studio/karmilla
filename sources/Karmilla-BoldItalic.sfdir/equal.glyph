@@ -1,0 +1,34 @@
+StartChar: equal
+Encoding: 61 61 72
+Width: 457
+Flags: W
+TtInstrs:
+SVTCA[y-axis]
+PUSHW_3
+ 0
+ 1
+ 3
+CALL
+PUSHW_3
+ 4
+ 5
+ 3
+CALL
+IUP[y]
+IUP[x]
+EndTTInstrs
+LayerCount: 2
+Fore
+SplineSet
+404 199 m 1,0,-1
+ 393 93 l 1,1,-1
+ 79 93 l 1,2,-1
+ 89 199 l 1,3,-1
+ 404 199 l 1,0,-1
+424 411 m 1,4,-1
+ 415 306 l 1,5,-1
+ 100 306 l 1,6,-1
+ 109 411 l 1,7,-1
+ 424 411 l 1,4,-1
+EndSplineSet
+EndChar
