@@ -54,8 +54,8 @@ See the [FONTLOG.txt](https://github.com/ms-studio/karmilla/blob/master/FONTLOG.
 
 ## Examples
 
-See [images](/documentation/) and [Gallery](/documentation/Gallery.md).
-
+- See [images](/documentation/) and [Gallery](/documentation/Gallery.md).
+- Used on https://marjorieober.com/
 
 ## In Collections:
 
