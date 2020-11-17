@@ -1,0 +1,10 @@
+StartChar: divide
+Encoding: 247 247 491
+Width: 544
+Flags: WO
+LayerCount: 2
+Fore
+Refer: 5 46 N 1 0 0 1 172 353 2
+Refer: 5 46 S 1 0 0 1 172 0 2
+Refer: 71 8722 N 1 0 0 1 0 0 2
+EndChar
