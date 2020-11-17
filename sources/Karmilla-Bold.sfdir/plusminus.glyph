@@ -1,7 +1,7 @@
 StartChar: plusminus
 Encoding: 177 177 205
 Width: 544
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
@@ -19,5 +19,5 @@ SplineSet
  213 388 l 1
  18 388 l 1
 EndSplineSet
-Refer: 8 45 N 1 0 0 1 81 -248 2
+Refer: 71 8722 N 1 0 0 1 0 -191 2
 EndChar
