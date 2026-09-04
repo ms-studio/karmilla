@@ -130,8 +130,7 @@ T: @raphaelbastide
 W: raphaelbastide.com
 D: Modification of some glyphs
 
-N: Nicolas Maravitti
-T: @nclm_
+N: Nicolas M
 W: probablement.net
 D: Modification of some glyphs
 
